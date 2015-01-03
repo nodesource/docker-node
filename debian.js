@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * debian.sh
+ * debian.js
  *
  * Used to generate the debian flavor distribution Dockerfiles
  * Maintainer: William Blankenship <wblankenship@nodesource.com>
@@ -23,18 +23,18 @@ dists['debian'] = []
 dists['ubuntu'] = []
 var nodejs      = [ '0.10.29',
                     '0.10.30',
-                    '0.10.31',
                     '0.10.32',
                     '0.10.33',
                     '0.10.34',
                     '0.10.35']
 
 // Packages that all images will need
-var commonPkgs = [  'curl',
-                    'apt-transport-https',
-                    'lsb-release',
+var commonPkgs = [  'apt-transport-https',
                     'build-essential',
-                    'python-all']
+                    'curl',
+                    'lsb-release',
+                    'python-all',
+                    'rlwrap']
 
 // Debian
 dists['debian']['wheezy'] = {}
@@ -49,6 +49,7 @@ dists['debian']['unstable'] = dists['debian']['sid']
 // Ubuntu
 dists['ubuntu']['precise']  = {}
 dists['ubuntu']['trusty']   = {}
+dists['ubuntu']['utopic']   = {}
 
 /**
  * Define string constants
@@ -60,6 +61,18 @@ var PKGS    = "RUN apt-get update \\\n"+
               " && apt-get install -y --force-yes \\\n" +
               "{{PKGS}}" +
               " && rm -rf /var/lib/apt/lists/*;"
+
+var NODE    = "RUN curl https://deb.nodesource.com/node/pool/main/n/nodejs/nodejs_{{VERSION}}-1nodesource1~{{RELEASE}}1_amd64.deb > node.deb \\\n" +
+              " && dpkg -i node.deb \\\n" +
+              " && rm node.deb"
+
+var FOOTER  = "RUN npm install -g node-gyp \\\n" +
+              " && npm cache clear \\\n\n" +
+              "RUN node-gyp configure || echo \"\"\n\n" +
+              "ENV NODE_ENV production\n" +
+              "VOLUME /usr/src/app\n" +
+              "WORKDIR /usr/src/app\n" +
+              "CMD [\"npm\",\"start\"]"
 
 /**
  * Define useful functions
@@ -88,14 +101,14 @@ for(dist in dists) {
     //Scope variables
     (function scope(dist,release) {
       nodejs.forEach(function(version) {
-        var properties = dists[dist][release]
         var dir = path.join(dist,release,version)
         var file = path.join(dir,"Dockerfile")
         mkdir(dir,function(e) {
           if(e) return console.error(e)
-          var contents =  replace(HEADER,{dist:dist,release:release}) + "\n" +
-                          replace(PKGS,{ pkgs:
-                            generatePkgStr(commonPkgs.concat(properties.pkgs))})
+          var contents =  replace(HEADER,{dist:dist,release:release}) + "\n\n" +
+                          replace(PKGS,{pkgs:generatePkgStr(commonPkgs)}) + "\n\n" +
+                          replace(NODE,{version:version,release:release}) + "\n\n" +
+                          FOOTER
           fs.writeFile(file,contents,function(e) {
             if(e) return console.error(e)
             console.log("Wrote: "+file)
