@@ -88,7 +88,7 @@ dists['ubuntu']['utopic']['0.10.35']  = {deb:"nodejs_0.10.35-1nodesource1~utopic
  * Define string constants
  */
 var HEADER  = "FROM {{DIST}}:{{RELEASE}}\n"+
-              "MAINTAINER William Blankenship <wblankenship#nodesource.com>"
+              "MAINTAINER William Blankenship <wblankenship@nodesource.com>"
 
 var PKGS    = "RUN apt-get update \\\n"+
               " && apt-get install -y --force-yes \\\n" +
