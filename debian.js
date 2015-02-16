@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 /**
  * debian.js
  *
@@ -39,6 +40,7 @@ dists['debian']['wheezy']['0.10.32']  = {deb:"nodejs_0.10.32-1nodesource1~wheezy
 dists['debian']['wheezy']['0.10.33']  = {deb:"nodejs_0.10.33-1nodesource1~wheezy1_amd64.deb"}
 dists['debian']['wheezy']['0.10.34']  = {deb:"nodejs_0.10.34-1nodesource1~wheezy1_amd64.deb"}
 dists['debian']['wheezy']['0.10.35']  = {deb:"nodejs_0.10.35-1nodesource1~wheezy1_amd64.deb"}
+dists['debian']['wheezy']['0.10.36']  = {deb:"nodejs_0.10.36-1nodesource1~wheezy1_amd64.deb"}
 
 dists['debian']['jessie'] = []
 dists['debian']['jessie']['0.10.30']  = {deb:"nodejs_0.10.30-1nodesource1~jessie1_amd64.deb"}
@@ -47,6 +49,7 @@ dists['debian']['jessie']['0.10.32']  = {deb:"nodejs_0.10.32-1nodesource1~jessie
 dists['debian']['jessie']['0.10.33']  = {deb:"nodejs_0.10.33-1nodesource1~jessie1_amd64.deb"}
 dists['debian']['jessie']['0.10.34']  = {deb:"nodejs_0.10.34-1nodesource1~jessie1_amd64.deb"}
 dists['debian']['jessie']['0.10.35']  = {deb:"nodejs_0.10.35-1nodesource1~jessie1_amd64.deb"}
+dists['debian']['jessie']['0.10.36']  = {deb:"nodejs_0.10.36-1nodesource1~jessie1_amd64.deb"}
 
 dists['debian']['sid'] = []
 dists['debian']['sid']['0.10.30']     = {deb:"nodejs_0.10.30-1nodesource1~sid1_amd64.deb"}
@@ -55,6 +58,7 @@ dists['debian']['sid']['0.10.32']     = {deb:"nodejs_0.10.32-1nodesource1~sid1_a
 dists['debian']['sid']['0.10.33']     = {deb:"nodejs_0.10.33-1nodesource1~sid1_amd64.deb"}
 dists['debian']['sid']['0.10.34']     = {deb:"nodejs_0.10.34-1nodesource1~sid1_amd64.deb"}
 dists['debian']['sid']['0.10.35']     = {deb:"nodejs_0.10.35-1nodesource1~sid1_amd64.deb"}
+dists['debian']['sid']['0.10.36']     = {deb:"nodejs_0.10.36-1nodesource1~sid1_amd64.deb"}
 
 // Debian aliases
 dists['debian']['stable']   = dists['debian']['wheezy']
@@ -69,6 +73,7 @@ dists['ubuntu']['precise']['0.10.32'] = {deb:"nodejs_0.10.32-1nodesource1~precis
 dists['ubuntu']['precise']['0.10.33'] = {deb:"nodejs_0.10.33-1nodesource1~precise1_amd64.deb"}
 dists['ubuntu']['precise']['0.10.34'] = {deb:"nodejs_0.10.34-1nodesource1~precise1_amd64.deb"}
 dists['ubuntu']['precise']['0.10.35'] = {deb:"nodejs_0.10.35-1nodesource1~precise1_amd64.deb"}
+dists['ubuntu']['precise']['0.10.36'] = {deb:"nodejs_0.10.36-1nodesource1~precise1_amd64.deb"}
 
 dists['ubuntu']['trusty']   = []
 dists['ubuntu']['trusty']['0.10.30']  = {deb:"nodejs_0.10.30-1nodesource1~trusty1_amd64.deb"}
@@ -77,12 +82,14 @@ dists['ubuntu']['trusty']['0.10.32']  = {deb:"nodejs_0.10.32-1nodesource1~trusty
 dists['ubuntu']['trusty']['0.10.33']  = {deb:"nodejs_0.10.33-1nodesource1~trusty1_amd64.deb"}
 dists['ubuntu']['trusty']['0.10.34']  = {deb:"nodejs_0.10.34-1nodesource1~trusty1_amd64.deb"}
 dists['ubuntu']['trusty']['0.10.35']  = {deb:"nodejs_0.10.35-1nodesource1~trusty1_amd64.deb"}
+dists['ubuntu']['trusty']['0.10.36']  = {deb:"nodejs_0.10.36-1nodesource1~trusty1_amd64.deb"}
 
 dists['ubuntu']['utopic']   = []
 dists['ubuntu']['utopic']['0.10.32']  = {deb:"nodejs_0.10.32-1nodesource1~utopic1_amd64.deb"}
 dists['ubuntu']['utopic']['0.10.33']  = {deb:"nodejs_0.10.33-1nodesource1~utopic1_amd64.deb"}
 dists['ubuntu']['utopic']['0.10.34']  = {deb:"nodejs_0.10.34-1nodesource1~utopic1_amd64.deb"}
 dists['ubuntu']['utopic']['0.10.35']  = {deb:"nodejs_0.10.35-1nodesource1~utopic1_amd64.deb"}
+dists['ubuntu']['utopic']['0.10.36']  = {deb:"nodejs_0.10.36-1nodesource1~utopic1_amd64.deb"}
 
 /**
  * Define string constants
