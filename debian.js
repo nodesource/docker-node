@@ -34,7 +34,7 @@ var commonPkgs = [  'apt-transport-https',
 // Debian
 dists['debian']['wheezy'] = []
 dists['debian']['wheezy']['0.10.30']  = {}
-dists['debian']['wheezy']['0.10.31']  = {deb:'.31-1chl1~wheezy1_amd64.deb'}
+dists['debian']['wheezy']['0.10.31']  = {deb:'nodejs_0.10.31-1chl1~wheezy1_amd64.deb'}
 dists['debian']['wheezy']['0.10.32']  = {}
 dists['debian']['wheezy']['0.10.33']  = {}
 dists['debian']['wheezy']['0.10.34']  = {}
