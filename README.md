@@ -4,6 +4,10 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
 
 # Structure
 
+* `latest` on all images currently points to the latest 0.10 release
+* `0.10` on all images currently points to the latest 0.10 release
+* `0.12` on all images currently points to the latest 0.12 release
+
 ## Ubuntu-based images
 
 * **Ubuntu 12.04 LTS** (Precise Pangolin) - `docker pull nodesource/precise`
