@@ -160,7 +160,7 @@ for(dist in dists) {
             if(e) return console.error(e)
             console.log('Wrote: '+file)
           })
-          fs.link('./README.md',path.join(dir,'README.md'))
+          fs.symlink('./README.md',path.join(dir,'README.md'))
         })
       })(dist,release,version)
     }
