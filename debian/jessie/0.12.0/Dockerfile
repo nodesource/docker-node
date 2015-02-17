@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM debian:jessie
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
 
 RUN apt-get update \
@@ -11,7 +11,7 @@ RUN apt-get update \
       rlwrap \
  && rm -rf /var/lib/apt/lists/*;
 
-RUN curl https://deb.nodesource.com/node/pool/main/n/nodejs/.31-1chl1~wheezy1_amd64.deb > node.deb \
+RUN curl https://deb.nodesource.com/node012/pool/main/n/nodejs/nodejs_0.12.0-1nodesource1~jessie1_amd64.deb > node.deb \
  && dpkg -i node.deb \
  && rm node.deb
 
