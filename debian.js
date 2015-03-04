@@ -33,34 +33,37 @@ var commonPkgs = [  'apt-transport-https',
 
 // Debian
 dists['debian']['wheezy'] = []
-dists['debian']['wheezy']['0.10.30']  = {}
-dists['debian']['wheezy']['0.10.31']  = {deb:'nodejs_0.10.31-1chl1~wheezy1_amd64.deb'}
-dists['debian']['wheezy']['0.10.32']  = {}
-dists['debian']['wheezy']['0.10.33']  = {}
-dists['debian']['wheezy']['0.10.34']  = {}
-dists['debian']['wheezy']['0.10.35']  = {}
-dists['debian']['wheezy']['0.10.36']  = {}
-dists['debian']['wheezy']['0.12.0']   = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
+dists['debian']['wheezy']['node'] = []
+dists['debian']['wheezy']['node']['0.10.30']  = {}
+dists['debian']['wheezy']['node']['0.10.31']  = {deb:'nodejs_0.10.31-1chl1~wheezy1_amd64.deb'}
+dists['debian']['wheezy']['node']['0.10.32']  = {}
+dists['debian']['wheezy']['node']['0.10.33']  = {}
+dists['debian']['wheezy']['node']['0.10.34']  = {}
+dists['debian']['wheezy']['node']['0.10.35']  = {}
+dists['debian']['wheezy']['node']['0.10.36']  = {}
+dists['debian']['wheezy']['node']['0.12.0']   = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
 
 dists['debian']['jessie'] = []
-dists['debian']['jessie']['0.10.30']  = {}
-dists['debian']['jessie']['0.10.31']  = {deb:'nodejs_0.10.31-1chl1~jessie1_amd64.deb'}
-dists['debian']['jessie']['0.10.32']  = {}
-dists['debian']['jessie']['0.10.33']  = {}
-dists['debian']['jessie']['0.10.34']  = {}
-dists['debian']['jessie']['0.10.35']  = {}
-dists['debian']['jessie']['0.10.36']  = {}
-dists['debian']['jessie']['0.12.0']   = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
+dists['debian']['jessie']['node'] = []
+dists['debian']['jessie']['node']['0.10.30']  = {}
+dists['debian']['jessie']['node']['0.10.31']  = {deb:'nodejs_0.10.31-1chl1~jessie1_amd64.deb'}
+dists['debian']['jessie']['node']['0.10.32']  = {}
+dists['debian']['jessie']['node']['0.10.33']  = {}
+dists['debian']['jessie']['node']['0.10.34']  = {}
+dists['debian']['jessie']['node']['0.10.35']  = {}
+dists['debian']['jessie']['node']['0.10.36']  = {}
+dists['debian']['jessie']['node']['0.12.0']   = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
 
 dists['debian']['sid'] = []
-dists['debian']['sid']['0.10.30']     = {}
-dists['debian']['sid']['0.10.31']     = {deb:'nodejs_0.10.31-1chl1~sid1_amd64.deb'}
-dists['debian']['sid']['0.10.32']     = {}
-dists['debian']['sid']['0.10.33']     = {}
-dists['debian']['sid']['0.10.34']     = {}
-dists['debian']['sid']['0.10.35']     = {}
-dists['debian']['sid']['0.10.36']     = {}
-dists['debian']['sid']['0.12.0']      = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
+dists['debian']['sid']['node'] = []
+dists['debian']['sid']['node']['0.10.30']     = {}
+dists['debian']['sid']['node']['0.10.31']     = {deb:'nodejs_0.10.31-1chl1~sid1_amd64.deb'}
+dists['debian']['sid']['node']['0.10.32']     = {}
+dists['debian']['sid']['node']['0.10.33']     = {}
+dists['debian']['sid']['node']['0.10.34']     = {}
+dists['debian']['sid']['node']['0.10.35']     = {}
+dists['debian']['sid']['node']['0.10.36']     = {}
+dists['debian']['sid']['node']['0.12.0']      = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
 
 // Debian aliases
 dists['debian']['wheezy']
@@ -69,32 +72,35 @@ dists['debian']['sid']
 
 // Ubuntu
 dists['ubuntu']['precise']  = []
-dists['ubuntu']['precise']['0.10.30'] = {}
-dists['ubuntu']['precise']['0.10.31'] = {deb:'nodejs_0.10.31-1chl1~precise1_amd64.deb'}
-dists['ubuntu']['precise']['0.10.32'] = {}
-dists['ubuntu']['precise']['0.10.33'] = {}
-dists['ubuntu']['precise']['0.10.34'] = {}
-dists['ubuntu']['precise']['0.10.35'] = {}
-dists['ubuntu']['precise']['0.10.36'] = {}
-dists['ubuntu']['precise']['0.12.0']  = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
+dists['ubuntu']['precise']['node']  = []
+dists['ubuntu']['precise']['node']['0.10.30'] = {}
+dists['ubuntu']['precise']['node']['0.10.31'] = {deb:'nodejs_0.10.31-1chl1~precise1_amd64.deb'}
+dists['ubuntu']['precise']['node']['0.10.32'] = {}
+dists['ubuntu']['precise']['node']['0.10.33'] = {}
+dists['ubuntu']['precise']['node']['0.10.34'] = {}
+dists['ubuntu']['precise']['node']['0.10.35'] = {}
+dists['ubuntu']['precise']['node']['0.10.36'] = {}
+dists['ubuntu']['precise']['node']['0.12.0']  = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
 
 dists['ubuntu']['trusty']   = []
-dists['ubuntu']['trusty']['0.10.30']  = {}
-dists['ubuntu']['trusty']['0.10.31']  = {deb:'nodejs_0.10.31-1chl1~trusty1_amd64.deb'}
-dists['ubuntu']['trusty']['0.10.32']  = {}
-dists['ubuntu']['trusty']['0.10.33']  = {}
-dists['ubuntu']['trusty']['0.10.34']  = {}
-dists['ubuntu']['trusty']['0.10.35']  = {}
-dists['ubuntu']['trusty']['0.10.36']  = {}
-dists['ubuntu']['trusty']['0.12.0']   = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
+dists['ubuntu']['trusty']['node']   = []
+dists['ubuntu']['trusty']['node']['0.10.30']  = {}
+dists['ubuntu']['trusty']['node']['0.10.31']  = {deb:'nodejs_0.10.31-1chl1~trusty1_amd64.deb'}
+dists['ubuntu']['trusty']['node']['0.10.32']  = {}
+dists['ubuntu']['trusty']['node']['0.10.33']  = {}
+dists['ubuntu']['trusty']['node']['0.10.34']  = {}
+dists['ubuntu']['trusty']['node']['0.10.35']  = {}
+dists['ubuntu']['trusty']['node']['0.10.36']  = {}
+dists['ubuntu']['trusty']['node']['0.12.0']   = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
 
 dists['ubuntu']['utopic']   = []
-dists['ubuntu']['utopic']['0.10.32']  = {}
-dists['ubuntu']['utopic']['0.10.33']  = {}
-dists['ubuntu']['utopic']['0.10.34']  = {}
-dists['ubuntu']['utopic']['0.10.35']  = {}
-dists['ubuntu']['utopic']['0.10.36']  = {}
-dists['ubuntu']['utopic']['0.12.0']   = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
+dists['ubuntu']['utopic']['node']   = []
+dists['ubuntu']['utopic']['node']['0.10.32']  = {}
+dists['ubuntu']['utopic']['node']['0.10.33']  = {}
+dists['ubuntu']['utopic']['node']['0.10.34']  = {}
+dists['ubuntu']['utopic']['node']['0.10.35']  = {}
+dists['ubuntu']['utopic']['node']['0.10.36']  = {}
+dists['ubuntu']['utopic']['node']['0.12.0']   = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
 
 /**
  * Define string constants
@@ -143,27 +149,29 @@ function generatePkgStr(pkgs) {
  */
 for(dist in dists) {
   for(release in dists[dist]) {
-    for(version in dists[dist][release]) {
-      //Scope variables
-      (function scope(dist,release,version) {
-        var dir = path.join(dist,release,version)
-        var file = path.join(dir,'Dockerfile')
-        mkdir(dir,function(e) {
-          if(e) return console.error(e)
-          var url = dists[dist][release][version].url || 'https://deb.nodesource.com/node/pool/main/n/nodejs/'
-          var deb = dists[dist][release][version].deb || 'nodejs_'+version+'-1nodesource1~'+release+'1_amd64.deb'
-          var contents =  replace(HEADER,{dist:dist,release:release}) + '\n\n' +
-                          replace(PKGS,{pkgs:generatePkgStr(commonPkgs)}) + '\n\n' +
-                          replace(NODE,{url:url+deb}) + '\n\n' +
-                          FOOTER
-          fs.writeFile(file,contents,function(e) {
+    for(project in dists[dist][release]) {
+      for(version in dists[dist][release][project]) {
+        //Scope variables
+        (function scope(dist,release,project,version) {
+          var dir = path.join(dist,release,project,version)
+          var file = path.join(dir,'Dockerfile')
+          mkdir(dir,function(e) {
             if(e) return console.error(e)
-            console.log('Wrote: '+file)
+            var url = dists[dist][release][project][version].url || 'https://deb.nodesource.com/node/pool/main/n/nodejs/'
+            var deb = dists[dist][release][project][version].deb || 'nodejs_'+version+'-1nodesource1~'+release+'1_amd64.deb'
+            var contents =  replace(HEADER,{dist:dist,release:release}) + '\n\n' +
+                            replace(PKGS,{pkgs:generatePkgStr(commonPkgs)}) + '\n\n' +
+                            replace(NODE,{url:url+deb}) + '\n\n' +
+                            FOOTER
+            fs.writeFile(file,contents,function(e) {
+              if(e) return console.error(e)
+              console.log('Wrote: '+file)
+            })
+            fs.symlink('../../../README.md',path.join(dir,'README.md'),function(e) {
+            })
           })
-          fs.symlink('../../../README.md',path.join(dir,'README.md'),function(e) {
-          })
-        })
-      })(dist,release,version)
+        })(dist,release,project,version)
+      }
     }
   }
 }
