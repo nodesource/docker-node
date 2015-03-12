@@ -121,7 +121,6 @@ var FOOTER  = 'RUN npm install -g node-gyp \\\n' +
               ' && npm cache clear \n\n' +
               'RUN node-gyp configure || echo ""\n\n' +
               'ENV NODE_ENV production\n' +
-              'VOLUME /usr/src/app\n' +
               'WORKDIR /usr/src/app\n' +
               'CMD ["npm","start"]'
 

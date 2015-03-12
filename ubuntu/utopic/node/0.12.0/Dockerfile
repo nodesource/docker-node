@@ -21,6 +21,5 @@ RUN npm install -g node-gyp \
 RUN node-gyp configure || echo ""
 
 ENV NODE_ENV production
-VOLUME /usr/src/app
 WORKDIR /usr/src/app
 CMD ["npm","start"]
