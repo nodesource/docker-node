@@ -1,4 +1,4 @@
-FROM ubuntu:precise
+FROM ubuntu:utopic
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
 
 RUN apt-get update \
@@ -11,7 +11,7 @@ RUN apt-get update \
       rlwrap \
  && rm -rf /var/lib/apt/lists/*;
 
-RUN curl https://deb.nodesource.com/node/pool/main/n/nodejs/nodejs_0.10.33-1nodesource1~precise1_amd64.deb > node.deb \
+RUN curl https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/iojs_1.5.0-1nodesource1~utopic1_amd64.deb > node.deb \
  && dpkg -i node.deb \
  && rm node.deb
 

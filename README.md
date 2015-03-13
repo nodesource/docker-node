@@ -14,7 +14,7 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
 
 ## Debian-based images
 
-* [**Debian 7 / stable**](https://registry.hub.docker.com/u/nodesource/wheezy/) (wheezy) - `docker pull nodesource/wheezy`
+* [**Debian wheezy**](https://registry.hub.docker.com/u/nodesource/wheezy/) (wheezy) - `docker pull nodesource/wheezy`
   * Node 0.10.30 - `docker pull nodesource/wheezy:0.10.30`
   * Node 0.10.31 - `docker pull nodesource/wheezy:0.10.31`
   * Node 0.10.32 - `docker pull nodesource/wheezy:0.10.32`
@@ -23,7 +23,7 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
   * Node 0.10.35 - `docker pull nodesource/wheezy:0.10.35`
   * Node 0.10.36 - `docker pull nodesource/wheezy:0.10.36`
   * Node 0.12.0  - `docker pull nodesource/wheezy:0.12.0`
-* [**Debian testing**](https://registry.hub.docker.com/u/nodesource/jessie/) (jessie) - `docker pull nodesource/jessie`
+* [**Debian jessie**](https://registry.hub.docker.com/u/nodesource/jessie/) (jessie) - `docker pull nodesource/jessie`
   * Node 0.10.30 - `docker pull nodesource/jessie:0.10.30`
   * Node 0.10.31 - `docker pull nodesource/jessie:0.10.31`
   * Node 0.10.32 - `docker pull nodesource/jessie:0.10.32`
@@ -32,8 +32,9 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
   * Node 0.10.35 - `docker pull nodesource/jessie:0.10.35`
   * Node 0.10.36 - `docker pull nodesource/jessie:0.10.36`
   * Node 0.12.0  - `docker pull nodesource/jessie:0.12.0`
-  * iojs 1.4.3   - `docker pull nodesource/jessie:1.4.3`
-* [**Debian unstable**](https://registry.hub.docker.com/u/nodesource/sid/) (sid) - `docker pull nodesource/sid`
+  * iojs 1.5.0   - `docker pull nodesource/jessie:1.5.0`
+  * iojs 1.5.1   - `docker pull nodesource/jessie:1.5.1`
+* [**Debian sid**](https://registry.hub.docker.com/u/nodesource/sid/) (sid) - `docker pull nodesource/sid`
   * Node 0.10.30 - `docker pull nodesource/sid:0.10.30`
   * Node 0.10.31 - `docker pull nodesource/sid:0.10.31`
   * Node 0.10.32 - `docker pull nodesource/sid:0.10.32`
@@ -42,7 +43,8 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
   * Node 0.10.35 - `docker pull nodesource/sid:0.10.35`
   * Node 0.10.36 - `docker pull nodesource/sid:0.10.36`
   * Node 0.12.0  - `docker pull nodesource/sid:0.12.0`
-  * iojs 1.4.3   - `docker pull nodesource/sid:1.4.3`
+  * iojs 1.5.0   - `docker pull nodesource/sid:1.5.0`
+  * iojs 1.5.1   - `docker pull nodesource/sid:1.5.1`
 
 ## Ubuntu-based images
 
@@ -64,7 +66,8 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
   * Node 0.10.35 - `docker pull nodesource/trusty:0.10.35`
   * Node 0.10.36 - `docker pull nodesource/trusty:0.10.36`
   * Node 0.12.0  - `docker pull nodesource/trusty:0.12.0`
-  * iojs 1.4.3   - `docker pull nodesource/trusty:1.4.3`
+  * iojs 1.5.0   - `docker pull nodesource/trusty:1.5.0`
+  * iojs 1.5.1   - `docker pull nodesource/trusty:1.5.1`
 * [**Ubuntu 14.10**](https://registry.hub.docker.com/u/nodesource/utopic/)  (Utopic Unicorn) - `docker pull nodesource/utopic`
   * Node 0.10.32 - `docker pull nodesource/utopic:0.10.32`
   * Node 0.10.33 - `docker pull nodesource/utopic:0.10.33`
@@ -72,3 +75,5 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
   * Node 0.10.35 - `docker pull nodesource/utopic:0.10.35`
   * Node 0.10.36 - `docker pull nodesource/utopic:0.10.36`
   * Node 0.12.0  - `docker pull nodesource/utopic:0.12.0`
+  * iojs 1.5.0   - `docker pull nodesource/utopic:1.5.0`
+  * iojs 1.5.1   - `docker pull nodesource/utopic:1.5.1`

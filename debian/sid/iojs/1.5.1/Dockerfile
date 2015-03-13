@@ -1,4 +1,4 @@
-FROM ubuntu:utopic
+FROM debian:sid
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
 
 RUN apt-get update \
@@ -11,7 +11,7 @@ RUN apt-get update \
       rlwrap \
  && rm -rf /var/lib/apt/lists/*;
 
-RUN curl https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/iojs_1.4.3-1nodesource1~utopic1_amd64.deb > node.deb \
+RUN curl https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/iojs_1.5.1-1nodesource1~sid1_amd64.deb > node.deb \
  && dpkg -i node.deb \
  && rm node.deb
 
@@ -21,6 +21,5 @@ RUN npm install -g node-gyp \
 RUN node-gyp configure || echo ""
 
 ENV NODE_ENV production
-VOLUME /usr/src/app
 WORKDIR /usr/src/app
 CMD ["npm","start"]
