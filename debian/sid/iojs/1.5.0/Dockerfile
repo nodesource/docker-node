@@ -15,10 +15,9 @@ RUN curl https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/iojs_1.5.0-1nodeso
  && dpkg -i node.deb \
  && rm node.deb
 
-RUN npm install -g node-gyp \
- && npm cache clear 
-
-RUN node-gyp configure || echo ""
+RUN npm install -g pangyp\
+ && npm cache clear\
+ && pangyp configure || echo ""
 
 ENV NODE_ENV production
 WORKDIR /usr/src/app
