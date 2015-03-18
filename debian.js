@@ -43,8 +43,9 @@ var NODE    = 'RUN curl {{URL}} > node.deb \\\n' +
               ' && rm node.deb'
 
 var FOOTER  = 'RUN npm install -g pangyp\\\n' +
+							' && ln -s $(which pangyp) $(dirname $(which pangyp))/node-gyp\\\n' +
               ' && npm cache clear\\\n' +
-              ' && pangyp configure || echo ""\n\n' +
+              ' && node-gyp configure || echo ""\n\n' +
               'ENV NODE_ENV production\n' +
               'WORKDIR /usr/src/app\n' +
               'CMD ["npm","start"]'

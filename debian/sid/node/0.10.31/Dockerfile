@@ -16,8 +16,9 @@ RUN curl https://deb.nodesource.com/node/pool/main/n/nodejs/nodejs_0.10.31-1chl1
  && rm node.deb
 
 RUN npm install -g pangyp\
+ && ln -s $(which pangyp) $(dirname $(which pangyp))/node-gyp\
  && npm cache clear\
- && pangyp configure || echo ""
+ && node-gyp configure || echo ""
 
 ENV NODE_ENV production
 WORKDIR /usr/src/app
