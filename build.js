@@ -11,78 +11,29 @@
 // Dependencies
 var spawn = require('child_process').spawn
 var path  = require('path')
-
-// Supported distributions
-var dists       = []
-dists['debian'] = []
-dists['ubuntu'] = []
-
-//Debian
-dists['debian']['wheezy'] = []
-dists['debian']['wheezy']['0.10.30']  = {}
-dists['debian']['wheezy']['0.10.31']  = {}
-dists['debian']['wheezy']['0.10.32']  = {}
-dists['debian']['wheezy']['0.10.33']  = {}
-dists['debian']['wheezy']['0.10.34']  = {}
-dists['debian']['wheezy']['0.10.35']  = {}
-
-dists['debian']['jessie'] = []
-dists['debian']['jessie']['0.10.30']  = {}
-dists['debian']['jessie']['0.10.31']  = {}
-dists['debian']['jessie']['0.10.32']  = {}
-dists['debian']['jessie']['0.10.33']  = {}
-dists['debian']['jessie']['0.10.34']  = {}
-dists['debian']['jessie']['0.10.35']  = {}
-
-dists['debian']['sid'] = []
-dists['debian']['sid']['0.10.30']     = {}
-dists['debian']['sid']['0.10.31']     = {}
-dists['debian']['sid']['0.10.32']     = {}
-dists['debian']['sid']['0.10.33']     = {}
-dists['debian']['sid']['0.10.34']     = {}
-dists['debian']['sid']['0.10.35']     = {}
-
-// Debian aliases
-dists['debian']['stable']   = dists['debian']['wheezy']
-dists['debian']['testing']  = dists['debian']['jessie']
-dists['debian']['unstable'] = dists['debian']['sid']
-
-// Ubuntu
-dists['ubuntu']['precise']  = []
-dists['ubuntu']['precise']['0.10.30'] = {}
-dists['ubuntu']['precise']['0.10.31'] = {}
-dists['ubuntu']['precise']['0.10.32'] = {}
-dists['ubuntu']['precise']['0.10.33'] = {}
-dists['ubuntu']['precise']['0.10.34'] = {}
-dists['ubuntu']['precise']['0.10.35'] = {}
-
-dists['ubuntu']['trusty']   = []
-dists['ubuntu']['trusty']['0.10.30']  = {}
-dists['ubuntu']['trusty']['0.10.31']  = {}
-dists['ubuntu']['trusty']['0.10.32']  = {}
-dists['ubuntu']['trusty']['0.10.33']  = {}
-dists['ubuntu']['trusty']['0.10.34']  = {}
-dists['ubuntu']['trusty']['0.10.35']  = {}
-
-dists['ubuntu']['utopic']   = []
-dists['ubuntu']['utopic']['0.10.32']  = {}
-dists['ubuntu']['utopic']['0.10.33']  = {}
-dists['ubuntu']['utopic']['0.10.34']  = {}
-dists['ubuntu']['utopic']['0.10.35']  = {}
-
+var dists = require('./debian_dists.js')
+var fs = require('fs')
 
 for(dist in dists) {
   for(release in dists[dist]) {
-    for(version in dists[dist][release]) {
-      var dir = path.join(dist,release,version)
-      var file = path.join(dir,"Dockerfile")
-      var command = "xterm"
-      var args = ["-hold","-title",dir,"-e","bash -c \"cd "+dir+";docker build .\""]
-
-      console.log("Starting "+dir)
-      var child = spawn(command,args)
-      child.stdout.pipe(process.stdout)
-      child.stderr.pipe(process.stderr)
+    for(project in dists[dist][release]) {
+      for(version in dists[dist][release][project]) {
+        (function scope(dist,release,project,version) {
+          var dir = path.join(__dirname,dist,release,project,version)
+          var file = path.join(dir,'output')
+          var command = "docker"
+          var args = ["build","--no-cache","."]
+          console.log(args)
+          var file = fs.createWriteStream(file)
+          var child = spawn(command,args,{cwd:dir})
+          child.on('error',function(e) {
+            console.log(e)
+          })
+          child.stdout.pipe(file)
+          child.stderr.pipe(file)
+          console.log("Spawned: "+dir)
+        })(dist,release,project,version)
+      }
     }
   }
 }

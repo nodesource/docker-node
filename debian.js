@@ -17,11 +17,7 @@
 var mkdir = require('mkdirp')
 var path  = require('path')
 var fs    = require('fs')
-
-// Supported distributions
-var dists       = []
-dists['debian'] = []
-dists['ubuntu'] = []
+var dists = require('./debian_dists.js')
 
 // Packages that all images will need
 var commonPkgs = [  'apt-transport-https',
@@ -30,77 +26,6 @@ var commonPkgs = [  'apt-transport-https',
                     'lsb-release',
                     'python-all',
                     'rlwrap']
-
-// Debian
-dists['debian']['wheezy'] = []
-dists['debian']['wheezy']['node'] = []
-dists['debian']['wheezy']['node']['0.10.30']  = {}
-dists['debian']['wheezy']['node']['0.10.31']  = {deb:'nodejs_0.10.31-1chl1~wheezy1_amd64.deb'}
-dists['debian']['wheezy']['node']['0.10.32']  = {}
-dists['debian']['wheezy']['node']['0.10.33']  = {}
-dists['debian']['wheezy']['node']['0.10.34']  = {}
-dists['debian']['wheezy']['node']['0.10.35']  = {}
-dists['debian']['wheezy']['node']['0.10.36']  = {}
-dists['debian']['wheezy']['node']['0.12.0']   = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
-
-dists['debian']['jessie'] = []
-dists['debian']['jessie']['node'] = []
-dists['debian']['jessie']['node']['0.10.30']  = {}
-dists['debian']['jessie']['node']['0.10.31']  = {deb:'nodejs_0.10.31-1chl1~jessie1_amd64.deb'}
-dists['debian']['jessie']['node']['0.10.32']  = {}
-dists['debian']['jessie']['node']['0.10.33']  = {}
-dists['debian']['jessie']['node']['0.10.34']  = {}
-dists['debian']['jessie']['node']['0.10.35']  = {}
-dists['debian']['jessie']['node']['0.10.36']  = {}
-dists['debian']['jessie']['node']['0.12.0']   = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
-
-dists['debian']['sid'] = []
-dists['debian']['sid']['node'] = []
-dists['debian']['sid']['node']['0.10.30']     = {}
-dists['debian']['sid']['node']['0.10.31']     = {deb:'nodejs_0.10.31-1chl1~sid1_amd64.deb'}
-dists['debian']['sid']['node']['0.10.32']     = {}
-dists['debian']['sid']['node']['0.10.33']     = {}
-dists['debian']['sid']['node']['0.10.34']     = {}
-dists['debian']['sid']['node']['0.10.35']     = {}
-dists['debian']['sid']['node']['0.10.36']     = {}
-dists['debian']['sid']['node']['0.12.0']      = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
-
-// Debian aliases
-dists['debian']['wheezy']
-dists['debian']['jessie']
-dists['debian']['sid']
-
-// Ubuntu
-dists['ubuntu']['precise']  = []
-dists['ubuntu']['precise']['node']  = []
-dists['ubuntu']['precise']['node']['0.10.30'] = {}
-dists['ubuntu']['precise']['node']['0.10.31'] = {deb:'nodejs_0.10.31-1chl1~precise1_amd64.deb'}
-dists['ubuntu']['precise']['node']['0.10.32'] = {}
-dists['ubuntu']['precise']['node']['0.10.33'] = {}
-dists['ubuntu']['precise']['node']['0.10.34'] = {}
-dists['ubuntu']['precise']['node']['0.10.35'] = {}
-dists['ubuntu']['precise']['node']['0.10.36'] = {}
-dists['ubuntu']['precise']['node']['0.12.0']  = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
-
-dists['ubuntu']['trusty']   = []
-dists['ubuntu']['trusty']['node']   = []
-dists['ubuntu']['trusty']['node']['0.10.30']  = {}
-dists['ubuntu']['trusty']['node']['0.10.31']  = {deb:'nodejs_0.10.31-1chl1~trusty1_amd64.deb'}
-dists['ubuntu']['trusty']['node']['0.10.32']  = {}
-dists['ubuntu']['trusty']['node']['0.10.33']  = {}
-dists['ubuntu']['trusty']['node']['0.10.34']  = {}
-dists['ubuntu']['trusty']['node']['0.10.35']  = {}
-dists['ubuntu']['trusty']['node']['0.10.36']  = {}
-dists['ubuntu']['trusty']['node']['0.12.0']   = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
-
-dists['ubuntu']['utopic']   = []
-dists['ubuntu']['utopic']['node']   = []
-dists['ubuntu']['utopic']['node']['0.10.32']  = {}
-dists['ubuntu']['utopic']['node']['0.10.33']  = {}
-dists['ubuntu']['utopic']['node']['0.10.34']  = {}
-dists['ubuntu']['utopic']['node']['0.10.35']  = {}
-dists['ubuntu']['utopic']['node']['0.10.36']  = {}
-dists['ubuntu']['utopic']['node']['0.12.0']   = {url: 'https://deb.nodesource.com/node012/pool/main/n/nodejs/'}
 
 /**
  * Define string constants
@@ -117,9 +42,10 @@ var NODE    = 'RUN curl {{URL}} > node.deb \\\n' +
               ' && dpkg -i node.deb \\\n' +
               ' && rm node.deb'
 
-var FOOTER  = 'RUN npm install -g node-gyp \\\n' +
-              ' && npm cache clear \n\n' +
-              'RUN node-gyp configure || echo ""\n\n' +
+var FOOTER  = 'RUN npm install -g pangyp\\\n' +
+							' && ln -s $(which pangyp) $(dirname $(which pangyp))/node-gyp\\\n' +
+              ' && npm cache clear\\\n' +
+              ' && node-gyp configure || echo ""\n\n' +
               'ENV NODE_ENV production\n' +
               'WORKDIR /usr/src/app\n' +
               'CMD ["npm","start"]'
