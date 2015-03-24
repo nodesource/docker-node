@@ -34,6 +34,8 @@ dists['debian']['jessie']['iojs']['1.4.2']    = {url:'https://deb.nodesource.com
 dists['debian']['jessie']['iojs']['1.4.3']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.4.3-1nodesource1~jessie1_amd64.deb'}
 dists['debian']['jessie']['iojs']['1.5.0']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.5.0-1nodesource1~jessie1_amd64.deb'}
 dists['debian']['jessie']['iojs']['1.5.1']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.5.1-1nodesource1~jessie1_amd64.deb'}
+dists['debian']['jessie']['iojs']['1.6.1']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.6.1-1nodesource1~jessie1_amd64.deb'}
+dists['debian']['jessie']['iojs']['1.6.2']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.6.2-1nodesource1~jessie1_amd64.deb'}
 
 dists['debian']['sid'] = []
 dists['debian']['sid']['node'] = []
@@ -52,6 +54,8 @@ dists['debian']['sid']['iojs']['1.4.2']       = {url:'https://deb.nodesource.com
 dists['debian']['sid']['iojs']['1.4.3']       = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.4.3-1nodesource1~sid1_amd64.deb'}
 dists['debian']['sid']['iojs']['1.5.0']       = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.5.0-1nodesource1~sid1_amd64.deb'}
 dists['debian']['sid']['iojs']['1.5.1']       = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.5.1-1nodesource1~sid1_amd64.deb'}
+dists['debian']['sid']['iojs']['1.6.1']       = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.6.1-1nodesource1~sid1_amd64.deb'}
+dists['debian']['sid']['iojs']['1.6.2']       = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.6.2-1nodesource1~sid1_amd64.deb'}
 
 // Ubuntu
 dists['ubuntu']['precise']  = []
@@ -83,6 +87,8 @@ dists['ubuntu']['trusty']['iojs']['1.4.2']    = {url:'https://deb.nodesource.com
 dists['ubuntu']['trusty']['iojs']['1.4.3']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.4.3-1nodesource1~trusty1_amd64.deb'}
 dists['ubuntu']['trusty']['iojs']['1.5.0']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.5.0-1nodesource1~trusty1_amd64.deb'}
 dists['ubuntu']['trusty']['iojs']['1.5.1']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.5.1-1nodesource1~trusty1_amd64.deb'}
+dists['ubuntu']['trusty']['iojs']['1.6.1']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.6.1-1nodesource1~trusty1_amd64.deb'}
+dists['ubuntu']['trusty']['iojs']['1.6.2']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.6.2-1nodesource1~trusty1_amd64.deb'}
 
 dists['ubuntu']['utopic']   = []
 dists['ubuntu']['utopic']['node']   = []
@@ -99,6 +105,8 @@ dists['ubuntu']['utopic']['iojs']['1.4.2']    = {url:'https://deb.nodesource.com
 dists['ubuntu']['utopic']['iojs']['1.4.3']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.4.3-1nodesource1~utopic1_amd64.deb'}
 dists['ubuntu']['utopic']['iojs']['1.5.0']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.5.0-1nodesource1~utopic1_amd64.deb'}
 dists['ubuntu']['utopic']['iojs']['1.5.1']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.5.1-1nodesource1~utopic1_amd64.deb'}
+dists['ubuntu']['utopic']['iojs']['1.6.1']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.6.1-1nodesource1~utopic1_amd64.deb'}
+dists['ubuntu']['utopic']['iojs']['1.6.2']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.6.2-1nodesource1~utopic1_amd64.deb'}
 
 // Centos
 dists['centos']['5'] = []
