@@ -1,0 +1,37 @@
+Sending build context to Docker daemon 4.096 kB
+Sending build context to Docker daemon 
+Step 0 : FROM ubuntu:trusty
+ ---> 2103b00b3fdf
+Step 1 : MAINTAINER William Blankenship <wblankenship@nodesource.com>
+ ---> Running in 49cc1a39c758
+ ---> 7861ce381123
+Removing intermediate container 49cc1a39c758
+Step 2 : RUN apt-get update  && apt-get install -y --force-yes       apt-transport-https       build-essential       curl       lsb-release       python-all       rlwrap  && rm -rf /var/lib/apt/lists/*;
+ ---> Running in 1c82c2e3a874
+Ign http://archive.ubuntu.com trusty InRelease
+Ign http://archive.ubuntu.com trusty-updates InRelease
+Ign http://archive.ubuntu.com trusty-security InRelease
+Hit http://archive.ubuntu.com trusty Release.gpg
+Get:1 http://archive.ubuntu.com trusty-updates Release.gpg [933 B]
+Get:2 http://archive.ubuntu.com trusty-security Release.gpg [933 B]
+Hit http://archive.ubuntu.com trusty Release
+Get:3 http://archive.ubuntu.com trusty-updates Release [63.5 kB]
+Get:4 http://archive.ubuntu.com trusty-security Release [63.5 kB]
+Get:5 http://archive.ubuntu.com trusty/main Sources [1335 kB]
+Get:6 http://archive.ubuntu.com trusty/restricted Sources [5335 B]
+Get:7 http://archive.ubuntu.com trusty/universe Sources [7926 kB]
+Get:8 http://archive.ubuntu.com trusty/main amd64 Packages [1743 kB]
+Get:9 http://archive.ubuntu.com trusty/restricted amd64 Packages [16.0 kB]
+Get:10 http://archive.ubuntu.com trusty/universe amd64 Packages [7589 kB]
+Get:11 http://archive.ubuntu.com trusty-updates/main Sources [238 kB]
+Get:12 http://archive.ubuntu.com trusty-updates/restricted Sources [2310 B]
+Get:13 http://archive.ubuntu.com trusty-updates/universe Sources [133 kB]
+Get:14 http://archive.ubuntu.com trusty-updates/main amd64 Packages [616 kB]
+Get:15 http://archive.ubuntu.com trusty-updates/restricted amd64 Packages [15.1 kB]
+Get:16 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [339 kB]
+Get:17 http://archive.ubuntu.com trusty-security/main Sources [92.6 kB]
+Get:18 http://archive.ubuntu.com trusty-security/restricted Sources [1874 B]
+Get:19 http://archive.ubuntu.com trusty-security/universe Sources [19.6 kB]
+Get:20 http://archive.ubuntu.com trusty-security/main amd64 Packages [319 kB]
+Get:21 http://archive.ubuntu.com trusty-security/restricted amd64 Packages [14.8 kB]
+Get:22 http://archive.ubuntu.com trusty-security/universe amd64 Packages [116 kB]

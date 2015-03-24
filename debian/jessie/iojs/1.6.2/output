@@ -1,0 +1,19 @@
+Sending build context to Docker daemon 4.096 kB
+Sending build context to Docker daemon 
+Step 0 : FROM debian:jessie
+ ---> 50ec2d202fe8
+Step 1 : MAINTAINER William Blankenship <wblankenship@nodesource.com>
+ ---> Running in 6a4e0537eed1
+ ---> 24ab86264cfc
+Removing intermediate container 6a4e0537eed1
+Step 2 : RUN apt-get update  && apt-get install -y --force-yes       apt-transport-https       build-essential       curl       lsb-release       python-all       rlwrap  && rm -rf /var/lib/apt/lists/*;
+ ---> Running in a9c0b89a2ca8
+Get:1 http://security.debian.org jessie/updates InRelease [84.1 kB]
+Get:2 http://http.debian.net jessie InRelease [199 kB]
+Get:3 http://http.debian.net jessie-updates InRelease [117 kB]
+Get:4 http://security.debian.org jessie/updates/main amd64 Packages [465 B]
+Get:5 http://http.debian.net jessie/main amd64 Packages [9042 kB]
+Get:6 http://http.debian.net jessie-updates/main amd64 Packages [20 B]
+Fetched 9443 kB in 12s (771 kB/s)
+Reading package lists...
+Reading package lists...
