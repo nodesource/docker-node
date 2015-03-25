@@ -3,6 +3,7 @@ var dists = module.exports = []
 dists['debian'] = []
 dists['ubuntu'] = []
 dists['centos'] = []
+dists['fedora'] = []
 
 // Debian
 dists['debian']['wheezy'] = []
@@ -135,3 +136,19 @@ dists['centos']['7']['node']['0.10.33'] = {}
 dists['centos']['7']['node']['0.10.34'] = {}
 dists['centos']['7']['node']['0.10.35'] = {}
 dists['centos']['7']['node']['0.10.36'] = {}
+
+// Fedora
+dists['fedora']['20'] = []
+dists['fedora']['20']['node'] = []
+dists['fedora']['20']['node']['0.10.31'] = {}
+dists['fedora']['20']['node']['0.10.32'] = {}
+dists['fedora']['20']['node']['0.10.33'] = {}
+dists['fedora']['20']['node']['0.10.34'] = {}
+dists['fedora']['20']['node']['0.10.35'] = {}
+dists['fedora']['20']['node']['0.10.36'] = {}
+
+
+dists['fedora']['21'] = []
+dists['fedora']['21']['node'] = []
+dists['fedora']['21']['node']['0.10.35'] = {}
+dists['fedora']['21']['node']['0.10.36'] = {}
