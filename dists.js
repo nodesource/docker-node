@@ -2,6 +2,8 @@
 var dists = module.exports = []
 dists['debian'] = []
 dists['ubuntu'] = []
+dists['centos'] = []
+dists['fedora'] = []
 
 // Debian
 dists['debian']['wheezy'] = []
@@ -106,3 +108,47 @@ dists['ubuntu']['utopic']['iojs']['1.5.0']    = {url:'https://deb.nodesource.com
 dists['ubuntu']['utopic']['iojs']['1.5.1']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.5.1-1nodesource1~utopic1_amd64.deb'}
 dists['ubuntu']['utopic']['iojs']['1.6.1']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.6.1-1nodesource1~utopic1_amd64.deb'}
 dists['ubuntu']['utopic']['iojs']['1.6.2']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.6.2-1nodesource1~utopic1_amd64.deb'}
+
+// Centos
+dists['centos']['5'] = []
+dists['centos']['5']['node'] = []
+dists['centos']['5']['node']['0.10.31'] = {epel:true}
+dists['centos']['5']['node']['0.10.32'] = {epel:true}
+dists['centos']['5']['node']['0.10.33'] = {epel:true}
+dists['centos']['5']['node']['0.10.34'] = {epel:true}
+dists['centos']['5']['node']['0.10.35'] = {epel:true}
+dists['centos']['5']['node']['0.10.36'] = {epel:true}
+
+dists['centos']['6'] = []
+dists['centos']['6']['node'] = []
+dists['centos']['6']['node']['0.10.31'] = {}
+dists['centos']['6']['node']['0.10.32'] = {}
+dists['centos']['6']['node']['0.10.33'] = {}
+dists['centos']['6']['node']['0.10.34'] = {}
+dists['centos']['6']['node']['0.10.35'] = {}
+dists['centos']['6']['node']['0.10.36'] = {}
+
+dists['centos']['7'] = []
+dists['centos']['7']['node'] = []
+dists['centos']['7']['node']['0.10.31'] = {}
+dists['centos']['7']['node']['0.10.32'] = {}
+dists['centos']['7']['node']['0.10.33'] = {}
+dists['centos']['7']['node']['0.10.34'] = {}
+dists['centos']['7']['node']['0.10.35'] = {}
+dists['centos']['7']['node']['0.10.36'] = {}
+
+// Fedora
+dists['fedora']['20'] = []
+dists['fedora']['20']['node'] = []
+dists['fedora']['20']['node']['0.10.31'] = {}
+dists['fedora']['20']['node']['0.10.32'] = {}
+dists['fedora']['20']['node']['0.10.33'] = {}
+dists['fedora']['20']['node']['0.10.34'] = {}
+dists['fedora']['20']['node']['0.10.35'] = {}
+dists['fedora']['20']['node']['0.10.36'] = {}
+
+
+dists['fedora']['21'] = []
+dists['fedora']['21']['node'] = []
+dists['fedora']['21']['node']['0.10.35'] = {}
+dists['fedora']['21']['node']['0.10.36'] = {}
