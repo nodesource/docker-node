@@ -42,5 +42,6 @@ var footer = 'RUN npm install -g pangyp\\\n' +
              'CMD ["npm","start"]'
 
 var commonPkgs = [ 'curl',
+                   'git',
                    'perl',
                    'which' ]

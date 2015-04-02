@@ -36,6 +36,7 @@ var footer = 'RUN npm install -g pangyp\\\n' +
 var commonPkgs = [ 'apt-transport-https',
                    'build-essential',
                    'curl',
+                   'git',
                    'lsb-release',
                    'python-all',
                    'rlwrap']

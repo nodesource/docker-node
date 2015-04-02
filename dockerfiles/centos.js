@@ -27,7 +27,7 @@ var pkgs   = 'RUN yum install -y \\\n' +
              ' && yum clean all'
 
 var epel   = 'RUN rpm -ivh $(curl http://dl.fedoraproject.org/pub/epel/5/x86_64/repoview/epel-release.html | grep -oE "epel-release-[0-9\-]+\.noarch\.rpm" | sed "s/^/http:\\/\\/dl.fedoraproject.org\\/pub\\/epel\\/5\\/x86_64\\//") \\\n' +
-             ' && yum install -y python26 \\\n' +
+             ' && yum install -y python26 git\\\n' +
              ' && yum clean all'
 
 var python = 'ENV PYTHON python2.6'
@@ -45,5 +45,6 @@ var footer = 'RUN npm install -g pangyp\\\n' +
              'CMD ["npm","start"]'
 
 var commonPkgs = [ 'curl',
+                   'git', //will fail if no epel, thats fine
                    'perl',
                    'which' ]

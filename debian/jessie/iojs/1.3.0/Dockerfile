@@ -6,6 +6,7 @@ RUN apt-get update \
       apt-transport-https \
       build-essential \
       curl \
+      git \
       lsb-release \
       python-all \
       rlwrap \
