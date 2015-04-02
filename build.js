@@ -11,7 +11,7 @@
 // Dependencies
 var spawn = require('child_process').spawn
 var path  = require('path')
-var dists = require('./dists.js')
+var dists = require('./dockerfiles').dists
 var fs    = require('fs')
 var argv  = require('minimist')(process.argv.slice(2))
 
