@@ -2,7 +2,7 @@ FROM debian:sid
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
 
 RUN apt-get update \
- && apt-get install -y --force-yes \
+ && apt-get install -y --force-yes --no-install-recommends\
       apt-transport-https \
       build-essential \
       curl \
