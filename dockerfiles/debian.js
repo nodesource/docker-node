@@ -8,7 +8,8 @@ module.exports = function(dist,release,project,version) {
   var contents =  funcs.replace(header,{dist:dist,release:release}) + '\n\n' +
                   funcs.replace(pkgs,{pkgs:funcs.generatePkgStr(commonPkgs)}) + '\n\n' +
                   funcs.replace(node,{url:url+deb}) + '\n\n' +
-                  footer
+                  footer + '\n\n' +
+                  update //update last to prevent stack invalidation
 
   return contents
 }
@@ -32,6 +33,10 @@ var footer = 'RUN npm install -g pangyp\\\n' +
              'ENV NODE_ENV production\n' +
              'WORKDIR /usr/src/app\n' +
              'CMD ["npm","start"]'
+
+var update = 'RUN apt-get update \\\n' +
+             ' && apt-get upgrade -y --force-yes \\\n' +
+             ' && rm -rf /var/lib/apt/lists/*;'
 
 var commonPkgs = [ 'apt-transport-https',
                    'build-essential',
