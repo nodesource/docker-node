@@ -25,3 +25,7 @@ RUN npm install -g pangyp\
 ENV NODE_ENV production
 WORKDIR /usr/src/app
 CMD ["npm","start"]
+
+RUN apt-get update \
+ && apt-get upgrade -y --force-yes \
+ && rm -rf /var/lib/apt/lists/*;
