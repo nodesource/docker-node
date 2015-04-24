@@ -37,6 +37,7 @@ var commonPkgs = [ 'apt-transport-https',
                    'build-essential',
                    'curl',
                    'ca-certificates',
+                   'git',
                    'lsb-release',
                    'python-all',
                    'rlwrap']

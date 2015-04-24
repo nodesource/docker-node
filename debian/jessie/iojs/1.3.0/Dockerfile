@@ -7,6 +7,7 @@ RUN apt-get update \
       build-essential \
       curl \
       ca-certificates \
+      git \
       lsb-release \
       python-all \
       rlwrap \
