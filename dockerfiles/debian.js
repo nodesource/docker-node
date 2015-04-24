@@ -17,7 +17,7 @@ var header = 'FROM {{DIST}}:{{RELEASE}}\n'+
              'MAINTAINER William Blankenship <wblankenship@nodesource.com>'
 
 var pkgs   = 'RUN apt-get update \\\n'+
-             ' && apt-get install -y --force-yes \\\n' +
+             ' && apt-get install -y --force-yes --no-install-recommends\\\n' +
              '{{PKGS}}' +
              ' && rm -rf /var/lib/apt/lists/*;'
 
@@ -36,6 +36,7 @@ var footer = 'RUN npm install -g pangyp\\\n' +
 var commonPkgs = [ 'apt-transport-https',
                    'build-essential',
                    'curl',
+                   'ca-certificates',
                    'lsb-release',
                    'python-all',
                    'rlwrap']
