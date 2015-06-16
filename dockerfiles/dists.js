@@ -162,7 +162,7 @@ dists['ubuntu']['vivid']['node']['0.10.38']  = {deb: 'nodejs_0.10.38-1chl1~vivid
 dists['ubuntu']['vivid']['node']['0.12.2']   = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/'}
 dists['ubuntu']['vivid']['node']['0.12.3']   = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/'}
 dists['ubuntu']['vivid']['node']['0.12.4']   = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/'}
-dists['ubuntu']['vivid']['iojs']['1.8.1']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.8.1-1nodesource1~vivid1.deb'}
+dists['ubuntu']['vivid']['iojs']['1.8.1']    = {url:'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/',deb:'iojs_1.8.1-1nodesource1~vivid1_amd64.deb'}
 
 // Centos
 dists['centos']['5'] = []
