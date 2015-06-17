@@ -14,6 +14,7 @@ var path  = require('path')
 var dists = require('./dockerfiles').dists
 var fs    = require('fs')
 var argv  = require('minimist')(process.argv.slice(2))
+var color = require('colors')
 
 
 // arg parsing
@@ -49,16 +50,27 @@ for(dist in dists) {
       for(version in dists[dist][release][project]) {
         (function scope(dist,release,project,version) {
           var dir = path.join(__dirname,dist,release,project,version)
-          var file = path.join(dir,'output')
+          var filename = path.join(dir,'output')
           var command = "docker"
           var args = ["build","--no-cache","."]
-          var file = fs.createWriteStream(file)
+          var file = fs.createWriteStream(filename)
           var child = spawn(command,args,{cwd:dir})
           child.on('error',function(e) {
             console.log(e)
           })
-          child.stdout.pipe(file)
-          child.stderr.pipe(file)
+          child.on('exit',function(e) {
+            fs.readFile(filename,function(e,data) {
+              data = data+''
+              if(e) return console.log(filename.red+': '+e)
+              var lines = data.split('\n')
+              lines.pop()
+              if(lines.pop().toLowerCase().indexOf('successfully built') < 0)
+                return console.log(filename.red+': did not successfully build')
+              return console.log(filename.green)
+            })
+          })
+          child.stdout.pipe(file).on('error',function(e){console.log(e)})
+          child.stderr.pipe(file).on('error',function(e){console.log(e)})
           console.log("Spawned: "+dir)
         })(dist,release,project,version)
       }

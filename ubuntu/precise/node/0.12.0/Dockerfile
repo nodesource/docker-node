@@ -13,7 +13,7 @@ RUN apt-get update \
       rlwrap \
  && rm -rf /var/lib/apt/lists/*;
 
-RUN curl https://deb.nodesource.com/node012/pool/main/n/nodejs/nodejs_0.12.0-1nodesource1~precise1_amd64.deb > node.deb \
+RUN curl https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.0-1nodesource1~precise1_amd64.deb > node.deb \
  && dpkg -i node.deb \
  && rm node.deb
 
