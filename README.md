@@ -166,6 +166,7 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
   * Node 0.10.34 - `docker pull nodesource/centos5:0.10.34`
   * Node 0.10.35 - `docker pull nodesource/centos5:0.10.35`
   * Node 0.10.36 - `docker pull nodesource/centos5:0.10.36`
+  * Node 0.10.38 - `docker pull nodesource/centos5:0.10.38`
 * [**Centos 6**](https://registry.hub.docker.com/u/nodesource/centos6/) - `docker pull nodesource/centos6`
   * Node 0.10.31 - `docker pull nodesource/centos6:0.10.31`
   * Node 0.10.32 - `docker pull nodesource/centos6:0.10.32`
@@ -173,6 +174,7 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
   * Node 0.10.34 - `docker pull nodesource/centos6:0.10.34`
   * Node 0.10.35 - `docker pull nodesource/centos6:0.10.35`
   * Node 0.10.36 - `docker pull nodesource/centos6:0.10.36`
+  * Node 0.10.38 - `docker pull nodesource/centos6:0.10.38`
 * [**Centos 7**](https://registry.hub.docker.com/u/nodesource/centos7/) - `docker pull nodesource/centos7`
   * Node 0.10.31 - `docker pull nodesource/centos7:0.10.31`
   * Node 0.10.32 - `docker pull nodesource/centos7:0.10.32`
@@ -180,6 +182,7 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
   * Node 0.10.34 - `docker pull nodesource/centos7:0.10.34`
   * Node 0.10.35 - `docker pull nodesource/centos7:0.10.35`
   * Node 0.10.36 - `docker pull nodesource/centos7:0.10.36`
+  * Node 0.10.38 - `docker pull nodesource/centos7:0.10.38`
 
 ## Fedora-based images
 
@@ -190,7 +193,9 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
   * Node 0.10.34 - `docker pull nodesource/fedora20:0.10.34`
   * Node 0.10.35 - `docker pull nodesource/fedora20:0.10.35`
   * Node 0.10.36 - `docker pull nodesource/fedora20:0.10.36`
+  * Node 0.10.38 - `docker pull nodesource/fedora20:0.10.38`
 * [**Fedora 21**](https://registry.hub.docker.com/u/nodesource/fedora21/) - `docker pull nodesource/fedora21`
   * Node 0.10.35 - `docker pull nodesource/fedora21:0.10.35`
   * Node 0.10.36 - `docker pull nodesource/fedora21:0.10.36`
+  * Node 0.10.38 - `docker pull nodesource/fedora21:0.10.38`
 
