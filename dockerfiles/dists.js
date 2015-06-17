@@ -173,6 +173,7 @@ dists['centos']['5']['node']['0.10.33'] = {epel:true}
 dists['centos']['5']['node']['0.10.34'] = {epel:true}
 dists['centos']['5']['node']['0.10.35'] = {epel:true}
 dists['centos']['5']['node']['0.10.36'] = {epel:true}
+dists['centos']['5']['node']['0.10.38'] = {epel:true}
 
 dists['centos']['6'] = []
 dists['centos']['6']['node'] = []
@@ -182,6 +183,7 @@ dists['centos']['6']['node']['0.10.33'] = {}
 dists['centos']['6']['node']['0.10.34'] = {}
 dists['centos']['6']['node']['0.10.35'] = {}
 dists['centos']['6']['node']['0.10.36'] = {}
+dists['centos']['6']['node']['0.10.38'] = {}
 
 dists['centos']['7'] = []
 dists['centos']['7']['node'] = []
@@ -191,6 +193,7 @@ dists['centos']['7']['node']['0.10.33'] = {}
 dists['centos']['7']['node']['0.10.34'] = {}
 dists['centos']['7']['node']['0.10.35'] = {}
 dists['centos']['7']['node']['0.10.36'] = {}
+dists['centos']['7']['node']['0.10.38'] = {}
 
 // Fedora
 dists['fedora']['20'] = []
@@ -201,9 +204,11 @@ dists['fedora']['20']['node']['0.10.33'] = {}
 dists['fedora']['20']['node']['0.10.34'] = {}
 dists['fedora']['20']['node']['0.10.35'] = {}
 dists['fedora']['20']['node']['0.10.36'] = {}
+dists['fedora']['20']['node']['0.10.38'] = {}
 
 
 dists['fedora']['21'] = []
 dists['fedora']['21']['node'] = []
 dists['fedora']['21']['node']['0.10.35'] = {}
 dists['fedora']['21']['node']['0.10.36'] = {}
+dists['fedora']['21']['node']['0.10.38'] = {}
