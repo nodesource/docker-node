@@ -5,12 +5,12 @@ module.exports = function(dist,release,project,version) {
   var self = dists[dist][release][project][version]
   var url = self.url || 'https://rpm.nodesource.com/pub/el/'+release+'/x86_64/'
   var rpm = self.rpm ||
-            (release === '6') ?
+            ((release === '6') ?
             'nodejs-'+version+'-1nodesource.el'+release+'.x86_64.rpm' :
-            'nodejs-'+version+'-1nodesource.el'+release+'.'+dist+'.x86_64.rpm'
+            'nodejs-'+version+'-1nodesource.el'+release+'.'+dist+'.x86_64.rpm')
   var contents = funcs.replace(header,{dist:dist,release:release}) + '\n\n'
   contents+= funcs.replace(pkgs,{pkgs:funcs.generatePkgStr(commonPkgs)}) + '\n\n'
-  if(self.epel) {
+  if(release==="5") {
     contents+= epel + '\n\n'
     contents+= python + '\n\n'
   }
