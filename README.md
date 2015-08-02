@@ -4,7 +4,7 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
 
 # Structure
 
-* `latest` on all images currently points to the latest 0.10 release of node
+* `latest` on all images currently points to the latest 0.12 release of node
 * `0.10` on all images currently points to the latest 0.10 release of node
 * `0.12` on all images currently points to the latest 0.12 release of node
 * `iojs` on all images currently points to the latest 2.X.Y release of iojs

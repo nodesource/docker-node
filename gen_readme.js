@@ -27,7 +27,7 @@ var str = '# docker-node\n\n'+
 
 '# Structure\n\n'+
 
-'* `latest` on all images currently points to the latest 0.10 release of node\n'+
+'* `latest` on all images currently points to the latest 0.12 release of node\n'+
 '* `0.10` on all images currently points to the latest 0.10 release of node\n'+
 '* `0.12` on all images currently points to the latest 0.12 release of node\n'+
 '* `iojs` on all images currently points to the latest 2.X.Y release of iojs\n'+
