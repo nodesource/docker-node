@@ -7,13 +7,21 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
 * `latest` on all images currently points to the latest 0.10 release of node
 * `0.10` on all images currently points to the latest 0.10 release of node
 * `0.12` on all images currently points to the latest 0.12 release of node
-* `iojs` on all images currently points to the latest 1.X.Y release of iojs
+* `iojs` on all images currently points to the latest 2.X.Y release of iojs
+* `iojs-1` on all images currently points to the latest 1.X.Y release of iojs
 * `iojs-1.3` on all images currently points to the latest 1.3.Y release of iojs
 * `iojs-1.4` on all images currently points to the latest 1.4.Y release of iojs
 * `iojs-1.5` on all images currently points to the latest 1.5.Y release of iojs
 * `iojs-1.6` on all images currently points to the latest 1.6.Y release of iojs
 * `iojs-1.7` on all images currently points to the latest 1.7.Y release of iojs
 * `iojs-1.8` on all images currently points to the latest 1.8.Y release of iojs
+* `iojs-2.` on all images currently points to the latest 2.X.Y release of iojs
+* `iojs-2.0` on all images currently points to the latest 2.0.Y release of iojs
+* `iojs-2.1` on all images currently points to the latest 2.1.Y release of iojs
+* `iojs-2.2` on all images currently points to the latest 2.2.Y release of iojs
+* `iojs-2.3` on all images currently points to the latest 2.3.Y release of iojs
+* `iojs-2.4` on all images currently points to the latest 2.4.Y release of iojs
+* `iojs-2.5` on all images currently points to the latest 2.5.Y release of iojs
 
 ## Debian-based images
 
