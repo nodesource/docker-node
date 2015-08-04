@@ -36,6 +36,8 @@ function generatePkgStr(pkgs) {
   return pkgs.reduce(function(str,v){return str+='      '+v+' \\\n'},'')
 }
 
+var inventory = "images:"
+
 /**
  * Main logic:
  *  + Create directory `dist/release/version`
@@ -67,8 +69,18 @@ for(dist in dists) {
             fs.symlink('../../../../README.md',path.join(dir,'README.md'),function(e) {
             })
           })
+          var name = "nodesource/"+release+":"+version
+          if(project==="iojs")
+            name = "nodesource/"+release+":iojs-"+version
+          inventory += "\n  - name: \""+name+"\"" +
+                       "\n    path: \"./"+dir+"\"" +
+                       "\n    test: [\"./tests/node\"]"
         })(dist,release,project,version)
       }
     }
   }
 }
+fs.writeFile("./inventory.yml",inventory,function(e) {
+  if(e) return console.error("FAILED TO CREATE INVENOTRY FILE: ",e)
+  else console.log("Wrote inventory.yml")
+})

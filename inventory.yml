@@ -1,0 +1,940 @@
+images:
+  - name: "nodesource/wheezy:0.10.30"
+    path: "./debian/wheezy/node/0.10.30"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.10.31"
+    path: "./debian/wheezy/node/0.10.31"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.10.32"
+    path: "./debian/wheezy/node/0.10.32"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.10.33"
+    path: "./debian/wheezy/node/0.10.33"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.10.34"
+    path: "./debian/wheezy/node/0.10.34"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.10.35"
+    path: "./debian/wheezy/node/0.10.35"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.10.36"
+    path: "./debian/wheezy/node/0.10.36"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.10.37"
+    path: "./debian/wheezy/node/0.10.37"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.10.38"
+    path: "./debian/wheezy/node/0.10.38"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.10.39"
+    path: "./debian/wheezy/node/0.10.39"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.10.40"
+    path: "./debian/wheezy/node/0.10.40"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.12.0"
+    path: "./debian/wheezy/node/0.12.0"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.12.2"
+    path: "./debian/wheezy/node/0.12.2"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.12.3"
+    path: "./debian/wheezy/node/0.12.3"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.12.4"
+    path: "./debian/wheezy/node/0.12.4"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.12.5"
+    path: "./debian/wheezy/node/0.12.5"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.12.6"
+    path: "./debian/wheezy/node/0.12.6"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.12.7"
+    path: "./debian/wheezy/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.10.30"
+    path: "./debian/jessie/node/0.10.30"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.10.31"
+    path: "./debian/jessie/node/0.10.31"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.10.32"
+    path: "./debian/jessie/node/0.10.32"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.10.33"
+    path: "./debian/jessie/node/0.10.33"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.10.34"
+    path: "./debian/jessie/node/0.10.34"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.10.35"
+    path: "./debian/jessie/node/0.10.35"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.10.36"
+    path: "./debian/jessie/node/0.10.36"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.10.37"
+    path: "./debian/jessie/node/0.10.37"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.10.38"
+    path: "./debian/jessie/node/0.10.38"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.10.39"
+    path: "./debian/jessie/node/0.10.39"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.10.40"
+    path: "./debian/jessie/node/0.10.40"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.12.0"
+    path: "./debian/jessie/node/0.12.0"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.12.2"
+    path: "./debian/jessie/node/0.12.2"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.12.3"
+    path: "./debian/jessie/node/0.12.3"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.12.4"
+    path: "./debian/jessie/node/0.12.4"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.12.5"
+    path: "./debian/jessie/node/0.12.5"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.12.6"
+    path: "./debian/jessie/node/0.12.6"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.12.7"
+    path: "./debian/jessie/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.3.0"
+    path: "./debian/jessie/iojs/1.3.0"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.4.1"
+    path: "./debian/jessie/iojs/1.4.1"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.4.2"
+    path: "./debian/jessie/iojs/1.4.2"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.4.3"
+    path: "./debian/jessie/iojs/1.4.3"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.5.0"
+    path: "./debian/jessie/iojs/1.5.0"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.5.1"
+    path: "./debian/jessie/iojs/1.5.1"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.6.1"
+    path: "./debian/jessie/iojs/1.6.1"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.6.2"
+    path: "./debian/jessie/iojs/1.6.2"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.6.3"
+    path: "./debian/jessie/iojs/1.6.3"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.6.4"
+    path: "./debian/jessie/iojs/1.6.4"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.7.1"
+    path: "./debian/jessie/iojs/1.7.1"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.8.1"
+    path: "./debian/jessie/iojs/1.8.1"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.8.3"
+    path: "./debian/jessie/iojs/1.8.3"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-1.8.4"
+    path: "./debian/jessie/iojs/1.8.4"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-2.0.0"
+    path: "./debian/jessie/iojs/2.0.0"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-2.0.1"
+    path: "./debian/jessie/iojs/2.0.1"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-2.0.2"
+    path: "./debian/jessie/iojs/2.0.2"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-2.1.0"
+    path: "./debian/jessie/iojs/2.1.0"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-2.2.1"
+    path: "./debian/jessie/iojs/2.2.1"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-2.3.0"
+    path: "./debian/jessie/iojs/2.3.0"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-2.3.1"
+    path: "./debian/jessie/iojs/2.3.1"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-2.3.2"
+    path: "./debian/jessie/iojs/2.3.2"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-2.3.3"
+    path: "./debian/jessie/iojs/2.3.3"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-2.3.4"
+    path: "./debian/jessie/iojs/2.3.4"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-2.4.0"
+    path: "./debian/jessie/iojs/2.4.0"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-2.5.0"
+    path: "./debian/jessie/iojs/2.5.0"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.10.30"
+    path: "./debian/sid/node/0.10.30"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.10.31"
+    path: "./debian/sid/node/0.10.31"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.10.32"
+    path: "./debian/sid/node/0.10.32"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.10.33"
+    path: "./debian/sid/node/0.10.33"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.10.34"
+    path: "./debian/sid/node/0.10.34"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.10.35"
+    path: "./debian/sid/node/0.10.35"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.10.36"
+    path: "./debian/sid/node/0.10.36"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.10.37"
+    path: "./debian/sid/node/0.10.37"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.10.38"
+    path: "./debian/sid/node/0.10.38"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.10.39"
+    path: "./debian/sid/node/0.10.39"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.10.40"
+    path: "./debian/sid/node/0.10.40"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.12.0"
+    path: "./debian/sid/node/0.12.0"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.12.2"
+    path: "./debian/sid/node/0.12.2"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.12.3"
+    path: "./debian/sid/node/0.12.3"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.12.4"
+    path: "./debian/sid/node/0.12.4"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.12.5"
+    path: "./debian/sid/node/0.12.5"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.12.6"
+    path: "./debian/sid/node/0.12.6"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.12.7"
+    path: "./debian/sid/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.3.0"
+    path: "./debian/sid/iojs/1.3.0"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.4.1"
+    path: "./debian/sid/iojs/1.4.1"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.4.2"
+    path: "./debian/sid/iojs/1.4.2"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.4.3"
+    path: "./debian/sid/iojs/1.4.3"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.5.0"
+    path: "./debian/sid/iojs/1.5.0"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.5.1"
+    path: "./debian/sid/iojs/1.5.1"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.6.1"
+    path: "./debian/sid/iojs/1.6.1"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.6.2"
+    path: "./debian/sid/iojs/1.6.2"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.6.3"
+    path: "./debian/sid/iojs/1.6.3"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.6.4"
+    path: "./debian/sid/iojs/1.6.4"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.7.1"
+    path: "./debian/sid/iojs/1.7.1"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.8.1"
+    path: "./debian/sid/iojs/1.8.1"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.8.3"
+    path: "./debian/sid/iojs/1.8.3"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-1.8.4"
+    path: "./debian/sid/iojs/1.8.4"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-2.0.0"
+    path: "./debian/sid/iojs/2.0.0"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-2.0.1"
+    path: "./debian/sid/iojs/2.0.1"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-2.0.2"
+    path: "./debian/sid/iojs/2.0.2"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-2.1.0"
+    path: "./debian/sid/iojs/2.1.0"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-2.2.1"
+    path: "./debian/sid/iojs/2.2.1"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-2.3.0"
+    path: "./debian/sid/iojs/2.3.0"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-2.3.1"
+    path: "./debian/sid/iojs/2.3.1"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-2.3.2"
+    path: "./debian/sid/iojs/2.3.2"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-2.3.3"
+    path: "./debian/sid/iojs/2.3.3"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-2.3.4"
+    path: "./debian/sid/iojs/2.3.4"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-2.4.0"
+    path: "./debian/sid/iojs/2.4.0"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-2.5.0"
+    path: "./debian/sid/iojs/2.5.0"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.10.30"
+    path: "./ubuntu/precise/node/0.10.30"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.10.31"
+    path: "./ubuntu/precise/node/0.10.31"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.10.32"
+    path: "./ubuntu/precise/node/0.10.32"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.10.33"
+    path: "./ubuntu/precise/node/0.10.33"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.10.34"
+    path: "./ubuntu/precise/node/0.10.34"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.10.35"
+    path: "./ubuntu/precise/node/0.10.35"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.10.36"
+    path: "./ubuntu/precise/node/0.10.36"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.10.37"
+    path: "./ubuntu/precise/node/0.10.37"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.10.38"
+    path: "./ubuntu/precise/node/0.10.38"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.10.39"
+    path: "./ubuntu/precise/node/0.10.39"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.10.40"
+    path: "./ubuntu/precise/node/0.10.40"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.12.0"
+    path: "./ubuntu/precise/node/0.12.0"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.12.2"
+    path: "./ubuntu/precise/node/0.12.2"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.12.3"
+    path: "./ubuntu/precise/node/0.12.3"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.12.4"
+    path: "./ubuntu/precise/node/0.12.4"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.12.5"
+    path: "./ubuntu/precise/node/0.12.5"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.12.6"
+    path: "./ubuntu/precise/node/0.12.6"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.12.7"
+    path: "./ubuntu/precise/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.10.30"
+    path: "./ubuntu/trusty/node/0.10.30"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.10.31"
+    path: "./ubuntu/trusty/node/0.10.31"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.10.32"
+    path: "./ubuntu/trusty/node/0.10.32"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.10.33"
+    path: "./ubuntu/trusty/node/0.10.33"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.10.34"
+    path: "./ubuntu/trusty/node/0.10.34"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.10.35"
+    path: "./ubuntu/trusty/node/0.10.35"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.10.36"
+    path: "./ubuntu/trusty/node/0.10.36"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.10.37"
+    path: "./ubuntu/trusty/node/0.10.37"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.10.38"
+    path: "./ubuntu/trusty/node/0.10.38"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.10.39"
+    path: "./ubuntu/trusty/node/0.10.39"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.10.40"
+    path: "./ubuntu/trusty/node/0.10.40"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.12.0"
+    path: "./ubuntu/trusty/node/0.12.0"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.12.2"
+    path: "./ubuntu/trusty/node/0.12.2"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.12.3"
+    path: "./ubuntu/trusty/node/0.12.3"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.12.4"
+    path: "./ubuntu/trusty/node/0.12.4"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.12.5"
+    path: "./ubuntu/trusty/node/0.12.5"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.12.6"
+    path: "./ubuntu/trusty/node/0.12.6"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.12.7"
+    path: "./ubuntu/trusty/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.3.0"
+    path: "./ubuntu/trusty/iojs/1.3.0"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.4.1"
+    path: "./ubuntu/trusty/iojs/1.4.1"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.4.2"
+    path: "./ubuntu/trusty/iojs/1.4.2"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.4.3"
+    path: "./ubuntu/trusty/iojs/1.4.3"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.5.0"
+    path: "./ubuntu/trusty/iojs/1.5.0"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.5.1"
+    path: "./ubuntu/trusty/iojs/1.5.1"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.6.1"
+    path: "./ubuntu/trusty/iojs/1.6.1"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.6.2"
+    path: "./ubuntu/trusty/iojs/1.6.2"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.6.3"
+    path: "./ubuntu/trusty/iojs/1.6.3"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.6.4"
+    path: "./ubuntu/trusty/iojs/1.6.4"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.7.1"
+    path: "./ubuntu/trusty/iojs/1.7.1"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.8.1"
+    path: "./ubuntu/trusty/iojs/1.8.1"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.8.3"
+    path: "./ubuntu/trusty/iojs/1.8.3"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-1.8.4"
+    path: "./ubuntu/trusty/iojs/1.8.4"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-2.0.0"
+    path: "./ubuntu/trusty/iojs/2.0.0"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-2.0.1"
+    path: "./ubuntu/trusty/iojs/2.0.1"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-2.0.2"
+    path: "./ubuntu/trusty/iojs/2.0.2"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-2.1.0"
+    path: "./ubuntu/trusty/iojs/2.1.0"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-2.2.1"
+    path: "./ubuntu/trusty/iojs/2.2.1"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-2.3.0"
+    path: "./ubuntu/trusty/iojs/2.3.0"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-2.3.1"
+    path: "./ubuntu/trusty/iojs/2.3.1"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-2.3.2"
+    path: "./ubuntu/trusty/iojs/2.3.2"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-2.3.3"
+    path: "./ubuntu/trusty/iojs/2.3.3"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-2.3.4"
+    path: "./ubuntu/trusty/iojs/2.3.4"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-2.4.0"
+    path: "./ubuntu/trusty/iojs/2.4.0"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-2.5.0"
+    path: "./ubuntu/trusty/iojs/2.5.0"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:0.10.38"
+    path: "./ubuntu/vivid/node/0.10.38"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:0.10.39"
+    path: "./ubuntu/vivid/node/0.10.39"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:0.10.40"
+    path: "./ubuntu/vivid/node/0.10.40"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:0.12.2"
+    path: "./ubuntu/vivid/node/0.12.2"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:0.12.3"
+    path: "./ubuntu/vivid/node/0.12.3"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:0.12.4"
+    path: "./ubuntu/vivid/node/0.12.4"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:0.12.5"
+    path: "./ubuntu/vivid/node/0.12.5"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:0.12.6"
+    path: "./ubuntu/vivid/node/0.12.6"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:0.12.7"
+    path: "./ubuntu/vivid/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-1.8.1"
+    path: "./ubuntu/vivid/iojs/1.8.1"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-1.8.3"
+    path: "./ubuntu/vivid/iojs/1.8.3"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-1.8.4"
+    path: "./ubuntu/vivid/iojs/1.8.4"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-2.0.0"
+    path: "./ubuntu/vivid/iojs/2.0.0"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-2.0.1"
+    path: "./ubuntu/vivid/iojs/2.0.1"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-2.0.2"
+    path: "./ubuntu/vivid/iojs/2.0.2"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-2.1.0"
+    path: "./ubuntu/vivid/iojs/2.1.0"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-2.2.1"
+    path: "./ubuntu/vivid/iojs/2.2.1"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-2.3.0"
+    path: "./ubuntu/vivid/iojs/2.3.0"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-2.3.1"
+    path: "./ubuntu/vivid/iojs/2.3.1"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-2.3.2"
+    path: "./ubuntu/vivid/iojs/2.3.2"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-2.3.3"
+    path: "./ubuntu/vivid/iojs/2.3.3"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-2.3.4"
+    path: "./ubuntu/vivid/iojs/2.3.4"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-2.4.0"
+    path: "./ubuntu/vivid/iojs/2.4.0"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-2.5.0"
+    path: "./ubuntu/vivid/iojs/2.5.0"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.10.32"
+    path: "./ubuntu/utopic/node/0.10.32"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.10.33"
+    path: "./ubuntu/utopic/node/0.10.33"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.10.34"
+    path: "./ubuntu/utopic/node/0.10.34"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.10.35"
+    path: "./ubuntu/utopic/node/0.10.35"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.10.36"
+    path: "./ubuntu/utopic/node/0.10.36"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.10.37"
+    path: "./ubuntu/utopic/node/0.10.37"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.10.38"
+    path: "./ubuntu/utopic/node/0.10.38"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.10.39"
+    path: "./ubuntu/utopic/node/0.10.39"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.10.40"
+    path: "./ubuntu/utopic/node/0.10.40"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.12.0"
+    path: "./ubuntu/utopic/node/0.12.0"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.12.2"
+    path: "./ubuntu/utopic/node/0.12.2"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.12.3"
+    path: "./ubuntu/utopic/node/0.12.3"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.12.4"
+    path: "./ubuntu/utopic/node/0.12.4"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.12.5"
+    path: "./ubuntu/utopic/node/0.12.5"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.12.6"
+    path: "./ubuntu/utopic/node/0.12.6"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:0.12.7"
+    path: "./ubuntu/utopic/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.3.0"
+    path: "./ubuntu/utopic/iojs/1.3.0"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.4.1"
+    path: "./ubuntu/utopic/iojs/1.4.1"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.4.2"
+    path: "./ubuntu/utopic/iojs/1.4.2"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.4.3"
+    path: "./ubuntu/utopic/iojs/1.4.3"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.5.0"
+    path: "./ubuntu/utopic/iojs/1.5.0"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.5.1"
+    path: "./ubuntu/utopic/iojs/1.5.1"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.6.1"
+    path: "./ubuntu/utopic/iojs/1.6.1"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.6.2"
+    path: "./ubuntu/utopic/iojs/1.6.2"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.6.3"
+    path: "./ubuntu/utopic/iojs/1.6.3"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.6.4"
+    path: "./ubuntu/utopic/iojs/1.6.4"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.7.1"
+    path: "./ubuntu/utopic/iojs/1.7.1"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.8.1"
+    path: "./ubuntu/utopic/iojs/1.8.1"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.8.3"
+    path: "./ubuntu/utopic/iojs/1.8.3"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-1.8.4"
+    path: "./ubuntu/utopic/iojs/1.8.4"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-2.0.0"
+    path: "./ubuntu/utopic/iojs/2.0.0"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-2.0.1"
+    path: "./ubuntu/utopic/iojs/2.0.1"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-2.0.2"
+    path: "./ubuntu/utopic/iojs/2.0.2"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-2.1.0"
+    path: "./ubuntu/utopic/iojs/2.1.0"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-2.2.1"
+    path: "./ubuntu/utopic/iojs/2.2.1"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-2.3.0"
+    path: "./ubuntu/utopic/iojs/2.3.0"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-2.3.1"
+    path: "./ubuntu/utopic/iojs/2.3.1"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-2.3.2"
+    path: "./ubuntu/utopic/iojs/2.3.2"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-2.3.3"
+    path: "./ubuntu/utopic/iojs/2.3.3"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-2.3.4"
+    path: "./ubuntu/utopic/iojs/2.3.4"
+    test: ["./tests/node"]
+  - name: "nodesource/utopic:iojs-2.4.0"
+    path: "./ubuntu/utopic/iojs/2.4.0"
+    test: ["./tests/node"]
+  - name: "nodesource/5:0.10.31"
+    path: "./centos/5/node/0.10.31"
+    test: ["./tests/node"]
+  - name: "nodesource/5:0.10.32"
+    path: "./centos/5/node/0.10.32"
+    test: ["./tests/node"]
+  - name: "nodesource/5:0.10.33"
+    path: "./centos/5/node/0.10.33"
+    test: ["./tests/node"]
+  - name: "nodesource/5:0.10.34"
+    path: "./centos/5/node/0.10.34"
+    test: ["./tests/node"]
+  - name: "nodesource/5:0.10.35"
+    path: "./centos/5/node/0.10.35"
+    test: ["./tests/node"]
+  - name: "nodesource/5:0.10.36"
+    path: "./centos/5/node/0.10.36"
+    test: ["./tests/node"]
+  - name: "nodesource/5:0.10.38"
+    path: "./centos/5/node/0.10.38"
+    test: ["./tests/node"]
+  - name: "nodesource/5:0.10.39"
+    path: "./centos/5/node/0.10.39"
+    test: ["./tests/node"]
+  - name: "nodesource/5:0.10.40"
+    path: "./centos/5/node/0.10.40"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.10.31"
+    path: "./centos/6/node/0.10.31"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.10.32"
+    path: "./centos/6/node/0.10.32"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.10.33"
+    path: "./centos/6/node/0.10.33"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.10.34"
+    path: "./centos/6/node/0.10.34"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.10.35"
+    path: "./centos/6/node/0.10.35"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.10.36"
+    path: "./centos/6/node/0.10.36"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.10.38"
+    path: "./centos/6/node/0.10.38"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.10.39"
+    path: "./centos/6/node/0.10.39"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.10.40"
+    path: "./centos/6/node/0.10.40"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.12.1"
+    path: "./centos/6/node/0.12.1"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.12.2"
+    path: "./centos/6/node/0.12.2"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.12.3"
+    path: "./centos/6/node/0.12.3"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.12.5"
+    path: "./centos/6/node/0.12.5"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.12.6"
+    path: "./centos/6/node/0.12.6"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.12.7"
+    path: "./centos/6/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.10.31"
+    path: "./centos/7/node/0.10.31"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.10.32"
+    path: "./centos/7/node/0.10.32"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.10.33"
+    path: "./centos/7/node/0.10.33"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.10.34"
+    path: "./centos/7/node/0.10.34"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.10.35"
+    path: "./centos/7/node/0.10.35"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.10.36"
+    path: "./centos/7/node/0.10.36"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.10.38"
+    path: "./centos/7/node/0.10.38"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.10.39"
+    path: "./centos/7/node/0.10.39"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.10.40"
+    path: "./centos/7/node/0.10.40"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.12.1"
+    path: "./centos/7/node/0.12.1"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.12.2"
+    path: "./centos/7/node/0.12.2"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.12.3"
+    path: "./centos/7/node/0.12.3"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.12.5"
+    path: "./centos/7/node/0.12.5"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.12.6"
+    path: "./centos/7/node/0.12.6"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.12.7"
+    path: "./centos/7/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/7:iojs-2.3.2"
+    path: "./centos/7/iojs/2.3.2"
+    test: ["./tests/node"]
+  - name: "nodesource/7:iojs-2.3.3"
+    path: "./centos/7/iojs/2.3.3"
+    test: ["./tests/node"]
+  - name: "nodesource/7:iojs-2.3.4"
+    path: "./centos/7/iojs/2.3.4"
+    test: ["./tests/node"]
+  - name: "nodesource/7:iojs-2.4.0"
+    path: "./centos/7/iojs/2.4.0"
+    test: ["./tests/node"]
+  - name: "nodesource/7:iojs-2.5.0"
+    path: "./centos/7/iojs/2.5.0"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.10.31"
+    path: "./fedora/20/node/0.10.31"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.10.32"
+    path: "./fedora/20/node/0.10.32"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.10.33"
+    path: "./fedora/20/node/0.10.33"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.10.34"
+    path: "./fedora/20/node/0.10.34"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.10.35"
+    path: "./fedora/20/node/0.10.35"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.10.36"
+    path: "./fedora/20/node/0.10.36"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.10.38"
+    path: "./fedora/20/node/0.10.38"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.10.39"
+    path: "./fedora/20/node/0.10.39"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.10.40"
+    path: "./fedora/20/node/0.10.40"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.12.1"
+    path: "./fedora/20/node/0.12.1"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.12.2"
+    path: "./fedora/20/node/0.12.2"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.12.3"
+    path: "./fedora/20/node/0.12.3"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.12.5"
+    path: "./fedora/20/node/0.12.5"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.12.6"
+    path: "./fedora/20/node/0.12.6"
+    test: ["./tests/node"]
+  - name: "nodesource/20:0.12.7"
+    path: "./fedora/20/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/20:iojs-2.3.2"
+    path: "./fedora/20/iojs/2.3.2"
+    test: ["./tests/node"]
+  - name: "nodesource/20:iojs-2.3.3"
+    path: "./fedora/20/iojs/2.3.3"
+    test: ["./tests/node"]
+  - name: "nodesource/20:iojs-2.3.4"
+    path: "./fedora/20/iojs/2.3.4"
+    test: ["./tests/node"]
+  - name: "nodesource/20:iojs-2.4.0"
+    path: "./fedora/20/iojs/2.4.0"
+    test: ["./tests/node"]
+  - name: "nodesource/20:iojs-2.5.0"
+    path: "./fedora/20/iojs/2.5.0"
+    test: ["./tests/node"]
+  - name: "nodesource/21:0.10.35"
+    path: "./fedora/21/node/0.10.35"
+    test: ["./tests/node"]
+  - name: "nodesource/21:0.10.36"
+    path: "./fedora/21/node/0.10.36"
+    test: ["./tests/node"]
+  - name: "nodesource/21:0.10.38"
+    path: "./fedora/21/node/0.10.38"
+    test: ["./tests/node"]
+  - name: "nodesource/21:0.10.39"
+    path: "./fedora/21/node/0.10.39"
+    test: ["./tests/node"]
+  - name: "nodesource/21:0.10.40"
+    path: "./fedora/21/node/0.10.40"
+    test: ["./tests/node"]
+  - name: "nodesource/21:0.12.1"
+    path: "./fedora/21/node/0.12.1"
+    test: ["./tests/node"]
+  - name: "nodesource/21:0.12.2"
+    path: "./fedora/21/node/0.12.2"
+    test: ["./tests/node"]
+  - name: "nodesource/21:0.12.3"
+    path: "./fedora/21/node/0.12.3"
+    test: ["./tests/node"]
+  - name: "nodesource/21:0.12.5"
+    path: "./fedora/21/node/0.12.5"
+    test: ["./tests/node"]
+  - name: "nodesource/21:0.12.6"
+    path: "./fedora/21/node/0.12.6"
+    test: ["./tests/node"]
+  - name: "nodesource/21:0.12.7"
+    path: "./fedora/21/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/21:iojs-2.3.2"
+    path: "./fedora/21/iojs/2.3.2"
+    test: ["./tests/node"]
+  - name: "nodesource/21:iojs-2.3.3"
+    path: "./fedora/21/iojs/2.3.3"
+    test: ["./tests/node"]
+  - name: "nodesource/21:iojs-2.3.4"
+    path: "./fedora/21/iojs/2.3.4"
+    test: ["./tests/node"]
+  - name: "nodesource/21:iojs-2.4.0"
+    path: "./fedora/21/iojs/2.4.0"
+    test: ["./tests/node"]
+  - name: "nodesource/21:iojs-2.5.0"
+    path: "./fedora/21/iojs/2.5.0"
+    test: ["./tests/node"]
