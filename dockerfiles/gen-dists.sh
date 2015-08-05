@@ -59,11 +59,13 @@ URLS=(
   "https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/"
   "https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/"
   "https://deb.nodesource.com/iojs_2.x/pool/main/i/iojs/"
+  "https://deb.nodesource.com/iojs_3.x/pool/main/i/iojs/"
 )
 
 PLATFORM=(
   "node"
   "node"
+  "iojs"
   "iojs"
   "iojs"
 )

@@ -185,6 +185,9 @@ images:
   - name: "nodesource/jessie:iojs-2.5.0"
     path: "./debian/jessie/iojs/2.5.0"
     test: ["./tests/node"]
+  - name: "nodesource/jessie:iojs-3.0.0"
+    path: "./debian/jessie/iojs/3.0.0"
+    test: ["./tests/node"]
   - name: "nodesource/sid:0.10.30"
     path: "./debian/sid/node/0.10.30"
     test: ["./tests/node"]
@@ -316,6 +319,9 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/sid:iojs-2.5.0"
     path: "./debian/sid/iojs/2.5.0"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:iojs-3.0.0"
+    path: "./debian/sid/iojs/3.0.0"
     test: ["./tests/node"]
   - name: "nodesource/precise:0.10.30"
     path: "./ubuntu/precise/node/0.10.30"
@@ -503,6 +509,9 @@ images:
   - name: "nodesource/trusty:iojs-2.5.0"
     path: "./ubuntu/trusty/iojs/2.5.0"
     test: ["./tests/node"]
+  - name: "nodesource/trusty:iojs-3.0.0"
+    path: "./ubuntu/trusty/iojs/3.0.0"
+    test: ["./tests/node"]
   - name: "nodesource/vivid:0.10.38"
     path: "./ubuntu/vivid/node/0.10.38"
     test: ["./tests/node"]
@@ -574,6 +583,9 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/vivid:iojs-2.5.0"
     path: "./ubuntu/vivid/iojs/2.5.0"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:iojs-3.0.0"
+    path: "./ubuntu/vivid/iojs/3.0.0"
     test: ["./tests/node"]
   - name: "nodesource/utopic:0.10.32"
     path: "./ubuntu/utopic/node/0.10.32"
