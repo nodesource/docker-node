@@ -21,11 +21,32 @@ String.prototype.cap = function() {
   return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
-var str = '# docker-node\n\n'+
+var str = '# NodeSource Docker Images\n\n'+
 
-'Dockerfiles for building docker images with the [NodeSource Node.js](https://github.com/nodesource/distributions) binaries baked in.\n\n'+
+'The NodeSource docker images deliver [NodeSource\'s deb and rpm](deb.nodesource.com) packages across all of our support platforms! We offer version pinning, allowing your project to track major, minor, or patch versions of Node or iojs.\n\n'+
 
-'# Structure\n\n'+
+'# Usage\n\n'+
+
+'Use any one of our images as a base for your image. We suggest caching your `package.json` and `npm install` in layers to reduce build time:\n\n'+
+
+'```Dockerfile\n'+
+
+'FROM nodesource/jessie:0.12.7\n\n'+
+
+'# cache package.json and node_modules to speed up builds\n'+
+'ADD package.json package.json\n'+
+'RUN npm install\n\n'+
+
+'# Add your source files\n'+
+'ADD . .\n'+
+'CMD ["npm","start"]\n'+
+'```\n\n'+
+
+'# Notes\n\n'+
+
+'* `NODE_ENV` is set to `production` on these images. If you are using these images for development work, add the line: `ENV NODE_ENV dev` to your `Dockerfile`.\n\n'+
+
+'# Images\n\n'+
 
 '* `latest` on all images currently points to the latest 0.12 release of node\n'+
 '* `0.10` on all images currently points to the latest 0.10 release of node\n'+
