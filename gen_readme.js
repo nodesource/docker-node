@@ -23,7 +23,7 @@ String.prototype.cap = function() {
 
 var str = '# NodeSource Docker Images\n\n'+
 
-'The NodeSource docker images deliver [NodeSource\'s deb and rpm](deb.nodesource.com) packages across all of our support platforms! We offer version pinning, allowing your project to track major, minor, or patch versions of Node or iojs.\n\n'+
+'The NodeSource docker images deliver [NodeSource\'s deb and rpm](deb.nodesource.com) packages across all of our supported platforms! We offer version pinning, allowing your project to track major, minor, or patch versions of Node or iojs.\n\n'+
 
 '# Usage\n\n'+
 
