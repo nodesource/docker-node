@@ -1,8 +1,28 @@
-# docker-node
+# NodeSource Docker Images
 
-Dockerfiles for building docker images with the [NodeSource Node.js](https://github.com/nodesource/distributions) binaries baked in.
+The NodeSource docker images deliver [NodeSource's deb and rpm](deb.nodesource.com) packages across all of our supported platforms! We offer version pinning, allowing your project to track major, minor, or patch versions of Node or iojs.
 
-# Structure
+# Usage
+
+Use any one of our images as a base for your image. We suggest caching your `package.json` and `npm install` in layers to reduce build time:
+
+```Dockerfile
+FROM nodesource/jessie:0.12.7
+
+# cache package.json and node_modules to speed up builds
+ADD package.json package.json
+RUN npm install
+
+# Add your source files
+ADD . .
+CMD ["npm","start"]
+```
+
+# Notes
+
+* `NODE_ENV` is set to `production` on these images. If you are using these images for development work, add the line: `ENV NODE_ENV dev` to your `Dockerfile`.
+
+# Images
 
 * `latest` on all images currently points to the latest 0.12 release of node
 * `0.10` on all images currently points to the latest 0.10 release of node
@@ -89,6 +109,7 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
   * iojs 2.3.4 - `docker pull nodesource/jessie:iojs-2.3.4`
   * iojs 2.4.0 - `docker pull nodesource/jessie:iojs-2.4.0`
   * iojs 2.5.0 - `docker pull nodesource/jessie:iojs-2.5.0`
+  * iojs 3.0.0 - `docker pull nodesource/jessie:iojs-3.0.0`
 * [**Debian sid**](https://registry.hub.docker.com/u/nodesource/sid/) - `docker pull nodesource/sid`
   * Node 0.10.30 - `docker pull nodesource/sid:0.10.30`
   * Node 0.10.31 - `docker pull nodesource/sid:0.10.31`
@@ -134,6 +155,7 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
   * iojs 2.3.4 - `docker pull nodesource/sid:iojs-2.3.4`
   * iojs 2.4.0 - `docker pull nodesource/sid:iojs-2.4.0`
   * iojs 2.5.0 - `docker pull nodesource/sid:iojs-2.5.0`
+  * iojs 3.0.0 - `docker pull nodesource/sid:iojs-3.0.0`
 
 ## Ubuntu-based images
 
@@ -201,6 +223,7 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
   * iojs 2.3.4 - `docker pull nodesource/trusty:iojs-2.3.4`
   * iojs 2.4.0 - `docker pull nodesource/trusty:iojs-2.4.0`
   * iojs 2.5.0 - `docker pull nodesource/trusty:iojs-2.5.0`
+  * iojs 3.0.0 - `docker pull nodesource/trusty:iojs-3.0.0`
 * [**Ubuntu vivid**](https://registry.hub.docker.com/u/nodesource/vivid/) - `docker pull nodesource/vivid`
   * Node 0.10.38 - `docker pull nodesource/vivid:0.10.38`
   * Node 0.10.39 - `docker pull nodesource/vivid:0.10.39`
@@ -226,6 +249,7 @@ Dockerfiles for building docker images with the [NodeSource Node.js](https://git
   * iojs 2.3.4 - `docker pull nodesource/vivid:iojs-2.3.4`
   * iojs 2.4.0 - `docker pull nodesource/vivid:iojs-2.4.0`
   * iojs 2.5.0 - `docker pull nodesource/vivid:iojs-2.5.0`
+  * iojs 3.0.0 - `docker pull nodesource/vivid:iojs-3.0.0`
 * [**Ubuntu utopic**](https://registry.hub.docker.com/u/nodesource/utopic/) - `docker pull nodesource/utopic`
   * Node 0.10.32 - `docker pull nodesource/utopic:0.10.32`
   * Node 0.10.33 - `docker pull nodesource/utopic:0.10.33`
