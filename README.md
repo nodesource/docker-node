@@ -24,24 +24,32 @@ CMD ["npm","start"]
 
 # Images
 
-* `latest` on all images currently points to the latest 0.12 release of node
-* `0.10` on all images currently points to the latest 0.10 release of node
-* `0.12` on all images currently points to the latest 0.12 release of node
-* `iojs` on all images currently points to the latest 2.X.Y release of iojs
-* `iojs-1` on all images currently points to the latest 1.X.Y release of iojs
-* `iojs-1.3` on all images currently points to the latest 1.3.Y release of iojs
-* `iojs-1.4` on all images currently points to the latest 1.4.Y release of iojs
-* `iojs-1.5` on all images currently points to the latest 1.5.Y release of iojs
-* `iojs-1.6` on all images currently points to the latest 1.6.Y release of iojs
-* `iojs-1.7` on all images currently points to the latest 1.7.Y release of iojs
-* `iojs-1.8` on all images currently points to the latest 1.8.Y release of iojs
-* `iojs-2.` on all images currently points to the latest 2.X.Y release of iojs
-* `iojs-2.0` on all images currently points to the latest 2.0.Y release of iojs
-* `iojs-2.1` on all images currently points to the latest 2.1.Y release of iojs
-* `iojs-2.2` on all images currently points to the latest 2.2.Y release of iojs
-* `iojs-2.3` on all images currently points to the latest 2.3.Y release of iojs
-* `iojs-2.4` on all images currently points to the latest 2.4.Y release of iojs
-* `iojs-2.5` on all images currently points to the latest 2.5.Y release of iojs
+We offer tags for tracking major and minor releases. These tags enable you to receive either security patches or new features, while avoiding breaking changes.
+
+Note: some images may not have all tags, if a major/minor version is not supported on a particular release, these tags will not work.
+For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does not have any tags before iojs-1.8.1.
+
+* `latest` points to the latest release of Node
+* `0.10` points to the latest 0.10 release of Node
+* `0.12` points to the latest 0.12 release of Node
+* `iojs` points to the latest 2.X.Y release of iojs
+* `iojs-1` points to the latest 1.X.Y release of iojs
+* `iojs-1.3` points to the latest 1.3.Y release of iojs
+* `iojs-1.4` points to the latest 1.4.Y release of iojs
+* `iojs-1.5` points to the latest 1.5.Y release of iojs
+* `iojs-1.6` points to the latest 1.6.Y release of iojs
+* `iojs-1.7` points to the latest 1.7.Y release of iojs
+* `iojs-1.8` points to the latest 1.8.Y release of iojs
+* `iojs-2.` points to the latest 2.X.Y release of iojs
+* `iojs-2.0` points to the latest 2.0.Y release of iojs
+* `iojs-2.1` points to the latest 2.1.Y release of iojs
+* `iojs-2.2` points to the latest 2.2.Y release of iojs
+* `iojs-2.3` points to the latest 2.3.Y release of iojs
+* `iojs-2.4` points to the latest 2.4.Y release of iojs
+* `iojs-2.5` points to the latest 2.5.Y release of iojs
+* `iojs-3.` points to the latest 3.X.Y release of iojs
+* `iojs-3.0` points to the latest 3.0.Y release of iojs
+* `iojs-3.1` points to the latest 3.1.Y release of iojs
 
 ## Debian-based images
 
