@@ -119,6 +119,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * iojs 2.5.0 - `docker pull nodesource/jessie:iojs-2.5.0`
   * iojs 3.0.0 - `docker pull nodesource/jessie:iojs-3.0.0`
   * iojs 3.1.0 - `docker pull nodesource/jessie:iojs-3.1.0`
+  * iojs 3.2.0 - `docker pull nodesource/jessie:iojs-3.2.0`
 * [**Debian sid**](https://registry.hub.docker.com/u/nodesource/sid/) - `docker pull nodesource/sid`
   * Node 0.10.30 - `docker pull nodesource/sid:0.10.30`
   * Node 0.10.31 - `docker pull nodesource/sid:0.10.31`
@@ -166,6 +167,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * iojs 2.5.0 - `docker pull nodesource/sid:iojs-2.5.0`
   * iojs 3.0.0 - `docker pull nodesource/sid:iojs-3.0.0`
   * iojs 3.1.0 - `docker pull nodesource/sid:iojs-3.1.0`
+  * iojs 3.2.0 - `docker pull nodesource/sid:iojs-3.2.0`
 
 ## Ubuntu-based images
 
@@ -235,6 +237,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * iojs 2.5.0 - `docker pull nodesource/trusty:iojs-2.5.0`
   * iojs 3.0.0 - `docker pull nodesource/trusty:iojs-3.0.0`
   * iojs 3.1.0 - `docker pull nodesource/trusty:iojs-3.1.0`
+  * iojs 3.2.0 - `docker pull nodesource/trusty:iojs-3.2.0`
 * [**Ubuntu vivid**](https://registry.hub.docker.com/u/nodesource/vivid/) - `docker pull nodesource/vivid`
   * Node 0.10.38 - `docker pull nodesource/vivid:0.10.38`
   * Node 0.10.39 - `docker pull nodesource/vivid:0.10.39`
@@ -262,6 +265,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * iojs 2.5.0 - `docker pull nodesource/vivid:iojs-2.5.0`
   * iojs 3.0.0 - `docker pull nodesource/vivid:iojs-3.0.0`
   * iojs 3.1.0 - `docker pull nodesource/vivid:iojs-3.1.0`
+  * iojs 3.2.0 - `docker pull nodesource/vivid:iojs-3.2.0`
 * [**Ubuntu utopic**](https://registry.hub.docker.com/u/nodesource/utopic/) - `docker pull nodesource/utopic`
   * Node 0.10.32 - `docker pull nodesource/utopic:0.10.32`
   * Node 0.10.33 - `docker pull nodesource/utopic:0.10.33`
