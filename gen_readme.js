@@ -54,8 +54,8 @@ var str = '# NodeSource Docker Images\n\n'+
 'For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does not have any tags before iojs-1.8.1.\n\n'+
 
 '* `latest` points to the latest release of Node\n'+
-'* `4` points to the latest release of Node 4\n'+
-'* `4.0` points to the latest release of Node 4.0\n'+
+'* `X` points to the latest release of Node X\n'+
+'* `X.Y` points to the latest release of Node X.Y\n'+
 '* `0.10` points to the latest 0.10 release of Node\n'+
 '* `0.12` points to the latest 0.12 release of Node\n'+
 '* `iojs` points to the latest 2.X.Y release of iojs\n'+
