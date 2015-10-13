@@ -30,28 +30,15 @@ Note: some images may not have all tags, if a major/minor version is not support
 For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does not have any tags before iojs-1.8.1.
 
 * `latest` points to the latest release of Node
+* `LTS` points to the latest LTS release of Node
 * `X` points to the latest release of Node X
 * `X.Y` points to the latest release of Node X.Y
 * `0.10` points to the latest 0.10 release of Node
 * `0.12` points to the latest 0.12 release of Node
-* `iojs` points to the latest 2.X.Y release of iojs
-* `iojs-1` points to the latest 1.X.Y release of iojs
-* `iojs-1.3` points to the latest 1.3.Y release of iojs
-* `iojs-1.4` points to the latest 1.4.Y release of iojs
-* `iojs-1.5` points to the latest 1.5.Y release of iojs
-* `iojs-1.6` points to the latest 1.6.Y release of iojs
-* `iojs-1.7` points to the latest 1.7.Y release of iojs
-* `iojs-1.8` points to the latest 1.8.Y release of iojs
-* `iojs-2.` points to the latest 2.X.Y release of iojs
-* `iojs-2.0` points to the latest 2.0.Y release of iojs
-* `iojs-2.1` points to the latest 2.1.Y release of iojs
-* `iojs-2.2` points to the latest 2.2.Y release of iojs
-* `iojs-2.3` points to the latest 2.3.Y release of iojs
-* `iojs-2.4` points to the latest 2.4.Y release of iojs
-* `iojs-2.5` points to the latest 2.5.Y release of iojs
-* `iojs-3.` points to the latest 3.X.Y release of iojs
-* `iojs-3.0` points to the latest 3.0.Y release of iojs
-* `iojs-3.1` points to the latest 3.1.Y release of iojs
+* `iojs` points to the latest release of iojs
+* `iojs-X` points to the latest minor release of iojs-X
+* `iojs-X.Y` points to the latest patch release of iojs-X.Y
+* `iojs-X.Y.Z` points to the specific release of iojs-X.Y.Z
 
 ## Debian-based images
 
@@ -76,6 +63,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 0.12.7 - `docker pull nodesource/wheezy:0.12.7`
   * Node 4.1.1 - `docker pull nodesource/wheezy:4.1.1`
   * Node 4.1.2 - `docker pull nodesource/wheezy:4.1.2`
+  * Node 4.2.0 - `docker pull nodesource/wheezy:4.2.0`
 * [**Debian jessie**](https://registry.hub.docker.com/u/nodesource/jessie/) - `docker pull nodesource/jessie`
   * Node 0.10.30 - `docker pull nodesource/jessie:0.10.30`
   * Node 0.10.31 - `docker pull nodesource/jessie:0.10.31`
@@ -99,6 +87,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 4.1.0 - `docker pull nodesource/jessie:4.1.0`
   * Node 4.1.1 - `docker pull nodesource/jessie:4.1.1`
   * Node 4.1.2 - `docker pull nodesource/jessie:4.1.2`
+  * Node 4.2.0 - `docker pull nodesource/jessie:4.2.0`
   * iojs 1.3.0 - `docker pull nodesource/jessie:iojs-1.3.0`
   * iojs 1.4.1 - `docker pull nodesource/jessie:iojs-1.4.1`
   * iojs 1.4.2 - `docker pull nodesource/jessie:iojs-1.4.2`
@@ -152,6 +141,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 4.1.0 - `docker pull nodesource/sid:4.1.0`
   * Node 4.1.1 - `docker pull nodesource/sid:4.1.1`
   * Node 4.1.2 - `docker pull nodesource/sid:4.1.2`
+  * Node 4.2.0 - `docker pull nodesource/sid:4.2.0`
   * iojs 1.3.0 - `docker pull nodesource/sid:iojs-1.3.0`
   * iojs 1.4.1 - `docker pull nodesource/sid:iojs-1.4.1`
   * iojs 1.4.2 - `docker pull nodesource/sid:iojs-1.4.2`
@@ -206,6 +196,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 0.12.7 - `docker pull nodesource/precise:0.12.7`
   * Node 4.1.1 - `docker pull nodesource/precise:4.1.1`
   * Node 4.1.2 - `docker pull nodesource/precise:4.1.2`
+  * Node 4.2.0 - `docker pull nodesource/precise:4.2.0`
 * [**Ubuntu trusty**](https://registry.hub.docker.com/u/nodesource/trusty/) - `docker pull nodesource/trusty`
   * Node 0.10.30 - `docker pull nodesource/trusty:0.10.30`
   * Node 0.10.31 - `docker pull nodesource/trusty:0.10.31`
@@ -229,6 +220,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 4.1.0 - `docker pull nodesource/trusty:4.1.0`
   * Node 4.1.1 - `docker pull nodesource/trusty:4.1.1`
   * Node 4.1.2 - `docker pull nodesource/trusty:4.1.2`
+  * Node 4.2.0 - `docker pull nodesource/trusty:4.2.0`
   * iojs 1.3.0 - `docker pull nodesource/trusty:iojs-1.3.0`
   * iojs 1.4.1 - `docker pull nodesource/trusty:iojs-1.4.1`
   * iojs 1.4.2 - `docker pull nodesource/trusty:iojs-1.4.2`
@@ -273,6 +265,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 4.1.0 - `docker pull nodesource/vivid:4.1.0`
   * Node 4.1.1 - `docker pull nodesource/vivid:4.1.1`
   * Node 4.1.2 - `docker pull nodesource/vivid:4.1.2`
+  * Node 4.2.0 - `docker pull nodesource/vivid:4.2.0`
   * iojs 1.8.1 - `docker pull nodesource/vivid:iojs-1.8.1`
   * iojs 1.8.3 - `docker pull nodesource/vivid:iojs-1.8.3`
   * iojs 1.8.4 - `docker pull nodesource/vivid:iojs-1.8.4`
