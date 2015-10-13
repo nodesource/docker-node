@@ -59,6 +59,9 @@ images:
   - name: "nodesource/wheezy:4.1.2"
     path: "./debian/wheezy/node/4.1.2"
     test: ["./tests/node"]
+  - name: "nodesource/wheezy:4.2.0"
+    path: "./debian/wheezy/node/4.2.0"
+    test: ["./tests/node"]
   - name: "nodesource/jessie:0.10.30"
     path: "./debian/jessie/node/0.10.30"
     test: ["./tests/node"]
@@ -124,6 +127,9 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/jessie:4.1.2"
     path: "./debian/jessie/node/4.1.2"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:4.2.0"
+    path: "./debian/jessie/node/4.2.0"
     test: ["./tests/node"]
   - name: "nodesource/jessie:iojs-1.3.0"
     path: "./debian/jessie/iojs/1.3.0"
@@ -281,6 +287,9 @@ images:
   - name: "nodesource/sid:4.1.2"
     path: "./debian/sid/node/4.1.2"
     test: ["./tests/node"]
+  - name: "nodesource/sid:4.2.0"
+    path: "./debian/sid/node/4.2.0"
+    test: ["./tests/node"]
   - name: "nodesource/sid:iojs-1.3.0"
     path: "./debian/sid/iojs/1.3.0"
     test: ["./tests/node"]
@@ -431,6 +440,9 @@ images:
   - name: "nodesource/precise:4.1.2"
     path: "./ubuntu/precise/node/4.1.2"
     test: ["./tests/node"]
+  - name: "nodesource/precise:4.2.0"
+    path: "./ubuntu/precise/node/4.2.0"
+    test: ["./tests/node"]
   - name: "nodesource/trusty:0.10.30"
     path: "./ubuntu/trusty/node/0.10.30"
     test: ["./tests/node"]
@@ -496,6 +508,9 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/trusty:4.1.2"
     path: "./ubuntu/trusty/node/4.1.2"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:4.2.0"
+    path: "./ubuntu/trusty/node/4.2.0"
     test: ["./tests/node"]
   - name: "nodesource/trusty:iojs-1.3.0"
     path: "./ubuntu/trusty/iojs/1.3.0"
@@ -625,6 +640,9 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/vivid:4.1.2"
     path: "./ubuntu/vivid/node/4.1.2"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:4.2.0"
+    path: "./ubuntu/vivid/node/4.2.0"
     test: ["./tests/node"]
   - name: "nodesource/vivid:iojs-1.8.1"
     path: "./ubuntu/vivid/iojs/1.8.1"
