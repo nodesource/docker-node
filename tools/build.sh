@@ -12,10 +12,10 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 
 echo "Generating dists file..."
-$DIR/dockerfiles/gen-dists.sh > $DIR/dockerfiles/dists.js
+$DIR/gen-dists.sh > $DIR/../dockerfiles/dists.js
 
 echo "Generating Dockerfiles..."
 $DIR/generate.js
 
 echo "Generating README.md..."
-$DIR/gen_readme.js > README.md
+$DIR/gen_readme.js > $DIR/../README.md

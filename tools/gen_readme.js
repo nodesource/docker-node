@@ -2,7 +2,7 @@
 
 var path        = require('path')
 var fs          = require('fs')
-var dockerfiles = require('./dockerfiles')
+var dockerfiles = require('../dockerfiles')
 var dists       = dockerfiles.dists
 
 /**

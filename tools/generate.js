@@ -17,8 +17,9 @@
 var mkdir       = require('mkdirp')
 var path        = require('path')
 var fs          = require('fs')
-var dockerfiles = require('./dockerfiles')
+var dockerfiles = require('../dockerfiles')
 var dists       = dockerfiles.dists
+console.log(dists)
 
 /**
  * Define useful functions
@@ -50,7 +51,8 @@ for(dist in dists) {
       for(version in dists[dist][release][project]) {
         //Scope variables
         (function scope(dist,release,project,version) {
-          var dir = path.join(dist,release,project,version)
+          var inventory_dir = path.join(dist,release,project,version)
+          var dir = path.join(__dirname,'..',dist,release,project,version)
           var file = path.join(dir,'Dockerfile')
           mkdir(dir,function(e) {
             if(e) return console.error(e)
@@ -73,14 +75,14 @@ for(dist in dists) {
           if(project==="iojs")
             name = "nodesource/"+release+":iojs-"+version
           inventory += "\n  - name: \""+name+"\"" +
-                       "\n    path: \"./"+dir+"\"" +
+                       "\n    path: \"./"+inventory_dir+"\"" +
                        "\n    test: [\"./tests/node\"]"
         })(dist,release,project,version)
       }
     }
   }
 }
-fs.writeFile("./inventory.yml",inventory,function(e) {
+fs.writeFile(path.join(__dirname,"..","inventory.yml"),inventory,function(e) {
   if(e) return console.error("FAILED TO CREATE INVENOTRY FILE: ",e)
   else console.log("Wrote inventory.yml")
 })
