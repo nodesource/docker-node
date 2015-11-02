@@ -24,7 +24,12 @@ var epel   = 'RUN rpm -ivh $(curl http://dl.fedoraproject.org/pub/epel/5/x86_64/
 
 var python = 'ENV PYTHON python2.6'
 
-var commonPkgs = [ 'curl',
+var commonPkgs = [ 'automake',
+                   'curl',
+                   'gcc',
+                   'gcc-c++',
                    'git', //will fail if no epel, thats fine
+                   'kernel-devel',
+                   'make',
                    'perl',
                    'which' ]

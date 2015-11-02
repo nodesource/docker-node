@@ -16,6 +16,7 @@ var pkgs   = 'RUN apt-get update \\\n'+
              ' && rm -rf /var/lib/apt/lists/*;'
 
 var commonPkgs = [ 'apt-transport-https',
+                   'ssh-client',
                    'build-essential',
                    'curl',
                    'ca-certificates',
