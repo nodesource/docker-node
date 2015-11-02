@@ -20,7 +20,7 @@ $DIR/base.js > /dev/null
 
 echo "Running Dante on base Dockerfiles..."
 cd $DIR/../base
-dante -j 30 > base.md
+dante -j 30 > output.md
 cd $DIR
 
 echo "Generating Dockerfiles..."
