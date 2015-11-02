@@ -1,12 +1,5 @@
-FROM centos:7
+FROM nodesource/centos7-base
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
-
-RUN yum install -y \
-      curl \
-      git \
-      perl \
-      which \
- && yum clean all
 
 RUN curl -sL -o ns.rpm https://rpm.nodesource.com/pub_0.12/el/7/x86_64/nodejs-0.12.7-1nodesource.el7.centos.x86_64.rpm \
  && rpm -i --nosignature --force ns.rpm \

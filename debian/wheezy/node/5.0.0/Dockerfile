@@ -1,17 +1,5 @@
-FROM debian:wheezy
+FROM nodesource/wheezy-base
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
-
-RUN apt-get update \
- && apt-get install -y --force-yes --no-install-recommends\
-      apt-transport-https \
-      build-essential \
-      curl \
-      ca-certificates \
-      git \
-      lsb-release \
-      python-all \
-      rlwrap \
- && rm -rf /var/lib/apt/lists/*;
 
 RUN curl https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/nodejs_5.0.0-1nodesource1~wheezy1_amd64.deb > node.deb \
  && dpkg -i node.deb \

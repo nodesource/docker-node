@@ -1,17 +1,5 @@
-FROM debian:sid
+FROM nodesource/sid-base
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
-
-RUN apt-get update \
- && apt-get install -y --force-yes --no-install-recommends\
-      apt-transport-https \
-      build-essential \
-      curl \
-      ca-certificates \
-      git \
-      lsb-release \
-      python-all \
-      rlwrap \
- && rm -rf /var/lib/apt/lists/*;
 
 RUN curl https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/iojs_1.5.0-1nodesource1~sid1_amd64.deb > node.deb \
  && dpkg -i node.deb \

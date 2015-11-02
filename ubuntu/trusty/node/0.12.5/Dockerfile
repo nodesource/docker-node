@@ -1,17 +1,5 @@
-FROM ubuntu:trusty
+FROM nodesource/trusty-base
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
-
-RUN apt-get update \
- && apt-get install -y --force-yes --no-install-recommends\
-      apt-transport-https \
-      build-essential \
-      curl \
-      ca-certificates \
-      git \
-      lsb-release \
-      python-all \
-      rlwrap \
- && rm -rf /var/lib/apt/lists/*;
 
 RUN curl https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.5-1nodesource1~trusty1_amd64.deb > node.deb \
  && dpkg -i node.deb \
