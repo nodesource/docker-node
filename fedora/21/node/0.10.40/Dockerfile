@@ -1,12 +1,5 @@
-FROM fedora:21
+FROM nodesource/fedora21-base
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
-
-RUN yum install -y \
-      curl \
-      git \
-      perl \
-      which \
- && yum clean all
 
 RUN curl -sL -o ns.rpm https://rpm.nodesource.com/pub/fc/21/x86_64/nodejs-0.10.40-1nodesource.fc21.x86_64.rpm \
  && rpm -i --nosignature --force ns.rpm \

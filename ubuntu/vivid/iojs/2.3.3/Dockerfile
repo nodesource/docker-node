@@ -1,17 +1,5 @@
-FROM ubuntu:vivid
+FROM nodesource/vivid-base
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
-
-RUN apt-get update \
- && apt-get install -y --force-yes --no-install-recommends\
-      apt-transport-https \
-      build-essential \
-      curl \
-      ca-certificates \
-      git \
-      lsb-release \
-      python-all \
-      rlwrap \
- && rm -rf /var/lib/apt/lists/*;
 
 RUN curl https://deb.nodesource.com/iojs_2.x/pool/main/i/iojs/iojs_2.3.3-1nodesource1~vivid1_amd64.deb > node.deb \
  && dpkg -i node.deb \

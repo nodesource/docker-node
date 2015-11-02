@@ -1,18 +1,5 @@
-FROM centos:5
+FROM nodesource/centos5-base
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
-
-RUN yum install -y \
-      curl \
-      git \
-      perl \
-      which \
- && yum clean all
-
-RUN rpm -ivh $(curl http://dl.fedoraproject.org/pub/epel/5/x86_64/repoview/epel-release.html | grep -oE "epel-release-[0-9-]+.noarch.rpm" | sed "s/^/http:\/\/dl.fedoraproject.org\/pub\/epel\/5\/x86_64\//") \
- && yum install -y python26 git\
- && yum clean all
-
-ENV PYTHON python2.6
 
 RUN curl -sL -o ns.rpm https://rpm.nodesource.com/pub/el/5/x86_64/nodejs-0.10.33-1nodesource.el5.centos.x86_64.rpm \
  && rpm -i --nosignature --force ns.rpm \

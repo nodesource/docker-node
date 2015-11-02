@@ -28,9 +28,6 @@ dists['ubuntu']['trusty']['iojs']   = []\n
 dists['ubuntu']['vivid']   = []\n
 dists['ubuntu']['vivid']['node']   = []\n
 dists['ubuntu']['vivid']['iojs']   = []\n
-dists['ubuntu']['utopic']  = []\n
-dists['ubuntu']['utopic']['node']  = []\n
-dists['ubuntu']['utopic']['iojs']  = []\n
 dists['centos'] = []\n
 dists['centos']['5'] = []\n
 dists['centos']['5']['node'] = []\n
@@ -58,12 +55,14 @@ URLS=(
   "https://deb.nodesource.com/node/pool/main/n/nodejs/"
   "https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/"
   "https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/"
+  "https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/"
   "https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/"
   "https://deb.nodesource.com/iojs_2.x/pool/main/i/iojs/"
   "https://deb.nodesource.com/iojs_3.x/pool/main/i/iojs/"
 )
 
 PLATFORM=(
+  "node"
   "node"
   "node"
   "node"
@@ -81,7 +80,7 @@ for i in "${!URLS[@]}"; do
       jessie | sid | wheezy)
         dist="debian"
         ;;
-      vivid | utopic | trusty | precise)
+      vivid | trusty | precise)
         dist="ubuntu"
         ;;
       *)

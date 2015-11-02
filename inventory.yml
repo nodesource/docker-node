@@ -62,6 +62,12 @@ images:
   - name: "nodesource/wheezy:4.2.0"
     path: "./debian/wheezy/node/4.2.0"
     test: ["./tests/node"]
+  - name: "nodesource/wheezy:4.2.1"
+    path: "./debian/wheezy/node/4.2.1"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:5.0.0"
+    path: "./debian/wheezy/node/5.0.0"
+    test: ["./tests/node"]
   - name: "nodesource/jessie:0.10.30"
     path: "./debian/jessie/node/0.10.30"
     test: ["./tests/node"]
@@ -130,6 +136,12 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/jessie:4.2.0"
     path: "./debian/jessie/node/4.2.0"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:4.2.1"
+    path: "./debian/jessie/node/4.2.1"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:5.0.0"
+    path: "./debian/jessie/node/5.0.0"
     test: ["./tests/node"]
   - name: "nodesource/jessie:iojs-1.3.0"
     path: "./debian/jessie/iojs/1.3.0"
@@ -290,6 +302,12 @@ images:
   - name: "nodesource/sid:4.2.0"
     path: "./debian/sid/node/4.2.0"
     test: ["./tests/node"]
+  - name: "nodesource/sid:4.2.1"
+    path: "./debian/sid/node/4.2.1"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:5.0.0"
+    path: "./debian/sid/node/5.0.0"
+    test: ["./tests/node"]
   - name: "nodesource/sid:iojs-1.3.0"
     path: "./debian/sid/iojs/1.3.0"
     test: ["./tests/node"]
@@ -443,6 +461,12 @@ images:
   - name: "nodesource/precise:4.2.0"
     path: "./ubuntu/precise/node/4.2.0"
     test: ["./tests/node"]
+  - name: "nodesource/precise:4.2.1"
+    path: "./ubuntu/precise/node/4.2.1"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:5.0.0"
+    path: "./ubuntu/precise/node/5.0.0"
+    test: ["./tests/node"]
   - name: "nodesource/trusty:0.10.30"
     path: "./ubuntu/trusty/node/0.10.30"
     test: ["./tests/node"]
@@ -511,6 +535,12 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/trusty:4.2.0"
     path: "./ubuntu/trusty/node/4.2.0"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:4.2.1"
+    path: "./ubuntu/trusty/node/4.2.1"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:5.0.0"
+    path: "./ubuntu/trusty/node/5.0.0"
     test: ["./tests/node"]
   - name: "nodesource/trusty:iojs-1.3.0"
     path: "./ubuntu/trusty/iojs/1.3.0"
@@ -644,6 +674,12 @@ images:
   - name: "nodesource/vivid:4.2.0"
     path: "./ubuntu/vivid/node/4.2.0"
     test: ["./tests/node"]
+  - name: "nodesource/vivid:4.2.1"
+    path: "./ubuntu/vivid/node/4.2.1"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:5.0.0"
+    path: "./ubuntu/vivid/node/5.0.0"
+    test: ["./tests/node"]
   - name: "nodesource/vivid:iojs-1.8.1"
     path: "./ubuntu/vivid/iojs/1.8.1"
     test: ["./tests/node"]
@@ -700,129 +736,6 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/vivid:iojs-3.3.0"
     path: "./ubuntu/vivid/iojs/3.3.0"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.10.32"
-    path: "./ubuntu/utopic/node/0.10.32"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.10.33"
-    path: "./ubuntu/utopic/node/0.10.33"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.10.34"
-    path: "./ubuntu/utopic/node/0.10.34"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.10.35"
-    path: "./ubuntu/utopic/node/0.10.35"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.10.36"
-    path: "./ubuntu/utopic/node/0.10.36"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.10.37"
-    path: "./ubuntu/utopic/node/0.10.37"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.10.38"
-    path: "./ubuntu/utopic/node/0.10.38"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.10.39"
-    path: "./ubuntu/utopic/node/0.10.39"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.10.40"
-    path: "./ubuntu/utopic/node/0.10.40"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.12.0"
-    path: "./ubuntu/utopic/node/0.12.0"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.12.2"
-    path: "./ubuntu/utopic/node/0.12.2"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.12.3"
-    path: "./ubuntu/utopic/node/0.12.3"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.12.4"
-    path: "./ubuntu/utopic/node/0.12.4"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.12.5"
-    path: "./ubuntu/utopic/node/0.12.5"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.12.6"
-    path: "./ubuntu/utopic/node/0.12.6"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:0.12.7"
-    path: "./ubuntu/utopic/node/0.12.7"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.3.0"
-    path: "./ubuntu/utopic/iojs/1.3.0"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.4.1"
-    path: "./ubuntu/utopic/iojs/1.4.1"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.4.2"
-    path: "./ubuntu/utopic/iojs/1.4.2"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.4.3"
-    path: "./ubuntu/utopic/iojs/1.4.3"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.5.0"
-    path: "./ubuntu/utopic/iojs/1.5.0"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.5.1"
-    path: "./ubuntu/utopic/iojs/1.5.1"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.6.1"
-    path: "./ubuntu/utopic/iojs/1.6.1"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.6.2"
-    path: "./ubuntu/utopic/iojs/1.6.2"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.6.3"
-    path: "./ubuntu/utopic/iojs/1.6.3"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.6.4"
-    path: "./ubuntu/utopic/iojs/1.6.4"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.7.1"
-    path: "./ubuntu/utopic/iojs/1.7.1"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.8.1"
-    path: "./ubuntu/utopic/iojs/1.8.1"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.8.3"
-    path: "./ubuntu/utopic/iojs/1.8.3"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-1.8.4"
-    path: "./ubuntu/utopic/iojs/1.8.4"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-2.0.0"
-    path: "./ubuntu/utopic/iojs/2.0.0"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-2.0.1"
-    path: "./ubuntu/utopic/iojs/2.0.1"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-2.0.2"
-    path: "./ubuntu/utopic/iojs/2.0.2"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-2.1.0"
-    path: "./ubuntu/utopic/iojs/2.1.0"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-2.2.1"
-    path: "./ubuntu/utopic/iojs/2.2.1"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-2.3.0"
-    path: "./ubuntu/utopic/iojs/2.3.0"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-2.3.1"
-    path: "./ubuntu/utopic/iojs/2.3.1"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-2.3.2"
-    path: "./ubuntu/utopic/iojs/2.3.2"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-2.3.3"
-    path: "./ubuntu/utopic/iojs/2.3.3"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-2.3.4"
-    path: "./ubuntu/utopic/iojs/2.3.4"
-    test: ["./tests/node"]
-  - name: "nodesource/utopic:iojs-2.4.0"
-    path: "./ubuntu/utopic/iojs/2.4.0"
     test: ["./tests/node"]
   - name: "nodesource/5:0.10.31"
     path: "./centos/5/node/0.10.31"
