@@ -17,9 +17,10 @@ for(dist in dists) {
   for(release in dists[dist]) {
     count++
     if( dist == 'centos' ||
-        dist == 'fedora') release = dist+release
+      dist == 'fedora') patchedRelease = dist+release
+    else patchedRelease = release
     ;(function scopeVars(dist,release) {
-      getTags(release, function doneGettingTags(e,tags) {
+      getTags(patchedRelease, function doneGettingTags(e,tags) {
         if(e) return console.log(e)
         for(project in dists[dist][release]) {
           for(version in dists[dist][release][project]) {
