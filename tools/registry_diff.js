@@ -85,7 +85,13 @@ for(dist in dists) {
 
         // If we are finished processing all releases, print report.
         if(count===0) {
-          console.log(columnify(output))
+          console.log(columnify(output.sort(function compare(a,b) {
+            a = a.Repo.replace(/[\u001b\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g,"")
+            b = b.Repo.replace(/[\u001b\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g,"")
+            if( a < b ) return 1
+            if( a === b ) return 0
+            return -1
+          })))
         }
 
       }) // end getTags
@@ -160,7 +166,7 @@ function generateTags(dist,release,project,versions) {
       release: release,
       project: project,
       version: latestVersion,
-      path: '/'+dist+'/'+release+'/'+project+'/'+latestVersion
+      path: '/'+patchedDist+'/'+patchedRelease+'/'+project+'/'+latestVersion
     }
   } else {
     latest[project] = {
@@ -168,11 +174,18 @@ function generateTags(dist,release,project,versions) {
       release: release,
       project: project,
       version: latestVersion,
-      path: '/'+dist+'/'+release+'/'+project+'/'+latestVersion
+      path: '/'+patchedDist+'/'+patchedRelease+'/'+project+'/'+latestVersion
     }
   }
 
   versions = objectConcat(majors, minors, patches, latest)
+
+  // Handle specific tag aliases
+  if( project === "node" && majors["4"]) {
+    versions["LTS"] = majors["4"]
+    versions["argon"] = majors["4"]
+  }
+
   return versions
 }
 
@@ -211,7 +224,7 @@ function verifyEntry(local,remote,output) {
   var log = false
 
   if(remote.branch !== 'master') {
-    obj.Name = color.yellow(remote.branch+"=>master")
+    obj.Name = colors.yellow(remote.branch+" => master")
     log = true
   }
   if(remote.path !== local.path) {
