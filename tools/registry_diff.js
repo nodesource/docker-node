@@ -24,7 +24,7 @@ var count = 0
 var output = []
 
 // Alias jessie => node
-dists["alias"] = {"node":dists["jessie"]}
+dists["alias"] = {"node":dists["debian"]["jessie"]}
 
 for(dist in dists) {
 
@@ -109,6 +109,13 @@ function generateTags(dist,release,project,versions) {
 
   // Get the prefix for a tag if necessary
   var tagPrefix = (project === "node") ? "" : project + "-"
+  var patchedDist = dist
+  var patchedRelease = release
+  if( dist === "alias" ) {
+    // Properly handle node
+    patchedDist = "debian"
+    patchedRelease = "jessie"
+  }
 
   var majors = versions.reduce(function(p,c) {
     if(c[0]==="0") return p
@@ -117,7 +124,7 @@ function generateTags(dist,release,project,versions) {
       release: release,
       project: project,
       version: c.join('.'),
-      path: '/'+dist+'/'+release+'/'+project+'/'+c.join('.')
+      path: '/'+patchedDist+'/'+patchedRelease+'/'+project+'/'+c.join('.')
     }
     return p
   },[])
@@ -128,7 +135,7 @@ function generateTags(dist,release,project,versions) {
       release: release,
       project: project,
       version: c.join('.'),
-      path: '/'+dist+'/'+release+'/'+project+'/'+c.join('.')
+      path: '/'+patchedDist+'/'+patchedRelease+'/'+project+'/'+c.join('.')
     }
     return p
   },[])
@@ -139,7 +146,7 @@ function generateTags(dist,release,project,versions) {
       release: release,
       project: project,
       version: c.join('.'),
-      path: '/'+dist+'/'+release+'/'+project+'/'+c.join('.')
+      path: '/'+patchedDist+'/'+patchedRelease+'/'+project+'/'+c.join('.')
     }
     return p
   },[])
