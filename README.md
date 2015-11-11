@@ -65,6 +65,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 4.1.2 - `docker pull nodesource/wheezy:4.1.2`
   * Node 4.2.0 - `docker pull nodesource/wheezy:4.2.0`
   * Node 4.2.1 - `docker pull nodesource/wheezy:4.2.1`
+  * Node 4.2.2 - `docker pull nodesource/wheezy:4.2.2`
   * Node 5.0.0 - `docker pull nodesource/wheezy:5.0.0`
 * [**Debian jessie**](https://registry.hub.docker.com/u/nodesource/jessie/) - `docker pull nodesource/jessie`
   * Node 0.10.30 - `docker pull nodesource/jessie:0.10.30`
@@ -91,6 +92,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 4.1.2 - `docker pull nodesource/jessie:4.1.2`
   * Node 4.2.0 - `docker pull nodesource/jessie:4.2.0`
   * Node 4.2.1 - `docker pull nodesource/jessie:4.2.1`
+  * Node 4.2.2 - `docker pull nodesource/jessie:4.2.2`
   * Node 5.0.0 - `docker pull nodesource/jessie:5.0.0`
   * iojs 1.3.0 - `docker pull nodesource/jessie:iojs-1.3.0`
   * iojs 1.4.1 - `docker pull nodesource/jessie:iojs-1.4.1`
@@ -147,6 +149,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 4.1.2 - `docker pull nodesource/sid:4.1.2`
   * Node 4.2.0 - `docker pull nodesource/sid:4.2.0`
   * Node 4.2.1 - `docker pull nodesource/sid:4.2.1`
+  * Node 4.2.2 - `docker pull nodesource/sid:4.2.2`
   * Node 5.0.0 - `docker pull nodesource/sid:5.0.0`
   * iojs 1.3.0 - `docker pull nodesource/sid:iojs-1.3.0`
   * iojs 1.4.1 - `docker pull nodesource/sid:iojs-1.4.1`
@@ -204,6 +207,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 4.1.2 - `docker pull nodesource/precise:4.1.2`
   * Node 4.2.0 - `docker pull nodesource/precise:4.2.0`
   * Node 4.2.1 - `docker pull nodesource/precise:4.2.1`
+  * Node 4.2.2 - `docker pull nodesource/precise:4.2.2`
   * Node 5.0.0 - `docker pull nodesource/precise:5.0.0`
 * [**Ubuntu trusty**](https://registry.hub.docker.com/u/nodesource/trusty/) - `docker pull nodesource/trusty`
   * Node 0.10.30 - `docker pull nodesource/trusty:0.10.30`
@@ -230,6 +234,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 4.1.2 - `docker pull nodesource/trusty:4.1.2`
   * Node 4.2.0 - `docker pull nodesource/trusty:4.2.0`
   * Node 4.2.1 - `docker pull nodesource/trusty:4.2.1`
+  * Node 4.2.2 - `docker pull nodesource/trusty:4.2.2`
   * Node 5.0.0 - `docker pull nodesource/trusty:5.0.0`
   * iojs 1.3.0 - `docker pull nodesource/trusty:iojs-1.3.0`
   * iojs 1.4.1 - `docker pull nodesource/trusty:iojs-1.4.1`
@@ -277,6 +282,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 4.1.2 - `docker pull nodesource/vivid:4.1.2`
   * Node 4.2.0 - `docker pull nodesource/vivid:4.2.0`
   * Node 4.2.1 - `docker pull nodesource/vivid:4.2.1`
+  * Node 4.2.2 - `docker pull nodesource/vivid:4.2.2`
   * Node 5.0.0 - `docker pull nodesource/vivid:5.0.0`
   * iojs 1.8.1 - `docker pull nodesource/vivid:iojs-1.8.1`
   * iojs 1.8.3 - `docker pull nodesource/vivid:iojs-1.8.3`
@@ -342,11 +348,23 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 0.12.5 - `docker pull nodesource/centos7:0.12.5`
   * Node 0.12.6 - `docker pull nodesource/centos7:0.12.6`
   * Node 0.12.7 - `docker pull nodesource/centos7:0.12.7`
+  * Node 4.0.0 - `docker pull nodesource/centos7:4.0.0`
+  * Node 4.1.0 - `docker pull nodesource/centos7:4.1.0`
+  * Node 4.1.1 - `docker pull nodesource/centos7:4.1.1`
+  * Node 4.1.2 - `docker pull nodesource/centos7:4.1.2`
+  * Node 4.2.0 - `docker pull nodesource/centos7:4.2.0`
+  * Node 4.2.1 - `docker pull nodesource/centos7:4.2.1`
+  * Node 4.2.2 - `docker pull nodesource/centos7:4.2.2`
+  * Node 5.0.0 - `docker pull nodesource/centos7:5.0.0`
   * iojs 2.3.2 - `docker pull nodesource/centos7:iojs-2.3.2`
   * iojs 2.3.3 - `docker pull nodesource/centos7:iojs-2.3.3`
   * iojs 2.3.4 - `docker pull nodesource/centos7:iojs-2.3.4`
   * iojs 2.4.0 - `docker pull nodesource/centos7:iojs-2.4.0`
   * iojs 2.5.0 - `docker pull nodesource/centos7:iojs-2.5.0`
+  * iojs 3.0.0 - `docker pull nodesource/centos7:iojs-3.0.0`
+  * iojs 3.1.0 - `docker pull nodesource/centos7:iojs-3.1.0`
+  * iojs 3.2.0 - `docker pull nodesource/centos7:iojs-3.2.0`
+  * iojs 3.3.0 - `docker pull nodesource/centos7:iojs-3.3.0`
 
 ## Fedora-based images
 
@@ -366,11 +384,21 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 0.12.5 - `docker pull nodesource/fedora20:0.12.5`
   * Node 0.12.6 - `docker pull nodesource/fedora20:0.12.6`
   * Node 0.12.7 - `docker pull nodesource/fedora20:0.12.7`
+  * Node 4.0.0 - `docker pull nodesource/fedora20:4.0.0`
+  * Node 4.1.0 - `docker pull nodesource/fedora20:4.1.0`
+  * Node 4.1.1 - `docker pull nodesource/fedora20:4.1.1`
+  * Node 4.1.2 - `docker pull nodesource/fedora20:4.1.2`
+  * Node 4.2.0 - `docker pull nodesource/fedora20:4.2.0`
+  * Node 4.2.1 - `docker pull nodesource/fedora20:4.2.1`
   * iojs 2.3.2 - `docker pull nodesource/fedora20:iojs-2.3.2`
   * iojs 2.3.3 - `docker pull nodesource/fedora20:iojs-2.3.3`
   * iojs 2.3.4 - `docker pull nodesource/fedora20:iojs-2.3.4`
   * iojs 2.4.0 - `docker pull nodesource/fedora20:iojs-2.4.0`
   * iojs 2.5.0 - `docker pull nodesource/fedora20:iojs-2.5.0`
+  * iojs 3.0.0 - `docker pull nodesource/fedora20:iojs-3.0.0`
+  * iojs 3.1.0 - `docker pull nodesource/fedora20:iojs-3.1.0`
+  * iojs 3.2.0 - `docker pull nodesource/fedora20:iojs-3.2.0`
+  * iojs 3.3.0 - `docker pull nodesource/fedora20:iojs-3.3.0`
 * [**Fedora 21**](https://registry.hub.docker.com/u/nodesource/fedora21/) - `docker pull nodesource/fedora21`
   * Node 0.10.35 - `docker pull nodesource/fedora21:0.10.35`
   * Node 0.10.36 - `docker pull nodesource/fedora21:0.10.36`
@@ -383,9 +411,21 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 0.12.5 - `docker pull nodesource/fedora21:0.12.5`
   * Node 0.12.6 - `docker pull nodesource/fedora21:0.12.6`
   * Node 0.12.7 - `docker pull nodesource/fedora21:0.12.7`
+  * Node 4.0.0 - `docker pull nodesource/fedora21:4.0.0`
+  * Node 4.1.0 - `docker pull nodesource/fedora21:4.1.0`
+  * Node 4.1.1 - `docker pull nodesource/fedora21:4.1.1`
+  * Node 4.1.2 - `docker pull nodesource/fedora21:4.1.2`
+  * Node 4.2.0 - `docker pull nodesource/fedora21:4.2.0`
+  * Node 4.2.1 - `docker pull nodesource/fedora21:4.2.1`
+  * Node 4.2.2 - `docker pull nodesource/fedora21:4.2.2`
+  * Node 5.0.0 - `docker pull nodesource/fedora21:5.0.0`
   * iojs 2.3.2 - `docker pull nodesource/fedora21:iojs-2.3.2`
   * iojs 2.3.3 - `docker pull nodesource/fedora21:iojs-2.3.3`
   * iojs 2.3.4 - `docker pull nodesource/fedora21:iojs-2.3.4`
   * iojs 2.4.0 - `docker pull nodesource/fedora21:iojs-2.4.0`
   * iojs 2.5.0 - `docker pull nodesource/fedora21:iojs-2.5.0`
+  * iojs 3.0.0 - `docker pull nodesource/fedora21:iojs-3.0.0`
+  * iojs 3.1.0 - `docker pull nodesource/fedora21:iojs-3.1.0`
+  * iojs 3.2.0 - `docker pull nodesource/fedora21:iojs-3.2.0`
+  * iojs 3.3.0 - `docker pull nodesource/fedora21:iojs-3.3.0`
 
