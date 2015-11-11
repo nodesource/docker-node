@@ -31,14 +31,12 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
 
 * `latest` points to the latest release of Node
 * `LTS` points to the latest LTS release of Node
+* `argon` points to the named LTS release of Node
 * `X` points to the latest release of Node X
 * `X.Y` points to the latest release of Node X.Y
-* `0.10` points to the latest 0.10 release of Node
-* `0.12` points to the latest 0.12 release of Node
 * `iojs` points to the latest release of iojs
 * `iojs-X` points to the latest minor release of iojs-X
 * `iojs-X.Y` points to the latest patch release of iojs-X.Y
-* `iojs-X.Y.Z` points to the specific release of iojs-X.Y.Z
 
 ## Debian-based images
 
