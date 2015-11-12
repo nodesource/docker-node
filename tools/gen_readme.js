@@ -55,14 +55,12 @@ var str = '# NodeSource Docker Images\n\n'+
 
 '* `latest` points to the latest release of Node\n'+
 '* `LTS` points to the latest LTS release of Node\n' +
+'* `argon` points to the named LTS release of Node\n'+
 '* `X` points to the latest release of Node X\n'+
 '* `X.Y` points to the latest release of Node X.Y\n'+
-'* `0.10` points to the latest 0.10 release of Node\n'+
-'* `0.12` points to the latest 0.12 release of Node\n'+
 '* `iojs` points to the latest release of iojs\n'+
 '* `iojs-X` points to the latest minor release of iojs-X\n'+
-'* `iojs-X.Y` points to the latest patch release of iojs-X.Y\n'+
-'* `iojs-X.Y.Z` points to the specific release of iojs-X.Y.Z\n'
+'* `iojs-X.Y` points to the latest patch release of iojs-X.Y\n'
 
 for(dist in dists) {
   str += '\n## '+dist.cap()+'-based images\n\n'

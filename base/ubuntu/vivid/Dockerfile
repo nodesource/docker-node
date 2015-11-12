@@ -9,6 +9,7 @@ RUN apt-get update \
       curl \
       ca-certificates \
       git \
+      libicu-dev \
       lsb-release \
       python-all \
       rlwrap \

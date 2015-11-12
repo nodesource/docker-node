@@ -1,7 +1,7 @@
 FROM nodesource/vivid-base
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
 
-RUN curl https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/nodejs_5.0.0-1nodesource1~vivid1_amd64.deb > node.deb \
+RUN curl https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/nodejs_5.0.0-3nodesource1~vivid1_amd64.deb > node.deb \
  && dpkg -i node.deb \
  && rm node.deb
 
