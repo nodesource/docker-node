@@ -36,8 +36,6 @@ for(dist in dists) {
     var patchedRelease = ""
     if( dist == 'centos' || dist == 'fedora') {
       patchedRelease = dist+release
-    } else if( release === "node") {
-      patchedRelease = "jessie"
     } else {
       patchedRelease = release
     }
