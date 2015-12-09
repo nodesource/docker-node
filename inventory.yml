@@ -32,6 +32,9 @@ images:
   - name: "nodesource/wheezy:0.10.40"
     path: "./debian/wheezy/node/0.10.40"
     test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.10.41"
+    path: "./debian/wheezy/node/0.10.41"
+    test: ["./tests/node"]
   - name: "nodesource/wheezy:0.12.0"
     path: "./debian/wheezy/node/0.12.0"
     test: ["./tests/node"]
@@ -53,6 +56,12 @@ images:
   - name: "nodesource/wheezy:0.12.7"
     path: "./debian/wheezy/node/0.12.7"
     test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.12.8"
+    path: "./debian/wheezy/node/0.12.8"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:0.12.9"
+    path: "./debian/wheezy/node/0.12.9"
+    test: ["./tests/node"]
   - name: "nodesource/wheezy:4.1.1"
     path: "./debian/wheezy/node/4.1.1"
     test: ["./tests/node"]
@@ -68,11 +77,17 @@ images:
   - name: "nodesource/wheezy:4.2.2"
     path: "./debian/wheezy/node/4.2.2"
     test: ["./tests/node"]
+  - name: "nodesource/wheezy:4.2.3"
+    path: "./debian/wheezy/node/4.2.3"
+    test: ["./tests/node"]
   - name: "nodesource/wheezy:5.0.0"
     path: "./debian/wheezy/node/5.0.0"
     test: ["./tests/node"]
   - name: "nodesource/wheezy:5.1.0"
     path: "./debian/wheezy/node/5.1.0"
+    test: ["./tests/node"]
+  - name: "nodesource/wheezy:5.1.1"
+    path: "./debian/wheezy/node/5.1.1"
     test: ["./tests/node"]
   - name: "nodesource/jessie:0.10.30"
     path: "./debian/jessie/node/0.10.30"
@@ -107,6 +122,9 @@ images:
   - name: "nodesource/jessie:0.10.40"
     path: "./debian/jessie/node/0.10.40"
     test: ["./tests/node"]
+  - name: "nodesource/jessie:0.10.41"
+    path: "./debian/jessie/node/0.10.41"
+    test: ["./tests/node"]
   - name: "nodesource/jessie:0.12.0"
     path: "./debian/jessie/node/0.12.0"
     test: ["./tests/node"]
@@ -127,6 +145,12 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/jessie:0.12.7"
     path: "./debian/jessie/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.12.8"
+    path: "./debian/jessie/node/0.12.8"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:0.12.9"
+    path: "./debian/jessie/node/0.12.9"
     test: ["./tests/node"]
   - name: "nodesource/jessie:4.0.0"
     path: "./debian/jessie/node/4.0.0"
@@ -149,11 +173,17 @@ images:
   - name: "nodesource/jessie:4.2.2"
     path: "./debian/jessie/node/4.2.2"
     test: ["./tests/node"]
+  - name: "nodesource/jessie:4.2.3"
+    path: "./debian/jessie/node/4.2.3"
+    test: ["./tests/node"]
   - name: "nodesource/jessie:5.0.0"
     path: "./debian/jessie/node/5.0.0"
     test: ["./tests/node"]
   - name: "nodesource/jessie:5.1.0"
     path: "./debian/jessie/node/5.1.0"
+    test: ["./tests/node"]
+  - name: "nodesource/jessie:5.1.1"
+    path: "./debian/jessie/node/5.1.1"
     test: ["./tests/node"]
   - name: "nodesource/jessie:iojs-1.3.0"
     path: "./debian/jessie/iojs/1.3.0"
@@ -278,6 +308,9 @@ images:
   - name: "nodesource/sid:0.10.40"
     path: "./debian/sid/node/0.10.40"
     test: ["./tests/node"]
+  - name: "nodesource/sid:0.10.41"
+    path: "./debian/sid/node/0.10.41"
+    test: ["./tests/node"]
   - name: "nodesource/sid:0.12.0"
     path: "./debian/sid/node/0.12.0"
     test: ["./tests/node"]
@@ -298,6 +331,12 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/sid:0.12.7"
     path: "./debian/sid/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.12.8"
+    path: "./debian/sid/node/0.12.8"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:0.12.9"
+    path: "./debian/sid/node/0.12.9"
     test: ["./tests/node"]
   - name: "nodesource/sid:4.0.0"
     path: "./debian/sid/node/4.0.0"
@@ -320,11 +359,17 @@ images:
   - name: "nodesource/sid:4.2.2"
     path: "./debian/sid/node/4.2.2"
     test: ["./tests/node"]
+  - name: "nodesource/sid:4.2.3"
+    path: "./debian/sid/node/4.2.3"
+    test: ["./tests/node"]
   - name: "nodesource/sid:5.0.0"
     path: "./debian/sid/node/5.0.0"
     test: ["./tests/node"]
   - name: "nodesource/sid:5.1.0"
     path: "./debian/sid/node/5.1.0"
+    test: ["./tests/node"]
+  - name: "nodesource/sid:5.1.1"
+    path: "./debian/sid/node/5.1.1"
     test: ["./tests/node"]
   - name: "nodesource/sid:iojs-1.3.0"
     path: "./debian/sid/iojs/1.3.0"
@@ -449,6 +494,9 @@ images:
   - name: "nodesource/precise:0.10.40"
     path: "./ubuntu/precise/node/0.10.40"
     test: ["./tests/node"]
+  - name: "nodesource/precise:0.10.41"
+    path: "./ubuntu/precise/node/0.10.41"
+    test: ["./tests/node"]
   - name: "nodesource/precise:0.12.0"
     path: "./ubuntu/precise/node/0.12.0"
     test: ["./tests/node"]
@@ -470,6 +518,12 @@ images:
   - name: "nodesource/precise:0.12.7"
     path: "./ubuntu/precise/node/0.12.7"
     test: ["./tests/node"]
+  - name: "nodesource/precise:0.12.8"
+    path: "./ubuntu/precise/node/0.12.8"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:0.12.9"
+    path: "./ubuntu/precise/node/0.12.9"
+    test: ["./tests/node"]
   - name: "nodesource/precise:4.1.1"
     path: "./ubuntu/precise/node/4.1.1"
     test: ["./tests/node"]
@@ -485,11 +539,17 @@ images:
   - name: "nodesource/precise:4.2.2"
     path: "./ubuntu/precise/node/4.2.2"
     test: ["./tests/node"]
+  - name: "nodesource/precise:4.2.3"
+    path: "./ubuntu/precise/node/4.2.3"
+    test: ["./tests/node"]
   - name: "nodesource/precise:5.0.0"
     path: "./ubuntu/precise/node/5.0.0"
     test: ["./tests/node"]
   - name: "nodesource/precise:5.1.0"
     path: "./ubuntu/precise/node/5.1.0"
+    test: ["./tests/node"]
+  - name: "nodesource/precise:5.1.1"
+    path: "./ubuntu/precise/node/5.1.1"
     test: ["./tests/node"]
   - name: "nodesource/trusty:0.10.30"
     path: "./ubuntu/trusty/node/0.10.30"
@@ -524,6 +584,9 @@ images:
   - name: "nodesource/trusty:0.10.40"
     path: "./ubuntu/trusty/node/0.10.40"
     test: ["./tests/node"]
+  - name: "nodesource/trusty:0.10.41"
+    path: "./ubuntu/trusty/node/0.10.41"
+    test: ["./tests/node"]
   - name: "nodesource/trusty:0.12.0"
     path: "./ubuntu/trusty/node/0.12.0"
     test: ["./tests/node"]
@@ -544,6 +607,12 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/trusty:0.12.7"
     path: "./ubuntu/trusty/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.12.8"
+    path: "./ubuntu/trusty/node/0.12.8"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:0.12.9"
+    path: "./ubuntu/trusty/node/0.12.9"
     test: ["./tests/node"]
   - name: "nodesource/trusty:4.0.0"
     path: "./ubuntu/trusty/node/4.0.0"
@@ -566,11 +635,17 @@ images:
   - name: "nodesource/trusty:4.2.2"
     path: "./ubuntu/trusty/node/4.2.2"
     test: ["./tests/node"]
+  - name: "nodesource/trusty:4.2.3"
+    path: "./ubuntu/trusty/node/4.2.3"
+    test: ["./tests/node"]
   - name: "nodesource/trusty:5.0.0"
     path: "./ubuntu/trusty/node/5.0.0"
     test: ["./tests/node"]
   - name: "nodesource/trusty:5.1.0"
     path: "./ubuntu/trusty/node/5.1.0"
+    test: ["./tests/node"]
+  - name: "nodesource/trusty:5.1.1"
+    path: "./ubuntu/trusty/node/5.1.1"
     test: ["./tests/node"]
   - name: "nodesource/trusty:iojs-1.3.0"
     path: "./ubuntu/trusty/iojs/1.3.0"
@@ -671,6 +746,9 @@ images:
   - name: "nodesource/vivid:0.10.40"
     path: "./ubuntu/vivid/node/0.10.40"
     test: ["./tests/node"]
+  - name: "nodesource/vivid:0.10.41"
+    path: "./ubuntu/vivid/node/0.10.41"
+    test: ["./tests/node"]
   - name: "nodesource/vivid:0.12.2"
     path: "./ubuntu/vivid/node/0.12.2"
     test: ["./tests/node"]
@@ -688,6 +766,12 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/vivid:0.12.7"
     path: "./ubuntu/vivid/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:0.12.8"
+    path: "./ubuntu/vivid/node/0.12.8"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:0.12.9"
+    path: "./ubuntu/vivid/node/0.12.9"
     test: ["./tests/node"]
   - name: "nodesource/vivid:4.0.0"
     path: "./ubuntu/vivid/node/4.0.0"
@@ -710,11 +794,17 @@ images:
   - name: "nodesource/vivid:4.2.2"
     path: "./ubuntu/vivid/node/4.2.2"
     test: ["./tests/node"]
+  - name: "nodesource/vivid:4.2.3"
+    path: "./ubuntu/vivid/node/4.2.3"
+    test: ["./tests/node"]
   - name: "nodesource/vivid:5.0.0"
     path: "./ubuntu/vivid/node/5.0.0"
     test: ["./tests/node"]
   - name: "nodesource/vivid:5.1.0"
     path: "./ubuntu/vivid/node/5.1.0"
+    test: ["./tests/node"]
+  - name: "nodesource/vivid:5.1.1"
+    path: "./ubuntu/vivid/node/5.1.1"
     test: ["./tests/node"]
   - name: "nodesource/vivid:iojs-1.8.1"
     path: "./ubuntu/vivid/iojs/1.8.1"
@@ -800,6 +890,9 @@ images:
   - name: "nodesource/5:0.10.40"
     path: "./centos/5/node/0.10.40"
     test: ["./tests/node"]
+  - name: "nodesource/5:0.10.41"
+    path: "./centos/5/node/0.10.41"
+    test: ["./tests/node"]
   - name: "nodesource/6:0.10.31"
     path: "./centos/6/node/0.10.31"
     test: ["./tests/node"]
@@ -827,6 +920,9 @@ images:
   - name: "nodesource/6:0.10.40"
     path: "./centos/6/node/0.10.40"
     test: ["./tests/node"]
+  - name: "nodesource/6:0.10.41"
+    path: "./centos/6/node/0.10.41"
+    test: ["./tests/node"]
   - name: "nodesource/6:0.12.1"
     path: "./centos/6/node/0.12.1"
     test: ["./tests/node"]
@@ -844,6 +940,12 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/6:0.12.7"
     path: "./centos/6/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.12.8"
+    path: "./centos/6/node/0.12.8"
+    test: ["./tests/node"]
+  - name: "nodesource/6:0.12.9"
+    path: "./centos/6/node/0.12.9"
     test: ["./tests/node"]
   - name: "nodesource/7:0.10.31"
     path: "./centos/7/node/0.10.31"
@@ -872,6 +974,9 @@ images:
   - name: "nodesource/7:0.10.40"
     path: "./centos/7/node/0.10.40"
     test: ["./tests/node"]
+  - name: "nodesource/7:0.10.41"
+    path: "./centos/7/node/0.10.41"
+    test: ["./tests/node"]
   - name: "nodesource/7:0.12.1"
     path: "./centos/7/node/0.12.1"
     test: ["./tests/node"]
@@ -889,6 +994,12 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/7:0.12.7"
     path: "./centos/7/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.12.8"
+    path: "./centos/7/node/0.12.8"
+    test: ["./tests/node"]
+  - name: "nodesource/7:0.12.9"
+    path: "./centos/7/node/0.12.9"
     test: ["./tests/node"]
   - name: "nodesource/7:4.0.0"
     path: "./centos/7/node/4.0.0"
@@ -911,11 +1022,17 @@ images:
   - name: "nodesource/7:4.2.2"
     path: "./centos/7/node/4.2.2"
     test: ["./tests/node"]
+  - name: "nodesource/7:4.2.3"
+    path: "./centos/7/node/4.2.3"
+    test: ["./tests/node"]
   - name: "nodesource/7:5.0.0"
     path: "./centos/7/node/5.0.0"
     test: ["./tests/node"]
   - name: "nodesource/7:5.1.0"
     path: "./centos/7/node/5.1.0"
+    test: ["./tests/node"]
+  - name: "nodesource/7:5.1.1"
+    path: "./centos/7/node/5.1.1"
     test: ["./tests/node"]
   - name: "nodesource/7:iojs-2.3.2"
     path: "./centos/7/iojs/2.3.2"
@@ -1049,6 +1166,9 @@ images:
   - name: "nodesource/21:0.10.40"
     path: "./fedora/21/node/0.10.40"
     test: ["./tests/node"]
+  - name: "nodesource/21:0.10.41"
+    path: "./fedora/21/node/0.10.41"
+    test: ["./tests/node"]
   - name: "nodesource/21:0.12.1"
     path: "./fedora/21/node/0.12.1"
     test: ["./tests/node"]
@@ -1066,6 +1186,12 @@ images:
     test: ["./tests/node"]
   - name: "nodesource/21:0.12.7"
     path: "./fedora/21/node/0.12.7"
+    test: ["./tests/node"]
+  - name: "nodesource/21:0.12.8"
+    path: "./fedora/21/node/0.12.8"
+    test: ["./tests/node"]
+  - name: "nodesource/21:0.12.9"
+    path: "./fedora/21/node/0.12.9"
     test: ["./tests/node"]
   - name: "nodesource/21:4.0.0"
     path: "./fedora/21/node/4.0.0"
@@ -1088,11 +1214,17 @@ images:
   - name: "nodesource/21:4.2.2"
     path: "./fedora/21/node/4.2.2"
     test: ["./tests/node"]
+  - name: "nodesource/21:4.2.3"
+    path: "./fedora/21/node/4.2.3"
+    test: ["./tests/node"]
   - name: "nodesource/21:5.0.0"
     path: "./fedora/21/node/5.0.0"
     test: ["./tests/node"]
   - name: "nodesource/21:5.1.0"
     path: "./fedora/21/node/5.1.0"
+    test: ["./tests/node"]
+  - name: "nodesource/21:5.1.1"
+    path: "./fedora/21/node/5.1.1"
     test: ["./tests/node"]
   - name: "nodesource/21:iojs-2.3.2"
     path: "./fedora/21/iojs/2.3.2"
