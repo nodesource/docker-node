@@ -3,6 +3,7 @@ MAINTAINER William Blankenship <wblankenship@nodesource.com>
 
 RUN yum install -y \
       automake \
+      libicu \
       curl \
       gcc \
       gcc-c++ \
