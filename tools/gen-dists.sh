@@ -44,8 +44,7 @@ dists['fedora']['20']['node'] = []\n
 dists['fedora']['20']['iojs'] = []\n
 dists['fedora']['21'] = []\n
 dists['fedora']['21']['node'] = []\n
-dists['fedora']['21']['iojs'] = []\n
-"
+dists['fedora']['21']['iojs'] = []"
 
 ###############
 # HANDLE DEBS #
@@ -86,7 +85,7 @@ for i in "${!URLS[@]}"; do
       *)
         continue
     esac
-    FILE="$FILE\ndists[\"$dist\"][\"$release\"][\"${PLATFORM[$i]}\"][\"$version\"] = {url:\"${URLS[$i]}\",deb:\"$deb\"}"
+    FILE="$FILE\n dists['$dist']['$release']['${PLATFORM[$i]}']['$version'] = {url: '${URLS[$i]}', deb: '$deb'}"
   done
 done
 
@@ -186,7 +185,7 @@ for i in "${!URLS[@]}"; do
         continue;
     esac
     release=$(echo $release | sed 's/fc//' | sed 's/el//')
-    FILE="$FILE\ndists[\"$dist\"][\"$release\"][\"${PLATFORM[$i]}\"][\"$version\"] = {url:\"${URLS[$i]}\",rpm:\"$rpm\"}"
+    FILE="$FILE\n dists['$dist']['$release']['${PLATFORM[$i]}']['$version'] = {url: '${URLS[$i]}', rpm: '$rpm'}"
   done
 done
 
