@@ -502,4 +502,21 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * iojs 3.1.0 - `docker pull nodesource/fedora21:iojs-3.1.0`
   * iojs 3.2.0 - `docker pull nodesource/fedora21:iojs-3.2.0`
   * iojs 3.3.0 - `docker pull nodesource/fedora21:iojs-3.3.0`
+* [**Fedora 22**](https://registry.hub.docker.com/u/nodesource/fedora22/) - `docker pull nodesource/fedora22`
+  * Node 0.10.40 - `docker pull nodesource/fedora22:0.10.40`
+  * Node 0.10.41 - `docker pull nodesource/fedora22:0.10.41`
+  * Node 4.0.0 - `docker pull nodesource/fedora22:4.0.0`
+  * Node 4.1.0 - `docker pull nodesource/fedora22:4.1.0`
+  * Node 4.1.1 - `docker pull nodesource/fedora22:4.1.1`
+  * Node 4.1.2 - `docker pull nodesource/fedora22:4.1.2`
+  * Node 4.2.0 - `docker pull nodesource/fedora22:4.2.0`
+  * Node 4.2.1 - `docker pull nodesource/fedora22:4.2.1`
+  * Node 4.2.2 - `docker pull nodesource/fedora22:4.2.2`
+  * Node 4.2.3 - `docker pull nodesource/fedora22:4.2.3`
+  * Node 4.2.4 - `docker pull nodesource/fedora22:4.2.4`
+  * Node 5.0.0 - `docker pull nodesource/fedora22:5.0.0`
+  * Node 5.1.0 - `docker pull nodesource/fedora22:5.1.0`
+  * Node 5.1.1 - `docker pull nodesource/fedora22:5.1.1`
+  * Node 5.2.0 - `docker pull nodesource/fedora22:5.2.0`
+  * Node 5.3.0 - `docker pull nodesource/fedora22:5.3.0`
 

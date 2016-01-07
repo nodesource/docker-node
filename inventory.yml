@@ -1767,3 +1767,67 @@ images:
     path: "./fedora/21/iojs/2.3.3"
     test: ["./tests/node"]
     alias: []
+  - name: "nodesource/fedora22:4.2.4"
+    path: "./fedora/22/node/4.2.4"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:4","nodesource/fedora22:4.2","nodesource/fedora22:LTS","nodesource/fedora22:argon"]
+  - name: "nodesource/fedora22:5.3.0"
+    path: "./fedora/22/node/5.3.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5","nodesource/fedora22:5.3","nodesource/fedora22:latest"]
+  - name: "nodesource/fedora22:0.10.41"
+    path: "./fedora/22/node/0.10.41"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:0.10"]
+  - name: "nodesource/fedora22:4.0.0"
+    path: "./fedora/22/node/4.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:4.0"]
+  - name: "nodesource/fedora22:4.1.2"
+    path: "./fedora/22/node/4.1.2"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:4.1"]
+  - name: "nodesource/fedora22:5.0.0"
+    path: "./fedora/22/node/5.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.0"]
+  - name: "nodesource/fedora22:5.1.1"
+    path: "./fedora/22/node/5.1.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.1"]
+  - name: "nodesource/fedora22:5.2.0"
+    path: "./fedora/22/node/5.2.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.2"]
+  - name: "nodesource/fedora22:0.10.40"
+    path: "./fedora/22/node/0.10.40"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.1.0"
+    path: "./fedora/22/node/4.1.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.1.1"
+    path: "./fedora/22/node/4.1.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.2.0"
+    path: "./fedora/22/node/4.2.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.2.1"
+    path: "./fedora/22/node/4.2.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.2.2"
+    path: "./fedora/22/node/4.2.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.2.3"
+    path: "./fedora/22/node/4.2.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:5.1.0"
+    path: "./fedora/22/node/5.1.0"
+    test: ["./tests/node"]
+    alias: []

@@ -44,7 +44,10 @@ dists['fedora']['20']['node'] = []\n
 dists['fedora']['20']['iojs'] = []\n
 dists['fedora']['21'] = []\n
 dists['fedora']['21']['node'] = []\n
-dists['fedora']['21']['iojs'] = []"
+dists['fedora']['21']['iojs'] = []\n
+dists['fedora']['22'] = []\n
+dists['fedora']['22']['node'] = []\n
+dists['fedora']['22']['iojs'] = []"
 
 ###############
 # HANDLE DEBS #
@@ -99,6 +102,7 @@ URLS=(
   "https://rpm.nodesource.com/pub/el/7/x86_64/"
   "https://rpm.nodesource.com/pub/fc/20/x86_64/"
   "https://rpm.nodesource.com/pub/fc/21/x86_64/"
+  "https://rpm.nodesource.com/pub/fc/22/x86_64/"
   "https://rpm.nodesource.com/pub_0.12/el/5/x86_64/"
   "https://rpm.nodesource.com/pub_0.12/el/6/x86_64/"
   "https://rpm.nodesource.com/pub_0.12/el/7/x86_64/"
@@ -109,11 +113,13 @@ URLS=(
   "https://rpm.nodesource.com/pub_4.x/el/7/x86_64/"
   "https://rpm.nodesource.com/pub_4.x/fc/20/x86_64/"
   "https://rpm.nodesource.com/pub_4.x/fc/21/x86_64/"
+  "https://rpm.nodesource.com/pub_4.x/fc/22/x86_64/"
   "https://rpm.nodesource.com/pub_5.x/el/5/x86_64/"
   "https://rpm.nodesource.com/pub_5.x/el/6/x86_64/"
   "https://rpm.nodesource.com/pub_5.x/el/7/x86_64/"
   "https://rpm.nodesource.com/pub_5.x/fc/20/x86_64/"
   "https://rpm.nodesource.com/pub_5.x/fc/21/x86_64/"
+  "https://rpm.nodesource.com/pub_5.x/fc/22/x86_64/"
   "https://rpm.nodesource.com/pub_iojs_1.x/el/5/x86_64/"
   "https://rpm.nodesource.com/pub_iojs_1.x/el/6/x86_64/"
   "https://rpm.nodesource.com/pub_iojs_1.x/el/7/x86_64/"
@@ -132,6 +138,9 @@ URLS=(
 )
 
 PLATFORM=(
+  "node"
+  "node"
+  "node"
   "node"
   "node"
   "node"
