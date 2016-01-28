@@ -21,3 +21,5 @@ images:
     path: "./fedora/20"
   - name: "nodesource/fedora21-base"
     path: "./fedora/21"
+  - name: "nodesource/fedora22-base"
+    path: "./fedora/22"

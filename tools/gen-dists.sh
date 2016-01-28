@@ -45,7 +45,9 @@ dists['fedora']['20']['iojs'] = []\n
 dists['fedora']['21'] = []\n
 dists['fedora']['21']['node'] = []\n
 dists['fedora']['21']['iojs'] = []\n
-"
+dists['fedora']['22'] = []\n
+dists['fedora']['22']['node'] = []\n
+dists['fedora']['22']['iojs'] = []"
 
 ###############
 # HANDLE DEBS #
@@ -86,7 +88,7 @@ for i in "${!URLS[@]}"; do
       *)
         continue
     esac
-    FILE="$FILE\ndists[\"$dist\"][\"$release\"][\"${PLATFORM[$i]}\"][\"$version\"] = {url:\"${URLS[$i]}\",deb:\"$deb\"}"
+    FILE="$FILE\n dists['$dist']['$release']['${PLATFORM[$i]}']['$version'] = {url: '${URLS[$i]}', deb: '$deb'}"
   done
 done
 
@@ -100,6 +102,7 @@ URLS=(
   "https://rpm.nodesource.com/pub/el/7/x86_64/"
   "https://rpm.nodesource.com/pub/fc/20/x86_64/"
   "https://rpm.nodesource.com/pub/fc/21/x86_64/"
+  "https://rpm.nodesource.com/pub/fc/22/x86_64/"
   "https://rpm.nodesource.com/pub_0.12/el/5/x86_64/"
   "https://rpm.nodesource.com/pub_0.12/el/6/x86_64/"
   "https://rpm.nodesource.com/pub_0.12/el/7/x86_64/"
@@ -110,11 +113,13 @@ URLS=(
   "https://rpm.nodesource.com/pub_4.x/el/7/x86_64/"
   "https://rpm.nodesource.com/pub_4.x/fc/20/x86_64/"
   "https://rpm.nodesource.com/pub_4.x/fc/21/x86_64/"
+  "https://rpm.nodesource.com/pub_4.x/fc/22/x86_64/"
   "https://rpm.nodesource.com/pub_5.x/el/5/x86_64/"
   "https://rpm.nodesource.com/pub_5.x/el/6/x86_64/"
   "https://rpm.nodesource.com/pub_5.x/el/7/x86_64/"
   "https://rpm.nodesource.com/pub_5.x/fc/20/x86_64/"
   "https://rpm.nodesource.com/pub_5.x/fc/21/x86_64/"
+  "https://rpm.nodesource.com/pub_5.x/fc/22/x86_64/"
   "https://rpm.nodesource.com/pub_iojs_1.x/el/5/x86_64/"
   "https://rpm.nodesource.com/pub_iojs_1.x/el/6/x86_64/"
   "https://rpm.nodesource.com/pub_iojs_1.x/el/7/x86_64/"
@@ -133,6 +138,9 @@ URLS=(
 )
 
 PLATFORM=(
+  "node"
+  "node"
+  "node"
   "node"
   "node"
   "node"
@@ -186,7 +194,7 @@ for i in "${!URLS[@]}"; do
         continue;
     esac
     release=$(echo $release | sed 's/fc//' | sed 's/el//')
-    FILE="$FILE\ndists[\"$dist\"][\"$release\"][\"${PLATFORM[$i]}\"][\"$version\"] = {url:\"${URLS[$i]}\",rpm:\"$rpm\"}"
+    FILE="$FILE\n dists['$dist']['$release']['${PLATFORM[$i]}']['$version'] = {url: '${URLS[$i]}', rpm: '$rpm'}"
   done
 done
 

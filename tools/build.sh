@@ -19,12 +19,15 @@ rm -rf $DIR/../{ubuntu,debian,centos,fedora,base}
 echo "Generating dists file..."
 $DIR/gen-dists.sh > $DIR/../dockerfiles/dists.js
 
+echo "Generating inventory.yml..."
+$DIR/gen_inventory.js
+
 echo "Generating base Dockerfiles..."
 $DIR/base.js > /dev/null
 
 echo "Running Dante on base Dockerfiles..."
 cd $DIR/../base
-dante -j 30 > output.md
+dante test -j 30 -r 2 > $DIR/../base.md
 cd $DIR
 
 echo "Generating Dockerfiles..."
@@ -35,7 +38,7 @@ $DIR/gen_readme.js > $DIR/../README.md
 
 echo "Running Dante"
 cd $DIR/../
-dante -j 30 > output.md
+dante test -j 30 -r 2 > $DIR/../output.md
 cd $DIR
 
 echo "Computing necessary updates to registry..."
