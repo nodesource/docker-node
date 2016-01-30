@@ -10,6 +10,9 @@ while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symli
 done
 DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
+LOGS="$DIR/../logs/$(date)"
+mkdir -p "$LOGS"
+
 cd $DIR
 
 # Start with a clean working directory
@@ -27,7 +30,7 @@ $DIR/base.js > /dev/null
 
 echo "Running Dante on base Dockerfiles..."
 cd $DIR/../base
-dante test -j 30 -r 2 > $DIR/../base.md
+dante test -j 30 -r 2 > "$LOGS/base.md"
 cd $DIR
 
 echo "Generating Dockerfiles..."
@@ -38,8 +41,5 @@ $DIR/gen_readme.js > $DIR/../README.md
 
 echo "Running Dante"
 cd $DIR/../
-dante test -j 30 -r 2 > $DIR/../output.md
+dante test -j 30 -r 2 > "$LOGS/tests.md"
 cd $DIR
-
-echo "Computing necessary updates to registry..."
-$DIR/registry_diff.js

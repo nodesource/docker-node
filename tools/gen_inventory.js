@@ -29,7 +29,14 @@ for (var dist in dists) {
         }
         var aliases = []
         for (var alias in tags[tag]) {
-          aliases.push(tags[tag][alias])
+          aliases.push('nodesource/' + patchedRelease + ':' + tags[tag][alias])
+        }
+        if(release === 'jessie') {
+          var alias_len = aliases.length
+          for(var i = 0; i < alias_len; i++) {
+            aliases.push(aliases[i].replace('jessie','node'))
+          }
+          aliases.push(name.replace('jessie','node'))
         }
         inventory += '\n  - name: "' + name + '"' +
           '\n    path: "./' + inventory_dir + '"' +
@@ -37,7 +44,7 @@ for (var dist in dists) {
           '\n    alias: ['
         for (var i in aliases) {
           if (i > 0) inventory += ','
-          inventory += '"nodesource/' + patchedRelease + ':' + aliases[i] + '"'
+          inventory += '"' + aliases[i] + '"'
         }
         inventory += ']'
       }
