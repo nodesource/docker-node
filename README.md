@@ -565,3 +565,25 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 5.4.1 - `docker pull nodesource/fedora22:5.4.1`
   * Node 5.5.0 - `docker pull nodesource/fedora22:5.5.0`
 
+# Contributing
+
+To submit a bug report, please create an [issue at GitHub][https://github.com/nodesource/docker-node/issues/new].
+
+If you'd like to contribute code to this project, please read the
+[CONTRIBUTING.md][https://github.com/nodesource/docker-node/blob/master/CONTRIBUTING.md] document.
+
+# Authors and Contributors
+
+<table><tbody>
+  <tr>
+    <th align="left">William Blankenship</th>
+    <td><a href="https://github.com/retrohacker">GitHub/retrohacker</a></td>
+    <td><a href="https://twitter.com/retrohack3r">Twitter/@retrohack3r</a></td>
+  </tr>
+</tbody></table>
+
+# License & Copyright
+
+**docker-node** is Copyright (c) 2016 NodeSource and licensed under the
+MIT license. All rights not explicitly granted in the MIT license are reserved.
+See the included [LICENSE.md][https://github.com/nodesource/docker-node/blob/master/LICENSE.md] file for more details.
