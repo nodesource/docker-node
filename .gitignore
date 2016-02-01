@@ -1,2 +1,5 @@
+# Don't include any files leftover from dante builds
+**/\.~tmp\.test*
+
+# Don't check npm deps into repo
 node_modules
-**/output.md
