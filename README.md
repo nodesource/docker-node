@@ -1,5 +1,7 @@
 # NodeSource Docker Images
 
+![nodesource](./brand/nodesource.png) ![nodejs](./brand/nodejs.png) ![docker](./brand/docker.png)
+
 The NodeSource docker images deliver [NodeSource's deb and rpm](deb.nodesource.com) packages across all of our supported platforms! We offer version pinning, allowing your project to track major, minor, or patch versions of Node or iojs.
 
 # Usage
