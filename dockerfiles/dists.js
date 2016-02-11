@@ -109,11 +109,23 @@
  dists['ubuntu']['trusty']['node']['0.10.41'] = {url: 'https://deb.nodesource.com/node/pool/main/n/nodejs/', deb: 'nodejs_0.10.41-1nodesource1~trusty1_amd64.deb'}
  dists['ubuntu']['vivid']['node']['0.10.41'] = {url: 'https://deb.nodesource.com/node/pool/main/n/nodejs/', deb: 'nodejs_0.10.41-1nodesource1~vivid1_amd64.deb'}
  dists['debian']['wheezy']['node']['0.10.41'] = {url: 'https://deb.nodesource.com/node/pool/main/n/nodejs/', deb: 'nodejs_0.10.41-1nodesource1~wheezy1_amd64.deb'}
+ dists['debian']['jessie']['node']['0.10.42'] = {url: 'https://deb.nodesource.com/node/pool/main/n/nodejs/', deb: 'nodejs_0.10.42-1nodesource1~jessie1_amd64.deb'}
+ dists['ubuntu']['precise']['node']['0.10.42'] = {url: 'https://deb.nodesource.com/node/pool/main/n/nodejs/', deb: 'nodejs_0.10.42-1nodesource1~precise1_amd64.deb'}
+ dists['debian']['sid']['node']['0.10.42'] = {url: 'https://deb.nodesource.com/node/pool/main/n/nodejs/', deb: 'nodejs_0.10.42-1nodesource1~sid1_amd64.deb'}
+ dists['ubuntu']['trusty']['node']['0.10.42'] = {url: 'https://deb.nodesource.com/node/pool/main/n/nodejs/', deb: 'nodejs_0.10.42-1nodesource1~trusty1_amd64.deb'}
+ dists['ubuntu']['vivid']['node']['0.10.42'] = {url: 'https://deb.nodesource.com/node/pool/main/n/nodejs/', deb: 'nodejs_0.10.42-1nodesource1~vivid1_amd64.deb'}
+ dists['debian']['wheezy']['node']['0.10.42'] = {url: 'https://deb.nodesource.com/node/pool/main/n/nodejs/', deb: 'nodejs_0.10.42-1nodesource1~wheezy1_amd64.deb'}
  dists['debian']['jessie']['node']['0.12.0'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.0-1nodesource1~jessie1_amd64.deb'}
  dists['ubuntu']['precise']['node']['0.12.0'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.0-1nodesource1~precise1_amd64.deb'}
  dists['debian']['sid']['node']['0.12.0'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.0-1nodesource1~sid1_amd64.deb'}
  dists['ubuntu']['trusty']['node']['0.12.0'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.0-1nodesource1~trusty1_amd64.deb'}
  dists['debian']['wheezy']['node']['0.12.0'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.0-1nodesource1~wheezy1_amd64.deb'}
+ dists['debian']['jessie']['node']['0.12.10'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.10-1nodesource1~jessie1_amd64.deb'}
+ dists['ubuntu']['precise']['node']['0.12.10'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.10-1nodesource1~precise1_amd64.deb'}
+ dists['debian']['sid']['node']['0.12.10'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.10-1nodesource1~sid1_amd64.deb'}
+ dists['ubuntu']['trusty']['node']['0.12.10'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.10-1nodesource1~trusty1_amd64.deb'}
+ dists['ubuntu']['vivid']['node']['0.12.10'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.10-1nodesource1~vivid1_amd64.deb'}
+ dists['debian']['wheezy']['node']['0.12.10'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.10-1nodesource1~wheezy1_amd64.deb'}
  dists['debian']['jessie']['node']['0.12.2'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.2-1nodesource1~jessie1_amd64.deb'}
  dists['ubuntu']['precise']['node']['0.12.2'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.2-1nodesource1~precise1_amd64.deb'}
  dists['debian']['sid']['node']['0.12.2'] = {url: 'https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/', deb: 'nodejs_0.12.2-1nodesource1~sid1_amd64.deb'}
@@ -237,6 +249,12 @@
  dists['ubuntu']['trusty']['node']['4.2.6'] = {url: 'https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/', deb: 'nodejs_4.2.6-1nodesource1~trusty1_amd64.deb'}
  dists['ubuntu']['vivid']['node']['4.2.6'] = {url: 'https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/', deb: 'nodejs_4.2.6-1nodesource1~vivid1_amd64.deb'}
  dists['debian']['wheezy']['node']['4.2.6'] = {url: 'https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/', deb: 'nodejs_4.2.6-1nodesource1~wheezy1_amd64.deb'}
+ dists['debian']['jessie']['node']['4.3.0'] = {url: 'https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/', deb: 'nodejs_4.3.0-1nodesource1~jessie1_amd64.deb'}
+ dists['ubuntu']['precise']['node']['4.3.0'] = {url: 'https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/', deb: 'nodejs_4.3.0-1nodesource1~precise1_amd64.deb'}
+ dists['debian']['sid']['node']['4.3.0'] = {url: 'https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/', deb: 'nodejs_4.3.0-1nodesource1~sid1_amd64.deb'}
+ dists['ubuntu']['trusty']['node']['4.3.0'] = {url: 'https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/', deb: 'nodejs_4.3.0-1nodesource1~trusty1_amd64.deb'}
+ dists['ubuntu']['vivid']['node']['4.3.0'] = {url: 'https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/', deb: 'nodejs_4.3.0-1nodesource1~vivid1_amd64.deb'}
+ dists['debian']['wheezy']['node']['4.3.0'] = {url: 'https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/', deb: 'nodejs_4.3.0-1nodesource1~wheezy1_amd64.deb'}
  dists['debian']['jessie']['node']['5.0.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.0.0-1nodesource1~jessie1_amd64.deb'}
  dists['ubuntu']['precise']['node']['5.0.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.0.0-1nodesource1~precise1_amd64.deb'}
  dists['debian']['sid']['node']['5.0.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.0.0-1nodesource1~sid1_amd64.deb'}
@@ -296,6 +314,12 @@
  dists['ubuntu']['trusty']['node']['5.5.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.5.0-1nodesource1~trusty1_amd64.deb'}
  dists['ubuntu']['vivid']['node']['5.5.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.5.0-1nodesource1~vivid1_amd64.deb'}
  dists['debian']['wheezy']['node']['5.5.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.5.0-1nodesource1~wheezy1_amd64.deb'}
+ dists['debian']['jessie']['node']['5.6.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.6.0-1nodesource1~jessie1_amd64.deb'}
+ dists['ubuntu']['precise']['node']['5.6.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.6.0-1nodesource1~precise1_amd64.deb'}
+ dists['debian']['sid']['node']['5.6.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.6.0-1nodesource1~sid1_amd64.deb'}
+ dists['ubuntu']['trusty']['node']['5.6.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.6.0-1nodesource1~trusty1_amd64.deb'}
+ dists['ubuntu']['vivid']['node']['5.6.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.6.0-1nodesource1~vivid1_amd64.deb'}
+ dists['debian']['wheezy']['node']['5.6.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.6.0-1nodesource1~wheezy1_amd64.deb'}
  dists['debian']['jessie']['iojs']['1.3.0'] = {url: 'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/', deb: 'iojs_1.3.0-1nodesource1~jessie1_amd64.deb'}
  dists['debian']['sid']['iojs']['1.3.0'] = {url: 'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/', deb: 'iojs_1.3.0-1nodesource1~sid1_amd64.deb'}
  dists['ubuntu']['trusty']['iojs']['1.3.0'] = {url: 'https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/', deb: 'iojs_1.3.0-1nodesource1~trusty1_amd64.deb'}
@@ -415,6 +439,7 @@
  dists['centos']['5']['node']['0.10.39'] = {url: 'https://rpm.nodesource.com/pub/el/5/x86_64/', rpm: 'nodejs-0.10.39-1nodesource.el5.centos.x86_64.rpm'}
  dists['centos']['5']['node']['0.10.40'] = {url: 'https://rpm.nodesource.com/pub/el/5/x86_64/', rpm: 'nodejs-0.10.40-1nodesource.el5.centos.x86_64.rpm'}
  dists['centos']['5']['node']['0.10.41'] = {url: 'https://rpm.nodesource.com/pub/el/5/x86_64/', rpm: 'nodejs-0.10.41-1nodesource.el5.centos.x86_64.rpm'}
+ dists['centos']['5']['node']['0.10.42'] = {url: 'https://rpm.nodesource.com/pub/el/5/x86_64/', rpm: 'nodejs-0.10.42-1nodesource.el5.centos.x86_64.rpm'}
  dists['centos']['6']['node']['0.10.31'] = {url: 'https://rpm.nodesource.com/pub/el/6/x86_64/', rpm: 'nodejs-0.10.31-1nodesource.el6.x86_64.rpm'}
  dists['centos']['6']['node']['0.10.32'] = {url: 'https://rpm.nodesource.com/pub/el/6/x86_64/', rpm: 'nodejs-0.10.32-1nodesource.el6.x86_64.rpm'}
  dists['centos']['6']['node']['0.10.33'] = {url: 'https://rpm.nodesource.com/pub/el/6/x86_64/', rpm: 'nodejs-0.10.33-1nodesource.el6.x86_64.rpm'}
@@ -425,6 +450,7 @@
  dists['centos']['6']['node']['0.10.39'] = {url: 'https://rpm.nodesource.com/pub/el/6/x86_64/', rpm: 'nodejs-0.10.39-1nodesource.el6.x86_64.rpm'}
  dists['centos']['6']['node']['0.10.40'] = {url: 'https://rpm.nodesource.com/pub/el/6/x86_64/', rpm: 'nodejs-0.10.40-1nodesource.el6.x86_64.rpm'}
  dists['centos']['6']['node']['0.10.41'] = {url: 'https://rpm.nodesource.com/pub/el/6/x86_64/', rpm: 'nodejs-0.10.41-1nodesource.el6.x86_64.rpm'}
+ dists['centos']['6']['node']['0.10.42'] = {url: 'https://rpm.nodesource.com/pub/el/6/x86_64/', rpm: 'nodejs-0.10.42-1nodesource.el6.x86_64.rpm'}
  dists['centos']['7']['node']['0.10.31'] = {url: 'https://rpm.nodesource.com/pub/el/7/x86_64/', rpm: 'nodejs-0.10.31-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['0.10.32'] = {url: 'https://rpm.nodesource.com/pub/el/7/x86_64/', rpm: 'nodejs-0.10.32-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['0.10.33'] = {url: 'https://rpm.nodesource.com/pub/el/7/x86_64/', rpm: 'nodejs-0.10.33-1nodesource.el7.centos.x86_64.rpm'}
@@ -435,6 +461,7 @@
  dists['centos']['7']['node']['0.10.39'] = {url: 'https://rpm.nodesource.com/pub/el/7/x86_64/', rpm: 'nodejs-0.10.39-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['0.10.40'] = {url: 'https://rpm.nodesource.com/pub/el/7/x86_64/', rpm: 'nodejs-0.10.40-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['0.10.41'] = {url: 'https://rpm.nodesource.com/pub/el/7/x86_64/', rpm: 'nodejs-0.10.41-1nodesource.el7.centos.x86_64.rpm'}
+ dists['centos']['7']['node']['0.10.42'] = {url: 'https://rpm.nodesource.com/pub/el/7/x86_64/', rpm: 'nodejs-0.10.42-1nodesource.el7.centos.x86_64.rpm'}
  dists['fedora']['20']['node']['0.10.31'] = {url: 'https://rpm.nodesource.com/pub/fc/20/x86_64/', rpm: 'nodejs-0.10.31-1nodesource.fc20.x86_64.rpm'}
  dists['fedora']['20']['node']['0.10.32'] = {url: 'https://rpm.nodesource.com/pub/fc/20/x86_64/', rpm: 'nodejs-0.10.32-1nodesource.fc20.x86_64.rpm'}
  dists['fedora']['20']['node']['0.10.33'] = {url: 'https://rpm.nodesource.com/pub/fc/20/x86_64/', rpm: 'nodejs-0.10.33-1nodesource.fc20.x86_64.rpm'}
@@ -452,7 +479,9 @@
  dists['fedora']['21']['node']['0.10.41'] = {url: 'https://rpm.nodesource.com/pub/fc/21/x86_64/', rpm: 'nodejs-0.10.41-1nodesource.fc21.x86_64.rpm'}
  dists['fedora']['22']['node']['0.10.40'] = {url: 'https://rpm.nodesource.com/pub/fc/22/x86_64/', rpm: 'nodejs-0.10.40-1nodesource.fc22.x86_64.rpm'}
  dists['fedora']['22']['node']['0.10.41'] = {url: 'https://rpm.nodesource.com/pub/fc/22/x86_64/', rpm: 'nodejs-0.10.41-1nodesource.fc22.x86_64.rpm'}
+ dists['fedora']['22']['node']['0.10.42'] = {url: 'https://rpm.nodesource.com/pub/fc/22/x86_64/', rpm: 'nodejs-0.10.42-1nodesource.fc22.x86_64.rpm'}
  dists['centos']['6']['node']['0.12.1'] = {url: 'https://rpm.nodesource.com/pub_0.12/el/6/x86_64/', rpm: 'nodejs-0.12.1-1nodesource.el6.x86_64.rpm'}
+ dists['centos']['6']['node']['0.12.10'] = {url: 'https://rpm.nodesource.com/pub_0.12/el/6/x86_64/', rpm: 'nodejs-0.12.10-1nodesource.el6.x86_64.rpm'}
  dists['centos']['6']['node']['0.12.2'] = {url: 'https://rpm.nodesource.com/pub_0.12/el/6/x86_64/', rpm: 'nodejs-0.12.2-1nodesource.el6.x86_64.rpm'}
  dists['centos']['6']['node']['0.12.3'] = {url: 'https://rpm.nodesource.com/pub_0.12/el/6/x86_64/', rpm: 'nodejs-0.12.3-1nodesource.el6.x86_64.rpm'}
  dists['centos']['6']['node']['0.12.5'] = {url: 'https://rpm.nodesource.com/pub_0.12/el/6/x86_64/', rpm: 'nodejs-0.12.5-1nodesource.el6.x86_64.rpm'}
@@ -461,6 +490,7 @@
  dists['centos']['6']['node']['0.12.8'] = {url: 'https://rpm.nodesource.com/pub_0.12/el/6/x86_64/', rpm: 'nodejs-0.12.8-1nodesource.el6.x86_64.rpm'}
  dists['centos']['6']['node']['0.12.9'] = {url: 'https://rpm.nodesource.com/pub_0.12/el/6/x86_64/', rpm: 'nodejs-0.12.9-1nodesource.el6.x86_64.rpm'}
  dists['centos']['7']['node']['0.12.1'] = {url: 'https://rpm.nodesource.com/pub_0.12/el/7/x86_64/', rpm: 'nodejs-0.12.1-1nodesource.el7.centos.x86_64.rpm'}
+ dists['centos']['7']['node']['0.12.10'] = {url: 'https://rpm.nodesource.com/pub_0.12/el/7/x86_64/', rpm: 'nodejs-0.12.10-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['0.12.2'] = {url: 'https://rpm.nodesource.com/pub_0.12/el/7/x86_64/', rpm: 'nodejs-0.12.2-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['0.12.3'] = {url: 'https://rpm.nodesource.com/pub_0.12/el/7/x86_64/', rpm: 'nodejs-0.12.3-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['0.12.5'] = {url: 'https://rpm.nodesource.com/pub_0.12/el/7/x86_64/', rpm: 'nodejs-0.12.5-1nodesource.el7.centos.x86_64.rpm'}
@@ -482,6 +512,8 @@
  dists['fedora']['21']['node']['0.12.7'] = {url: 'https://rpm.nodesource.com/pub_0.12/fc/21/x86_64/', rpm: 'nodejs-0.12.7-1nodesource.fc21.x86_64.rpm'}
  dists['fedora']['21']['node']['0.12.8'] = {url: 'https://rpm.nodesource.com/pub_0.12/fc/21/x86_64/', rpm: 'nodejs-0.12.8-1nodesource.fc21.x86_64.rpm'}
  dists['fedora']['21']['node']['0.12.9'] = {url: 'https://rpm.nodesource.com/pub_0.12/fc/21/x86_64/', rpm: 'nodejs-0.12.9-1nodesource.fc21.x86_64.rpm'}
+ dists['centos']['6']['node']['4.2.6'] = {url: 'https://rpm.nodesource.com/pub_4.x/el/6/x86_64/', rpm: 'nodejs-4.2.6-2nodesource.el6.x86_64.rpm'}
+ dists['centos']['6']['node']['4.3.0'] = {url: 'https://rpm.nodesource.com/pub_4.x/el/6/x86_64/', rpm: 'nodejs-4.3.0-1nodesource.el6.x86_64.rpm'}
  dists['centos']['7']['node']['4.0.0'] = {url: 'https://rpm.nodesource.com/pub_4.x/el/7/x86_64/', rpm: 'nodejs-4.0.0-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['4.1.0'] = {url: 'https://rpm.nodesource.com/pub_4.x/el/7/x86_64/', rpm: 'nodejs-4.1.0-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['4.1.1'] = {url: 'https://rpm.nodesource.com/pub_4.x/el/7/x86_64/', rpm: 'nodejs-4.1.1-1nodesource.el7.centos.x86_64.rpm'}
@@ -494,6 +526,7 @@
  dists['centos']['7']['node']['4.2.4'] = {url: 'https://rpm.nodesource.com/pub_4.x/el/7/x86_64/', rpm: 'nodejs-4.2.4-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['4.2.5'] = {url: 'https://rpm.nodesource.com/pub_4.x/el/7/x86_64/', rpm: 'nodejs-4.2.5-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['4.2.6'] = {url: 'https://rpm.nodesource.com/pub_4.x/el/7/x86_64/', rpm: 'nodejs-4.2.6-1nodesource.el7.centos.x86_64.rpm'}
+ dists['centos']['7']['node']['4.3.0'] = {url: 'https://rpm.nodesource.com/pub_4.x/el/7/x86_64/', rpm: 'nodejs-4.3.0-1nodesource.el7.centos.x86_64.rpm'}
  dists['fedora']['20']['node']['4.0.0'] = {url: 'https://rpm.nodesource.com/pub_4.x/fc/20/x86_64/', rpm: 'nodejs-4.0.0-1nodesource.fc20.x86_64.rpm'}
  dists['fedora']['20']['node']['4.1.0'] = {url: 'https://rpm.nodesource.com/pub_4.x/fc/20/x86_64/', rpm: 'nodejs-4.1.0-1nodesource.fc20.x86_64.rpm'}
  dists['fedora']['20']['node']['4.1.1'] = {url: 'https://rpm.nodesource.com/pub_4.x/fc/20/x86_64/', rpm: 'nodejs-4.1.1-1nodesource.fc20.x86_64.rpm'}
@@ -524,6 +557,9 @@
  dists['fedora']['22']['node']['4.2.4'] = {url: 'https://rpm.nodesource.com/pub_4.x/fc/22/x86_64/', rpm: 'nodejs-4.2.4-1nodesource.fc22.x86_64.rpm'}
  dists['fedora']['22']['node']['4.2.5'] = {url: 'https://rpm.nodesource.com/pub_4.x/fc/22/x86_64/', rpm: 'nodejs-4.2.5-1nodesource.fc22.x86_64.rpm'}
  dists['fedora']['22']['node']['4.2.6'] = {url: 'https://rpm.nodesource.com/pub_4.x/fc/22/x86_64/', rpm: 'nodejs-4.2.6-1nodesource.fc22.x86_64.rpm'}
+ dists['fedora']['22']['node']['4.3.0'] = {url: 'https://rpm.nodesource.com/pub_4.x/fc/22/x86_64/', rpm: 'nodejs-4.3.0-1nodesource.fc22.x86_64.rpm'}
+ dists['centos']['6']['node']['5.5.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/el/6/x86_64/', rpm: 'nodejs-5.5.0-2nodesource.el6.x86_64.rpm'}
+ dists['centos']['6']['node']['5.6.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/el/6/x86_64/', rpm: 'nodejs-5.6.0-1nodesource.el6.x86_64.rpm'}
  dists['centos']['7']['node']['5.0.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/el/7/x86_64/', rpm: 'nodejs-5.0.0-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['5.0.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/el/7/x86_64/', rpm: 'nodejs-5.0.0-2nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['5.1.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/el/7/x86_64/', rpm: 'nodejs-5.1.0-1nodesource.el7.centos.x86_64.rpm'}
@@ -534,6 +570,7 @@
  dists['centos']['7']['node']['5.4.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/el/7/x86_64/', rpm: 'nodejs-5.4.0-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['5.4.1'] = {url: 'https://rpm.nodesource.com/pub_5.x/el/7/x86_64/', rpm: 'nodejs-5.4.1-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['node']['5.5.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/el/7/x86_64/', rpm: 'nodejs-5.5.0-1nodesource.el7.centos.x86_64.rpm'}
+ dists['centos']['7']['node']['5.6.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/el/7/x86_64/', rpm: 'nodejs-5.6.0-1nodesource.el7.centos.x86_64.rpm'}
  dists['fedora']['21']['node']['5.0.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/fc/21/x86_64/', rpm: 'nodejs-5.0.0-1nodesource.fc21.x86_64.rpm'}
  dists['fedora']['21']['node']['5.0.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/fc/21/x86_64/', rpm: 'nodejs-5.0.0-2nodesource.fc21.x86_64.rpm'}
  dists['fedora']['21']['node']['5.1.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/fc/21/x86_64/', rpm: 'nodejs-5.1.0-1nodesource.fc21.x86_64.rpm'}
@@ -554,6 +591,7 @@
  dists['fedora']['22']['node']['5.4.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/fc/22/x86_64/', rpm: 'nodejs-5.4.0-1nodesource.fc22.x86_64.rpm'}
  dists['fedora']['22']['node']['5.4.1'] = {url: 'https://rpm.nodesource.com/pub_5.x/fc/22/x86_64/', rpm: 'nodejs-5.4.1-1nodesource.fc22.x86_64.rpm'}
  dists['fedora']['22']['node']['5.5.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/fc/22/x86_64/', rpm: 'nodejs-5.5.0-1nodesource.fc22.x86_64.rpm'}
+ dists['fedora']['22']['node']['5.6.0'] = {url: 'https://rpm.nodesource.com/pub_5.x/fc/22/x86_64/', rpm: 'nodejs-5.6.0-1nodesource.fc22.x86_64.rpm'}
  dists['centos']['7']['iojs']['2.3.2'] = {url: 'https://rpm.nodesource.com/pub_iojs_2.x/el/7/x86_64/', rpm: 'iojs-2.3.2-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['iojs']['2.3.3'] = {url: 'https://rpm.nodesource.com/pub_iojs_2.x/el/7/x86_64/', rpm: 'iojs-2.3.3-1nodesource.el7.centos.x86_64.rpm'}
  dists['centos']['7']['iojs']['2.3.4'] = {url: 'https://rpm.nodesource.com/pub_iojs_2.x/el/7/x86_64/', rpm: 'iojs-2.3.4-1nodesource.el7.centos.x86_64.rpm'}
