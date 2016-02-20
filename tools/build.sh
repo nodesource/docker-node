@@ -2,6 +2,8 @@
 
 # Get Working Directory
 
+set -e
+
 SOURCE="${BASH_SOURCE[0]}"
 while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
   DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
@@ -41,5 +43,6 @@ $DIR/gen_readme.js > $DIR/../README.md
 
 echo "Running Dante"
 cd $DIR/../
-dante test -j 30 -r 2 > "$LOGS/tests.md"
+dante test -j 60 -r 3 > "$LOGS/tests.md"
+dante push -r 2 > "$LOGS/push.md"
 cd $DIR
