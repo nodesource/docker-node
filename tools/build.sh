@@ -43,7 +43,7 @@ $DIR/gen_readme.js > $DIR/../README.md
 
 echo "Running Dante"
 cd $DIR/../
-dante test -j 60 -r 3 > "$LOGS/tests.md"
+dante test -j 100 -r 3 > "$LOGS/tests.md"
 dante push -r 2 > "$LOGS/push.md"
 git add ubuntu debian centos fedora base logs README.md inventory.yml
 git commit -m "Pushing new versions"
