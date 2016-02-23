@@ -12,7 +12,7 @@ while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symli
 done
 DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
-LOGS="$DIR/../logs/$(date)"
+LOGS="$DIR/../logs/$(date +'%Y_%m_%d_%H:%M')"
 mkdir -p "$LOGS"
 
 cd $DIR
@@ -45,4 +45,7 @@ echo "Running Dante"
 cd $DIR/../
 dante test -j 60 -r 3 > "$LOGS/tests.md"
 dante push -r 2 > "$LOGS/push.md"
+git add ubuntu debian centos fedora base logs README.md inventory.yml
+git commit -m "Pushing new versions"
+git push origin master
 cd $DIR
