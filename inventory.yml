@@ -6,7 +6,11 @@ images:
   - name: "nodesource/wheezy:5.9.1"
     path: "./debian/wheezy/node/5.9.1"
     test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5","nodesource/wheezy:5.9","nodesource/wheezy:latest"]
+    alias: ["nodesource/wheezy:5","nodesource/wheezy:5.9"]
+  - name: "nodesource/wheezy:6.0.0"
+    path: "./debian/wheezy/node/6.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/wheezy:6","nodesource/wheezy:6.0","nodesource/wheezy:latest"]
   - name: "nodesource/wheezy:0.10.44"
     path: "./debian/wheezy/node/0.10.44"
     test: ["./tests/node"]
@@ -250,7 +254,11 @@ images:
   - name: "nodesource/jessie:5.9.1"
     path: "./debian/jessie/node/5.9.1"
     test: ["./tests/node"]
-    alias: ["nodesource/jessie:5","nodesource/jessie:5.9","nodesource/jessie:latest","nodesource/node:5","nodesource/node:5.9","nodesource/node:latest","nodesource/node:5.9.1"]
+    alias: ["nodesource/jessie:5","nodesource/jessie:5.9","nodesource/node:5","nodesource/node:5.9","nodesource/node:5.9.1"]
+  - name: "nodesource/jessie:6.0.0"
+    path: "./debian/jessie/node/6.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/jessie:6","nodesource/jessie:6.0","nodesource/jessie:latest","nodesource/node:6","nodesource/node:6.0","nodesource/node:latest","nodesource/node:6.0.0"]
   - name: "nodesource/jessie:0.10.44"
     path: "./debian/jessie/node/0.10.44"
     test: ["./tests/node"]
@@ -622,7 +630,11 @@ images:
   - name: "nodesource/sid:5.9.1"
     path: "./debian/sid/node/5.9.1"
     test: ["./tests/node"]
-    alias: ["nodesource/sid:5","nodesource/sid:5.9","nodesource/sid:latest"]
+    alias: ["nodesource/sid:5","nodesource/sid:5.9"]
+  - name: "nodesource/sid:6.0.0"
+    path: "./debian/sid/node/6.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/sid:6","nodesource/sid:6.0","nodesource/sid:latest"]
   - name: "nodesource/sid:0.10.44"
     path: "./debian/sid/node/0.10.44"
     test: ["./tests/node"]
@@ -994,7 +1006,11 @@ images:
   - name: "nodesource/precise:5.9.1"
     path: "./ubuntu/precise/node/5.9.1"
     test: ["./tests/node"]
-    alias: ["nodesource/precise:5","nodesource/precise:5.9","nodesource/precise:latest"]
+    alias: ["nodesource/precise:5","nodesource/precise:5.9"]
+  - name: "nodesource/precise:6.0.0"
+    path: "./ubuntu/precise/node/6.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/precise:6","nodesource/precise:6.0","nodesource/precise:latest"]
   - name: "nodesource/precise:0.10.44"
     path: "./ubuntu/precise/node/0.10.44"
     test: ["./tests/node"]
@@ -1238,7 +1254,11 @@ images:
   - name: "nodesource/trusty:5.9.1"
     path: "./ubuntu/trusty/node/5.9.1"
     test: ["./tests/node"]
-    alias: ["nodesource/trusty:5","nodesource/trusty:5.9","nodesource/trusty:latest"]
+    alias: ["nodesource/trusty:5","nodesource/trusty:5.9"]
+  - name: "nodesource/trusty:6.0.0"
+    path: "./ubuntu/trusty/node/6.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/trusty:6","nodesource/trusty:6.0","nodesource/trusty:latest"]
   - name: "nodesource/trusty:0.10.44"
     path: "./ubuntu/trusty/node/0.10.44"
     test: ["./tests/node"]
@@ -1942,7 +1962,11 @@ images:
   - name: "nodesource/centos6:5.9.1"
     path: "./centos/6/node/5.9.1"
     test: ["./tests/node"]
-    alias: ["nodesource/centos6:5","nodesource/centos6:5.9","nodesource/centos6:latest"]
+    alias: ["nodesource/centos6:5","nodesource/centos6:5.9"]
+  - name: "nodesource/centos6:6.0.0"
+    path: "./centos/6/node/6.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/centos6:6","nodesource/centos6:6.0","nodesource/centos6:latest"]
   - name: "nodesource/centos6:0.10.44"
     path: "./centos/6/node/0.10.44"
     test: ["./tests/node"]
@@ -2114,7 +2138,11 @@ images:
   - name: "nodesource/centos7:5.9.1"
     path: "./centos/7/node/5.9.1"
     test: ["./tests/node"]
-    alias: ["nodesource/centos7:5","nodesource/centos7:5.9","nodesource/centos7:latest"]
+    alias: ["nodesource/centos7:5","nodesource/centos7:5.9"]
+  - name: "nodesource/centos7:6.0.0"
+    path: "./centos/7/node/6.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/centos7:6","nodesource/centos7:6.0","nodesource/centos7:latest"]
   - name: "nodesource/centos7:0.10.44"
     path: "./centos/7/node/0.10.44"
     test: ["./tests/node"]
@@ -2678,7 +2706,11 @@ images:
   - name: "nodesource/fedora22:5.9.1"
     path: "./fedora/22/node/5.9.1"
     test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5","nodesource/fedora22:5.9","nodesource/fedora22:latest"]
+    alias: ["nodesource/fedora22:5","nodesource/fedora22:5.9"]
+  - name: "nodesource/fedora22:6.0.0"
+    path: "./fedora/22/node/6.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:6","nodesource/fedora22:6.0","nodesource/fedora22:latest"]
   - name: "nodesource/fedora22:0.10.44"
     path: "./fedora/22/node/0.10.44"
     test: ["./tests/node"]
