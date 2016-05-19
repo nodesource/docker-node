@@ -30,10 +30,10 @@ $DIR/gen_inventory.js
 echo "Generating base Dockerfiles..."
 $DIR/base.js > /dev/null
 
-echo "Running Dante on base Dockerfiles..."
-cd $DIR/../base
-dante test -j 30 -r 2 > "$LOGS/base.md"
-cd $DIR
+#echo "Running Dante on base Dockerfiles..."
+#cd $DIR/../base
+#dante test -j 30 -r 2 > "$LOGS/base.md"
+#cd $DIR
 
 echo "Generating Dockerfiles..."
 $DIR/generate.js > /dev/null
@@ -41,11 +41,11 @@ $DIR/generate.js > /dev/null
 echo "Generating README.md..."
 $DIR/gen_readme.js > $DIR/../README.md
 
-echo "Running Dante"
-cd $DIR/../
-dante test -j 100 -r 3 > "$LOGS/tests.md"
-dante push -r 2 > "$LOGS/push.md"
-git add ubuntu debian centos fedora base logs README.md inventory.yml
-git commit -m "Pushing new versions"
-git push origin master
-cd $DIR
+#echo "Running Dante"
+#cd $DIR/../
+#dante test -j 100 -r 3 > "$LOGS/tests.md"
+#dante push -r 2 > "$LOGS/push.md"
+#git add ubuntu debian centos fedora base logs README.md inventory.yml
+#git commit -m "Pushing new versions"
+#git push origin master
+#cd $DIR

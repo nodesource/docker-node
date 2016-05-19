@@ -21,6 +21,7 @@ var commonPkgs = [ 'apt-transport-https',
   'curl',
   'ca-certificates',
   'git',
+  'libicu-dev',
   'lsb-release',
-  'python2.7-minimal',
+  'python-all',
   'rlwrap']

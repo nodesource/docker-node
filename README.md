@@ -106,6 +106,9 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 5.8.0 - `docker pull nodesource/wheezy:5.8.0`
   * Node 5.9.0 - `docker pull nodesource/wheezy:5.9.0`
   * Node 5.9.1 - `docker pull nodesource/wheezy:5.9.1`
+  * Node 6.0.0 - `docker pull nodesource/wheezy:6.0.0`
+  * Node 6.1.0 - `docker pull nodesource/wheezy:6.1.0`
+  * Node 6.2.0 - `docker pull nodesource/wheezy:6.2.0`
 * [**Debian jessie**](https://registry.hub.docker.com/u/nodesource/jessie/) - `docker pull nodesource/jessie`
   * Node 0.10.30 - `docker pull nodesource/jessie:0.10.30`
   * Node 0.10.31 - `docker pull nodesource/jessie:0.10.31`
@@ -174,6 +177,9 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 5.8.0 - `docker pull nodesource/jessie:5.8.0`
   * Node 5.9.0 - `docker pull nodesource/jessie:5.9.0`
   * Node 5.9.1 - `docker pull nodesource/jessie:5.9.1`
+  * Node 6.0.0 - `docker pull nodesource/jessie:6.0.0`
+  * Node 6.1.0 - `docker pull nodesource/jessie:6.1.0`
+  * Node 6.2.0 - `docker pull nodesource/jessie:6.2.0`
   * iojs 1.3.0 - `docker pull nodesource/jessie:iojs-1.3.0`
   * iojs 1.4.1 - `docker pull nodesource/jessie:iojs-1.4.1`
   * iojs 1.4.2 - `docker pull nodesource/jessie:iojs-1.4.2`
@@ -272,6 +278,9 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 5.8.0 - `docker pull nodesource/sid:5.8.0`
   * Node 5.9.0 - `docker pull nodesource/sid:5.9.0`
   * Node 5.9.1 - `docker pull nodesource/sid:5.9.1`
+  * Node 6.0.0 - `docker pull nodesource/sid:6.0.0`
+  * Node 6.1.0 - `docker pull nodesource/sid:6.1.0`
+  * Node 6.2.0 - `docker pull nodesource/sid:6.2.0`
   * iojs 1.3.0 - `docker pull nodesource/sid:iojs-1.3.0`
   * iojs 1.4.1 - `docker pull nodesource/sid:iojs-1.4.1`
   * iojs 1.4.2 - `docker pull nodesource/sid:iojs-1.4.2`
@@ -371,6 +380,9 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 5.8.0 - `docker pull nodesource/precise:5.8.0`
   * Node 5.9.0 - `docker pull nodesource/precise:5.9.0`
   * Node 5.9.1 - `docker pull nodesource/precise:5.9.1`
+  * Node 6.0.0 - `docker pull nodesource/precise:6.0.0`
+  * Node 6.1.0 - `docker pull nodesource/precise:6.1.0`
+  * Node 6.2.0 - `docker pull nodesource/precise:6.2.0`
 * [**Ubuntu trusty**](https://registry.hub.docker.com/u/nodesource/trusty/) - `docker pull nodesource/trusty`
   * Node 0.10.30 - `docker pull nodesource/trusty:0.10.30`
   * Node 0.10.31 - `docker pull nodesource/trusty:0.10.31`
@@ -439,6 +451,9 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 5.8.0 - `docker pull nodesource/trusty:5.8.0`
   * Node 5.9.0 - `docker pull nodesource/trusty:5.9.0`
   * Node 5.9.1 - `docker pull nodesource/trusty:5.9.1`
+  * Node 6.0.0 - `docker pull nodesource/trusty:6.0.0`
+  * Node 6.1.0 - `docker pull nodesource/trusty:6.1.0`
+  * Node 6.2.0 - `docker pull nodesource/trusty:6.2.0`
   * iojs 1.3.0 - `docker pull nodesource/trusty:iojs-1.3.0`
   * iojs 1.4.1 - `docker pull nodesource/trusty:iojs-1.4.1`
   * iojs 1.4.2 - `docker pull nodesource/trusty:iojs-1.4.2`
@@ -606,6 +621,9 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 5.8.0 - `docker pull nodesource/centos6:5.8.0`
   * Node 5.9.0 - `docker pull nodesource/centos6:5.9.0`
   * Node 5.9.1 - `docker pull nodesource/centos6:5.9.1`
+  * Node 6.0.0 - `docker pull nodesource/centos6:6.0.0`
+  * Node 6.1.0 - `docker pull nodesource/centos6:6.1.0`
+  * Node 6.2.0 - `docker pull nodesource/centos6:6.2.0`
 * [**Centos 7**](https://registry.hub.docker.com/u/nodesource/centos7/) - `docker pull nodesource/centos7`
   * Node 0.10.31 - `docker pull nodesource/centos7:0.10.31`
   * Node 0.10.32 - `docker pull nodesource/centos7:0.10.32`
@@ -671,6 +689,9 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 5.8.0 - `docker pull nodesource/centos7:5.8.0`
   * Node 5.9.0 - `docker pull nodesource/centos7:5.9.0`
   * Node 5.9.1 - `docker pull nodesource/centos7:5.9.1`
+  * Node 6.0.0 - `docker pull nodesource/centos7:6.0.0`
+  * Node 6.1.0 - `docker pull nodesource/centos7:6.1.0`
+  * Node 6.2.0 - `docker pull nodesource/centos7:6.2.0`
   * iojs 2.3.2 - `docker pull nodesource/centos7:iojs-2.3.2`
   * iojs 2.3.3 - `docker pull nodesource/centos7:iojs-2.3.3`
   * iojs 2.3.4 - `docker pull nodesource/centos7:iojs-2.3.4`
@@ -801,4 +822,7 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * Node 5.8.0 - `docker pull nodesource/fedora22:5.8.0`
   * Node 5.9.0 - `docker pull nodesource/fedora22:5.9.0`
   * Node 5.9.1 - `docker pull nodesource/fedora22:5.9.1`
+  * Node 6.0.0 - `docker pull nodesource/fedora22:6.0.0`
+  * Node 6.1.0 - `docker pull nodesource/fedora22:6.1.0`
+  * Node 6.2.0 - `docker pull nodesource/fedora22:6.2.0`
 
