@@ -58,12 +58,14 @@ URLS=(
   "https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/"
   "https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/"
   "https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/"
+  "https://deb.nodesource.com/node_6.x/pool/main/n/nodejs/"
   "https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/"
   "https://deb.nodesource.com/iojs_2.x/pool/main/i/iojs/"
   "https://deb.nodesource.com/iojs_3.x/pool/main/i/iojs/"
 )
 
 PLATFORM=(
+  "node"
   "node"
   "node"
   "node"
@@ -120,6 +122,12 @@ URLS=(
   "https://rpm.nodesource.com/pub_5.x/fc/20/x86_64/"
   "https://rpm.nodesource.com/pub_5.x/fc/21/x86_64/"
   "https://rpm.nodesource.com/pub_5.x/fc/22/x86_64/"
+  "https://rpm.nodesource.com/pub_6.x/el/5/x86_64/"
+  "https://rpm.nodesource.com/pub_6.x/el/6/x86_64/"
+  "https://rpm.nodesource.com/pub_6.x/el/7/x86_64/"
+  "https://rpm.nodesource.com/pub_6.x/fc/20/x86_64/"
+  "https://rpm.nodesource.com/pub_6.x/fc/21/x86_64/"
+  "https://rpm.nodesource.com/pub_6.x/fc/22/x86_64/"
   "https://rpm.nodesource.com/pub_iojs_1.x/el/5/x86_64/"
   "https://rpm.nodesource.com/pub_iojs_1.x/el/6/x86_64/"
   "https://rpm.nodesource.com/pub_iojs_1.x/el/7/x86_64/"
@@ -138,6 +146,12 @@ URLS=(
 )
 
 PLATFORM=(
+  "node"
+  "node"
+  "node"
+  "node"
+  "node"
+  "node"
   "node"
   "node"
   "node"
