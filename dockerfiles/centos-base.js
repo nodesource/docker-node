@@ -17,7 +17,7 @@ var pkgs = 'RUN yum install -y \\\n' +
   '{{PKGS}}' +
   ' && yum clean all'
 
-var epel = 'RUN rpm -ivh $(curl http://dl.fedoraproject.org/pub/epel/5/x86_64/repoview/epel-release.html | grep -oE "epel-release-[0-9\-]+\.noarch\.rpm" | sed "s/^/http:\\/\\/dl.fedoraproject.org\\/pub\\/epel\\/5\\/x86_64\\//") \\\n' +
+var epel = 'RUN rpm -ivh http://dl.fedoraproject.org/pub/epel/5/x86_64/epel-release-5-4.noarch.rpm \\\n' +
   ' && yum install -y python26 git\\\n' +
   ' && yum clean all'
 
