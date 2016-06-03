@@ -53,6 +53,8 @@ for DIST in ${ALL_DISTS[@]}; do
   echo "$RELEASES" > "$DIR/gen_dists/${DIST}_release"
   # Iterate through each release and create a map for it in our file
   for RELEASE in $RELEASES; do
+    echo "dists['$DIST']['$RELEASE'] = []"
+    echo "dists['$DIST']['$RELEASE'] = []"
     echo "dists['$DIST']['$RELEASE']['node'] = []"
     echo "dists['$DIST']['$RELEASE']['iojs'] = []"
   done
