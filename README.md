@@ -605,6 +605,31 @@ For example, Ubuntu Precise does not have any iojs tags, and Ubuntu Vivid does n
   * iojs 3.1.0 - `docker pull nodesource/vivid:iojs-3.1.0`
   * iojs 3.2.0 - `docker pull nodesource/vivid:iojs-3.2.0`
   * iojs 3.3.0 - `docker pull nodesource/vivid:iojs-3.3.0`
+* [**Ubuntu xenial**](https://registry.hub.docker.com/u/nodesource/xenial/) - `docker pull nodesource/xenial`
+  * Node 0.10.44 - `docker pull nodesource/xenial:0.10.44`
+  * Node 0.10.45 - `docker pull nodesource/xenial:0.10.45`
+  * Node 0.10.46 - `docker pull nodesource/xenial:0.10.46`
+  * Node 0.12.13 - `docker pull nodesource/xenial:0.12.13`
+  * Node 0.12.14 - `docker pull nodesource/xenial:0.12.14`
+  * Node 0.12.15 - `docker pull nodesource/xenial:0.12.15`
+  * Node 4.4.2 - `docker pull nodesource/xenial:4.4.2`
+  * Node 4.4.3 - `docker pull nodesource/xenial:4.4.3`
+  * Node 4.4.4 - `docker pull nodesource/xenial:4.4.4`
+  * Node 4.4.5 - `docker pull nodesource/xenial:4.4.5`
+  * Node 4.4.6 - `docker pull nodesource/xenial:4.4.6`
+  * Node 4.4.7 - `docker pull nodesource/xenial:4.4.7`
+  * Node 5.10.0 - `docker pull nodesource/xenial:5.10.0`
+  * Node 5.10.1 - `docker pull nodesource/xenial:5.10.1`
+  * Node 5.11.0 - `docker pull nodesource/xenial:5.11.0`
+  * Node 5.11.1 - `docker pull nodesource/xenial:5.11.1`
+  * Node 5.12.0 - `docker pull nodesource/xenial:5.12.0`
+  * Node 6.0.0 - `docker pull nodesource/xenial:6.0.0`
+  * Node 6.1.0 - `docker pull nodesource/xenial:6.1.0`
+  * Node 6.2.0 - `docker pull nodesource/xenial:6.2.0`
+  * Node 6.2.1 - `docker pull nodesource/xenial:6.2.1`
+  * Node 6.2.2 - `docker pull nodesource/xenial:6.2.2`
+  * Node 6.3.0 - `docker pull nodesource/xenial:6.3.0`
+  * Node 6.3.1 - `docker pull nodesource/xenial:6.3.1`
 
 ## Centos-based images
 
