@@ -2223,6 +2223,102 @@ images:
     path: "./ubuntu/vivid/iojs/2.3.3"
     test: ["./tests/node"]
     alias: []
+  - name: "nodesource/xenial:4.4.7"
+    path: "./ubuntu/xenial/node/4.4.7"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:4","nodesource/xenial:4.4","nodesource/xenial:LTS","nodesource/xenial:argon"]
+  - name: "nodesource/xenial:5.12.0"
+    path: "./ubuntu/xenial/node/5.12.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:5","nodesource/xenial:5.12"]
+  - name: "nodesource/xenial:6.3.1"
+    path: "./ubuntu/xenial/node/6.3.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:6","nodesource/xenial:6.3","nodesource/xenial:latest"]
+  - name: "nodesource/xenial:0.10.46"
+    path: "./ubuntu/xenial/node/0.10.46"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:0.10"]
+  - name: "nodesource/xenial:0.12.15"
+    path: "./ubuntu/xenial/node/0.12.15"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:0.12"]
+  - name: "nodesource/xenial:5.10.1"
+    path: "./ubuntu/xenial/node/5.10.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:5.10"]
+  - name: "nodesource/xenial:5.11.1"
+    path: "./ubuntu/xenial/node/5.11.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:5.11"]
+  - name: "nodesource/xenial:6.0.0"
+    path: "./ubuntu/xenial/node/6.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:6.0"]
+  - name: "nodesource/xenial:6.1.0"
+    path: "./ubuntu/xenial/node/6.1.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:6.1"]
+  - name: "nodesource/xenial:6.2.2"
+    path: "./ubuntu/xenial/node/6.2.2"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:6.2"]
+  - name: "nodesource/xenial:0.10.44"
+    path: "./ubuntu/xenial/node/0.10.44"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:0.10.45"
+    path: "./ubuntu/xenial/node/0.10.45"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:0.12.13"
+    path: "./ubuntu/xenial/node/0.12.13"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:0.12.14"
+    path: "./ubuntu/xenial/node/0.12.14"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:4.4.2"
+    path: "./ubuntu/xenial/node/4.4.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:4.4.3"
+    path: "./ubuntu/xenial/node/4.4.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:4.4.4"
+    path: "./ubuntu/xenial/node/4.4.4"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:4.4.5"
+    path: "./ubuntu/xenial/node/4.4.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:4.4.6"
+    path: "./ubuntu/xenial/node/4.4.6"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:5.10.0"
+    path: "./ubuntu/xenial/node/5.10.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:5.11.0"
+    path: "./ubuntu/xenial/node/5.11.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:6.2.0"
+    path: "./ubuntu/xenial/node/6.2.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:6.2.1"
+    path: "./ubuntu/xenial/node/6.2.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:6.3.0"
+    path: "./ubuntu/xenial/node/6.3.0"
+    test: ["./tests/node"]
+    alias: []
   - name: "nodesource/centos5:0.10.46"
     path: "./centos/5/node/0.10.46"
     test: ["./tests/node"]
