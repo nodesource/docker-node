@@ -111,6 +111,12 @@ for URL in ${DEB_URLS[@]}; do
     # Load in the cached list of releases
     RELEASES=$(cat "$DIR/gen_dists/${DIST}_release")
     for RELEASE in $RELEASES; do
+      # Discontinued releases
+      if [[ "$RELEASE" == "lucid" || \
+            "$RELEASE" == "saucy" || \
+            "$RELEASE" == "utopic" ]]; then
+        continue
+      fi
       # Check each deb to see if it belongs to this dist/release
       # So many nested loops...
       for DEB in $DEBS; do
