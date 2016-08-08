@@ -75,22 +75,11 @@ DEB_DISTS=(
   "ubuntu"
 )
 
-# We take the URLs all the way to Node.js 9. So that the script auto-detects
-# new repos for the immediate future. Since the numbers are sequential, we
-# can eventually have this script compile the list of repos by sequentially
-# checking numbers until it reaches a 404.
 DEB_URLS=(
   "https://deb.nodesource.com/node/pool/main/n/nodejs/"
   "https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/"
-  "https://deb.nodesource.com/iojs_1.x/pool/main/i/iojs/"
-  "https://deb.nodesource.com/iojs_2.x/pool/main/i/iojs/"
-  "https://deb.nodesource.com/iojs_3.x/pool/main/i/iojs/"
   "https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/"
-  "https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/"
   "https://deb.nodesource.com/node_6.x/pool/main/n/nodejs/"
-  "https://deb.nodesource.com/node_7.x/pool/main/n/nodejs/"
-  "https://deb.nodesource.com/node_8.x/pool/main/n/nodejs/"
-  "https://deb.nodesource.com/node_9.x/pool/main/n/nodejs/"
 )
 
 for URL in ${DEB_URLS[@]}; do
@@ -139,15 +128,9 @@ done
 EL_URLS=(
   "https://rpm.nodesource.com/pub"
   "https://rpm.nodesource.com/pub_0.12"
-  "https://rpm.nodesource.com/pub_iojs_1.x"
-  "https://rpm.nodesource.com/pub_iojs_2.x"
-  "https://rpm.nodesource.com/pub_iojs_3.x"
   "https://rpm.nodesource.com/pub_4.x"
   "https://rpm.nodesource.com/pub_5.x"
   "https://rpm.nodesource.com/pub_6.x"
-  "https://rpm.nodesource.com/pub_7.x"
-  "https://rpm.nodesource.com/pub_8.x"
-  "https://rpm.nodesource.com/pub_9.x"
 )
 
 EL_DISTS=(
