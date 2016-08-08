@@ -22,7 +22,7 @@ var commonPkgs = [ 'apt-transport-https',
   'ca-certificates',
   'git',
   'libicu-dev',
-  '\'libicu5-*\'',
+  '\'libicu[0-9][0-9].*\'',
   'lsb-release',
   'python-all',
   'rlwrap']
