@@ -28,4 +28,5 @@ var commonPkgs = [ 'automake',
   'kernel-devel',
   'make',
   'perl',
+  'python',
   'which' ]
