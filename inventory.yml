@@ -1,324 +1,8 @@
 images:
-  - name: "nodesource/wheezy:4.4.7"
-    path: "./debian/wheezy/node/4.4.7"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:4","nodesource/wheezy:4.4","nodesource/wheezy:LTS","nodesource/wheezy:argon"]
-  - name: "nodesource/wheezy:5.9.1"
-    path: "./debian/wheezy/node/5.9.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5","nodesource/wheezy:5.9"]
-  - name: "nodesource/wheezy:6.3.1"
-    path: "./debian/wheezy/node/6.3.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:6","nodesource/wheezy:6.3","nodesource/wheezy:latest"]
-  - name: "nodesource/wheezy:0.10.46"
-    path: "./debian/wheezy/node/0.10.46"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:0.10"]
-  - name: "nodesource/wheezy:0.12.9"
-    path: "./debian/wheezy/node/0.12.9"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:0.12"]
-  - name: "nodesource/wheezy:4.1.2"
-    path: "./debian/wheezy/node/4.1.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:4.1"]
-  - name: "nodesource/wheezy:4.2.6"
-    path: "./debian/wheezy/node/4.2.6"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:4.2"]
-  - name: "nodesource/wheezy:4.3.2"
-    path: "./debian/wheezy/node/4.3.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:4.3"]
-  - name: "nodesource/wheezy:5.0.0"
-    path: "./debian/wheezy/node/5.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5.0"]
-  - name: "nodesource/wheezy:5.1.1"
-    path: "./debian/wheezy/node/5.1.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5.1"]
-  - name: "nodesource/wheezy:5.10.1"
-    path: "./debian/wheezy/node/5.10.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5.10"]
-  - name: "nodesource/wheezy:5.11.1"
-    path: "./debian/wheezy/node/5.11.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5.11"]
-  - name: "nodesource/wheezy:5.12.0"
-    path: "./debian/wheezy/node/5.12.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5.12"]
-  - name: "nodesource/wheezy:5.2.0"
-    path: "./debian/wheezy/node/5.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5.2"]
-  - name: "nodesource/wheezy:5.3.0"
-    path: "./debian/wheezy/node/5.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5.3"]
-  - name: "nodesource/wheezy:5.4.1"
-    path: "./debian/wheezy/node/5.4.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5.4"]
-  - name: "nodesource/wheezy:5.5.0"
-    path: "./debian/wheezy/node/5.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5.5"]
-  - name: "nodesource/wheezy:5.6.0"
-    path: "./debian/wheezy/node/5.6.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5.6"]
-  - name: "nodesource/wheezy:5.7.1"
-    path: "./debian/wheezy/node/5.7.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5.7"]
-  - name: "nodesource/wheezy:5.8.0"
-    path: "./debian/wheezy/node/5.8.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:5.8"]
-  - name: "nodesource/wheezy:6.0.0"
-    path: "./debian/wheezy/node/6.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:6.0"]
-  - name: "nodesource/wheezy:6.1.0"
-    path: "./debian/wheezy/node/6.1.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:6.1"]
-  - name: "nodesource/wheezy:6.2.2"
-    path: "./debian/wheezy/node/6.2.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/wheezy:6.2"]
-  - name: "nodesource/wheezy:0.10.30"
-    path: "./debian/wheezy/node/0.10.30"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.31"
-    path: "./debian/wheezy/node/0.10.31"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.32"
-    path: "./debian/wheezy/node/0.10.32"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.33"
-    path: "./debian/wheezy/node/0.10.33"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.34"
-    path: "./debian/wheezy/node/0.10.34"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.35"
-    path: "./debian/wheezy/node/0.10.35"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.36"
-    path: "./debian/wheezy/node/0.10.36"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.37"
-    path: "./debian/wheezy/node/0.10.37"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.38"
-    path: "./debian/wheezy/node/0.10.38"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.39"
-    path: "./debian/wheezy/node/0.10.39"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.40"
-    path: "./debian/wheezy/node/0.10.40"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.41"
-    path: "./debian/wheezy/node/0.10.41"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.42"
-    path: "./debian/wheezy/node/0.10.42"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.43"
-    path: "./debian/wheezy/node/0.10.43"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.44"
-    path: "./debian/wheezy/node/0.10.44"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.10.45"
-    path: "./debian/wheezy/node/0.10.45"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.0"
-    path: "./debian/wheezy/node/0.12.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.10"
-    path: "./debian/wheezy/node/0.12.10"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.11"
-    path: "./debian/wheezy/node/0.12.11"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.12"
-    path: "./debian/wheezy/node/0.12.12"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.13"
-    path: "./debian/wheezy/node/0.12.13"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.14"
-    path: "./debian/wheezy/node/0.12.14"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.15"
-    path: "./debian/wheezy/node/0.12.15"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.2"
-    path: "./debian/wheezy/node/0.12.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.3"
-    path: "./debian/wheezy/node/0.12.3"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.4"
-    path: "./debian/wheezy/node/0.12.4"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.5"
-    path: "./debian/wheezy/node/0.12.5"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.6"
-    path: "./debian/wheezy/node/0.12.6"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.7"
-    path: "./debian/wheezy/node/0.12.7"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:0.12.8"
-    path: "./debian/wheezy/node/0.12.8"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.1.1"
-    path: "./debian/wheezy/node/4.1.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.2.0"
-    path: "./debian/wheezy/node/4.2.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.2.1"
-    path: "./debian/wheezy/node/4.2.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.2.2"
-    path: "./debian/wheezy/node/4.2.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.2.3"
-    path: "./debian/wheezy/node/4.2.3"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.2.4"
-    path: "./debian/wheezy/node/4.2.4"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.2.5"
-    path: "./debian/wheezy/node/4.2.5"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.3.0"
-    path: "./debian/wheezy/node/4.3.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.3.1"
-    path: "./debian/wheezy/node/4.3.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.4.0"
-    path: "./debian/wheezy/node/4.4.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.4.1"
-    path: "./debian/wheezy/node/4.4.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.4.2"
-    path: "./debian/wheezy/node/4.4.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.4.3"
-    path: "./debian/wheezy/node/4.4.3"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.4.4"
-    path: "./debian/wheezy/node/4.4.4"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.4.5"
-    path: "./debian/wheezy/node/4.4.5"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:4.4.6"
-    path: "./debian/wheezy/node/4.4.6"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:5.1.0"
-    path: "./debian/wheezy/node/5.1.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:5.10.0"
-    path: "./debian/wheezy/node/5.10.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:5.11.0"
-    path: "./debian/wheezy/node/5.11.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:5.4.0"
-    path: "./debian/wheezy/node/5.4.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:5.7.0"
-    path: "./debian/wheezy/node/5.7.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:5.9.0"
-    path: "./debian/wheezy/node/5.9.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:6.2.0"
-    path: "./debian/wheezy/node/6.2.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:6.2.1"
-    path: "./debian/wheezy/node/6.2.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/wheezy:6.3.0"
-    path: "./debian/wheezy/node/6.3.0"
-    test: ["./tests/node"]
-    alias: []
   - name: "nodesource/jessie:4.4.7"
     path: "./debian/jessie/node/4.4.7"
     test: ["./tests/node"]
     alias: ["nodesource/jessie:4","nodesource/jessie:4.4","nodesource/jessie:LTS","nodesource/jessie:argon","nodesource/node:4","nodesource/node:4.4","nodesource/node:LTS","nodesource/node:argon","nodesource/node:4.4.7"]
-  - name: "nodesource/jessie:5.9.1"
-    path: "./debian/jessie/node/5.9.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:5","nodesource/jessie:5.9","nodesource/node:5","nodesource/node:5.9","nodesource/node:5.9.1"]
   - name: "nodesource/jessie:6.3.1"
     path: "./debian/jessie/node/6.3.1"
     test: ["./tests/node"]
@@ -347,54 +31,6 @@ images:
     path: "./debian/jessie/node/4.3.2"
     test: ["./tests/node"]
     alias: ["nodesource/jessie:4.3","nodesource/node:4.3","nodesource/node:4.3.2"]
-  - name: "nodesource/jessie:5.0.0"
-    path: "./debian/jessie/node/5.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:5.0","nodesource/node:5.0","nodesource/node:5.0.0"]
-  - name: "nodesource/jessie:5.1.1"
-    path: "./debian/jessie/node/5.1.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:5.1","nodesource/node:5.1","nodesource/node:5.1.1"]
-  - name: "nodesource/jessie:5.10.1"
-    path: "./debian/jessie/node/5.10.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:5.10","nodesource/node:5.10","nodesource/node:5.10.1"]
-  - name: "nodesource/jessie:5.11.1"
-    path: "./debian/jessie/node/5.11.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:5.11","nodesource/node:5.11","nodesource/node:5.11.1"]
-  - name: "nodesource/jessie:5.12.0"
-    path: "./debian/jessie/node/5.12.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:5.12","nodesource/node:5.12","nodesource/node:5.12.0"]
-  - name: "nodesource/jessie:5.2.0"
-    path: "./debian/jessie/node/5.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:5.2","nodesource/node:5.2","nodesource/node:5.2.0"]
-  - name: "nodesource/jessie:5.3.0"
-    path: "./debian/jessie/node/5.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:5.3","nodesource/node:5.3","nodesource/node:5.3.0"]
-  - name: "nodesource/jessie:5.4.1"
-    path: "./debian/jessie/node/5.4.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:5.4","nodesource/node:5.4","nodesource/node:5.4.1"]
-  - name: "nodesource/jessie:5.5.0"
-    path: "./debian/jessie/node/5.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:5.5","nodesource/node:5.5","nodesource/node:5.5.0"]
-  - name: "nodesource/jessie:5.6.0"
-    path: "./debian/jessie/node/5.6.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:5.6","nodesource/node:5.6","nodesource/node:5.6.0"]
-  - name: "nodesource/jessie:5.7.1"
-    path: "./debian/jessie/node/5.7.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:5.7","nodesource/node:5.7","nodesource/node:5.7.1"]
-  - name: "nodesource/jessie:5.8.0"
-    path: "./debian/jessie/node/5.8.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:5.8","nodesource/node:5.8","nodesource/node:5.8.0"]
   - name: "nodesource/jessie:6.0.0"
     path: "./debian/jessie/node/6.0.0"
     test: ["./tests/node"]
@@ -595,30 +231,6 @@ images:
     path: "./debian/jessie/node/4.4.6"
     test: ["./tests/node"]
     alias: ["nodesource/node:4.4.6"]
-  - name: "nodesource/jessie:5.1.0"
-    path: "./debian/jessie/node/5.1.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:5.1.0"]
-  - name: "nodesource/jessie:5.10.0"
-    path: "./debian/jessie/node/5.10.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:5.10.0"]
-  - name: "nodesource/jessie:5.11.0"
-    path: "./debian/jessie/node/5.11.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:5.11.0"]
-  - name: "nodesource/jessie:5.4.0"
-    path: "./debian/jessie/node/5.4.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:5.4.0"]
-  - name: "nodesource/jessie:5.7.0"
-    path: "./debian/jessie/node/5.7.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:5.7.0"]
-  - name: "nodesource/jessie:5.9.0"
-    path: "./debian/jessie/node/5.9.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:5.9.0"]
   - name: "nodesource/jessie:6.2.0"
     path: "./debian/jessie/node/6.2.0"
     test: ["./tests/node"]
@@ -631,134 +243,10 @@ images:
     path: "./debian/jessie/node/6.3.0"
     test: ["./tests/node"]
     alias: ["nodesource/node:6.3.0"]
-  - name: "nodesource/jessie:iojs-1.8.4"
-    path: "./debian/jessie/iojs/1.8.4"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-1","nodesource/jessie:iojs-1.8","nodesource/node:iojs-1","nodesource/node:iojs-1.8","nodesource/node:iojs-1.8.4"]
-  - name: "nodesource/jessie:iojs-2.5.0"
-    path: "./debian/jessie/iojs/2.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-2","nodesource/jessie:iojs-2.5","nodesource/node:iojs-2","nodesource/node:iojs-2.5","nodesource/node:iojs-2.5.0"]
-  - name: "nodesource/jessie:iojs-3.3.0"
-    path: "./debian/jessie/iojs/3.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-3","nodesource/jessie:iojs-3.3","nodesource/jessie:iojs","nodesource/node:iojs-3","nodesource/node:iojs-3.3","nodesource/node:iojs","nodesource/node:iojs-3.3.0"]
-  - name: "nodesource/jessie:iojs-1.3.0"
-    path: "./debian/jessie/iojs/1.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-1.3","nodesource/node:iojs-1.3","nodesource/node:iojs-1.3.0"]
-  - name: "nodesource/jessie:iojs-1.4.3"
-    path: "./debian/jessie/iojs/1.4.3"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-1.4","nodesource/node:iojs-1.4","nodesource/node:iojs-1.4.3"]
-  - name: "nodesource/jessie:iojs-1.5.1"
-    path: "./debian/jessie/iojs/1.5.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-1.5","nodesource/node:iojs-1.5","nodesource/node:iojs-1.5.1"]
-  - name: "nodesource/jessie:iojs-1.6.4"
-    path: "./debian/jessie/iojs/1.6.4"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-1.6","nodesource/node:iojs-1.6","nodesource/node:iojs-1.6.4"]
-  - name: "nodesource/jessie:iojs-1.7.1"
-    path: "./debian/jessie/iojs/1.7.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-1.7","nodesource/node:iojs-1.7","nodesource/node:iojs-1.7.1"]
-  - name: "nodesource/jessie:iojs-2.0.2"
-    path: "./debian/jessie/iojs/2.0.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-2.0","nodesource/node:iojs-2.0","nodesource/node:iojs-2.0.2"]
-  - name: "nodesource/jessie:iojs-2.1.0"
-    path: "./debian/jessie/iojs/2.1.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-2.1","nodesource/node:iojs-2.1","nodesource/node:iojs-2.1.0"]
-  - name: "nodesource/jessie:iojs-2.2.1"
-    path: "./debian/jessie/iojs/2.2.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-2.2","nodesource/node:iojs-2.2","nodesource/node:iojs-2.2.1"]
-  - name: "nodesource/jessie:iojs-2.3.4"
-    path: "./debian/jessie/iojs/2.3.4"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-2.3","nodesource/node:iojs-2.3","nodesource/node:iojs-2.3.4"]
-  - name: "nodesource/jessie:iojs-2.4.0"
-    path: "./debian/jessie/iojs/2.4.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-2.4","nodesource/node:iojs-2.4","nodesource/node:iojs-2.4.0"]
-  - name: "nodesource/jessie:iojs-3.0.0"
-    path: "./debian/jessie/iojs/3.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-3.0","nodesource/node:iojs-3.0","nodesource/node:iojs-3.0.0"]
-  - name: "nodesource/jessie:iojs-3.1.0"
-    path: "./debian/jessie/iojs/3.1.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-3.1","nodesource/node:iojs-3.1","nodesource/node:iojs-3.1.0"]
-  - name: "nodesource/jessie:iojs-3.2.0"
-    path: "./debian/jessie/iojs/3.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/jessie:iojs-3.2","nodesource/node:iojs-3.2","nodesource/node:iojs-3.2.0"]
-  - name: "nodesource/jessie:iojs-1.4.1"
-    path: "./debian/jessie/iojs/1.4.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-1.4.1"]
-  - name: "nodesource/jessie:iojs-1.4.2"
-    path: "./debian/jessie/iojs/1.4.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-1.4.2"]
-  - name: "nodesource/jessie:iojs-1.5.0"
-    path: "./debian/jessie/iojs/1.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-1.5.0"]
-  - name: "nodesource/jessie:iojs-1.6.1"
-    path: "./debian/jessie/iojs/1.6.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-1.6.1"]
-  - name: "nodesource/jessie:iojs-1.6.2"
-    path: "./debian/jessie/iojs/1.6.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-1.6.2"]
-  - name: "nodesource/jessie:iojs-1.6.3"
-    path: "./debian/jessie/iojs/1.6.3"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-1.6.3"]
-  - name: "nodesource/jessie:iojs-1.8.1"
-    path: "./debian/jessie/iojs/1.8.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-1.8.1"]
-  - name: "nodesource/jessie:iojs-1.8.3"
-    path: "./debian/jessie/iojs/1.8.3"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-1.8.3"]
-  - name: "nodesource/jessie:iojs-2.0.0"
-    path: "./debian/jessie/iojs/2.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-2.0.0"]
-  - name: "nodesource/jessie:iojs-2.0.1"
-    path: "./debian/jessie/iojs/2.0.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-2.0.1"]
-  - name: "nodesource/jessie:iojs-2.3.0"
-    path: "./debian/jessie/iojs/2.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-2.3.0"]
-  - name: "nodesource/jessie:iojs-2.3.1"
-    path: "./debian/jessie/iojs/2.3.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-2.3.1"]
-  - name: "nodesource/jessie:iojs-2.3.2"
-    path: "./debian/jessie/iojs/2.3.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-2.3.2"]
-  - name: "nodesource/jessie:iojs-2.3.3"
-    path: "./debian/jessie/iojs/2.3.3"
-    test: ["./tests/node"]
-    alias: ["nodesource/node:iojs-2.3.3"]
   - name: "nodesource/sid:4.4.7"
     path: "./debian/sid/node/4.4.7"
     test: ["./tests/node"]
     alias: ["nodesource/sid:4","nodesource/sid:4.4","nodesource/sid:LTS","nodesource/sid:argon"]
-  - name: "nodesource/sid:5.9.1"
-    path: "./debian/sid/node/5.9.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:5","nodesource/sid:5.9"]
   - name: "nodesource/sid:6.3.1"
     path: "./debian/sid/node/6.3.1"
     test: ["./tests/node"]
@@ -787,54 +275,6 @@ images:
     path: "./debian/sid/node/4.3.2"
     test: ["./tests/node"]
     alias: ["nodesource/sid:4.3"]
-  - name: "nodesource/sid:5.0.0"
-    path: "./debian/sid/node/5.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:5.0"]
-  - name: "nodesource/sid:5.1.1"
-    path: "./debian/sid/node/5.1.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:5.1"]
-  - name: "nodesource/sid:5.10.1"
-    path: "./debian/sid/node/5.10.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:5.10"]
-  - name: "nodesource/sid:5.11.1"
-    path: "./debian/sid/node/5.11.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:5.11"]
-  - name: "nodesource/sid:5.12.0"
-    path: "./debian/sid/node/5.12.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:5.12"]
-  - name: "nodesource/sid:5.2.0"
-    path: "./debian/sid/node/5.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:5.2"]
-  - name: "nodesource/sid:5.3.0"
-    path: "./debian/sid/node/5.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:5.3"]
-  - name: "nodesource/sid:5.4.1"
-    path: "./debian/sid/node/5.4.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:5.4"]
-  - name: "nodesource/sid:5.5.0"
-    path: "./debian/sid/node/5.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:5.5"]
-  - name: "nodesource/sid:5.6.0"
-    path: "./debian/sid/node/5.6.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:5.6"]
-  - name: "nodesource/sid:5.7.1"
-    path: "./debian/sid/node/5.7.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:5.7"]
-  - name: "nodesource/sid:5.8.0"
-    path: "./debian/sid/node/5.8.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:5.8"]
   - name: "nodesource/sid:6.0.0"
     path: "./debian/sid/node/6.0.0"
     test: ["./tests/node"]
@@ -1035,30 +475,6 @@ images:
     path: "./debian/sid/node/4.4.6"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:5.1.0"
-    path: "./debian/sid/node/5.1.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/sid:5.10.0"
-    path: "./debian/sid/node/5.10.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/sid:5.11.0"
-    path: "./debian/sid/node/5.11.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/sid:5.4.0"
-    path: "./debian/sid/node/5.4.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/sid:5.7.0"
-    path: "./debian/sid/node/5.7.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/sid:5.9.0"
-    path: "./debian/sid/node/5.9.0"
-    test: ["./tests/node"]
-    alias: []
   - name: "nodesource/sid:6.2.0"
     path: "./debian/sid/node/6.2.0"
     test: ["./tests/node"]
@@ -1071,134 +487,246 @@ images:
     path: "./debian/sid/node/6.3.0"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-1.8.4"
-    path: "./debian/sid/iojs/1.8.4"
+  - name: "nodesource/wheezy:4.4.7"
+    path: "./debian/wheezy/node/4.4.7"
     test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-1","nodesource/sid:iojs-1.8"]
-  - name: "nodesource/sid:iojs-2.5.0"
-    path: "./debian/sid/iojs/2.5.0"
+    alias: ["nodesource/wheezy:4","nodesource/wheezy:4.4","nodesource/wheezy:LTS","nodesource/wheezy:argon"]
+  - name: "nodesource/wheezy:6.3.1"
+    path: "./debian/wheezy/node/6.3.1"
     test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-2","nodesource/sid:iojs-2.5"]
-  - name: "nodesource/sid:iojs-3.3.0"
-    path: "./debian/sid/iojs/3.3.0"
+    alias: ["nodesource/wheezy:6","nodesource/wheezy:6.3","nodesource/wheezy:latest"]
+  - name: "nodesource/wheezy:0.10.46"
+    path: "./debian/wheezy/node/0.10.46"
     test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-3","nodesource/sid:iojs-3.3","nodesource/sid:iojs"]
-  - name: "nodesource/sid:iojs-1.3.0"
-    path: "./debian/sid/iojs/1.3.0"
+    alias: ["nodesource/wheezy:0.10"]
+  - name: "nodesource/wheezy:0.12.9"
+    path: "./debian/wheezy/node/0.12.9"
     test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-1.3"]
-  - name: "nodesource/sid:iojs-1.4.3"
-    path: "./debian/sid/iojs/1.4.3"
+    alias: ["nodesource/wheezy:0.12"]
+  - name: "nodesource/wheezy:4.1.2"
+    path: "./debian/wheezy/node/4.1.2"
     test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-1.4"]
-  - name: "nodesource/sid:iojs-1.5.1"
-    path: "./debian/sid/iojs/1.5.1"
+    alias: ["nodesource/wheezy:4.1"]
+  - name: "nodesource/wheezy:4.2.6"
+    path: "./debian/wheezy/node/4.2.6"
     test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-1.5"]
-  - name: "nodesource/sid:iojs-1.6.4"
-    path: "./debian/sid/iojs/1.6.4"
+    alias: ["nodesource/wheezy:4.2"]
+  - name: "nodesource/wheezy:4.3.2"
+    path: "./debian/wheezy/node/4.3.2"
     test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-1.6"]
-  - name: "nodesource/sid:iojs-1.7.1"
-    path: "./debian/sid/iojs/1.7.1"
+    alias: ["nodesource/wheezy:4.3"]
+  - name: "nodesource/wheezy:6.0.0"
+    path: "./debian/wheezy/node/6.0.0"
     test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-1.7"]
-  - name: "nodesource/sid:iojs-2.0.2"
-    path: "./debian/sid/iojs/2.0.2"
+    alias: ["nodesource/wheezy:6.0"]
+  - name: "nodesource/wheezy:6.1.0"
+    path: "./debian/wheezy/node/6.1.0"
     test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-2.0"]
-  - name: "nodesource/sid:iojs-2.1.0"
-    path: "./debian/sid/iojs/2.1.0"
+    alias: ["nodesource/wheezy:6.1"]
+  - name: "nodesource/wheezy:6.2.2"
+    path: "./debian/wheezy/node/6.2.2"
     test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-2.1"]
-  - name: "nodesource/sid:iojs-2.2.1"
-    path: "./debian/sid/iojs/2.2.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-2.2"]
-  - name: "nodesource/sid:iojs-2.3.4"
-    path: "./debian/sid/iojs/2.3.4"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-2.3"]
-  - name: "nodesource/sid:iojs-2.4.0"
-    path: "./debian/sid/iojs/2.4.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-2.4"]
-  - name: "nodesource/sid:iojs-3.0.0"
-    path: "./debian/sid/iojs/3.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-3.0"]
-  - name: "nodesource/sid:iojs-3.1.0"
-    path: "./debian/sid/iojs/3.1.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-3.1"]
-  - name: "nodesource/sid:iojs-3.2.0"
-    path: "./debian/sid/iojs/3.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/sid:iojs-3.2"]
-  - name: "nodesource/sid:iojs-1.4.1"
-    path: "./debian/sid/iojs/1.4.1"
+    alias: ["nodesource/wheezy:6.2"]
+  - name: "nodesource/wheezy:0.10.30"
+    path: "./debian/wheezy/node/0.10.30"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-1.4.2"
-    path: "./debian/sid/iojs/1.4.2"
+  - name: "nodesource/wheezy:0.10.31"
+    path: "./debian/wheezy/node/0.10.31"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-1.5.0"
-    path: "./debian/sid/iojs/1.5.0"
+  - name: "nodesource/wheezy:0.10.32"
+    path: "./debian/wheezy/node/0.10.32"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-1.6.1"
-    path: "./debian/sid/iojs/1.6.1"
+  - name: "nodesource/wheezy:0.10.33"
+    path: "./debian/wheezy/node/0.10.33"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-1.6.2"
-    path: "./debian/sid/iojs/1.6.2"
+  - name: "nodesource/wheezy:0.10.34"
+    path: "./debian/wheezy/node/0.10.34"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-1.6.3"
-    path: "./debian/sid/iojs/1.6.3"
+  - name: "nodesource/wheezy:0.10.35"
+    path: "./debian/wheezy/node/0.10.35"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-1.8.1"
-    path: "./debian/sid/iojs/1.8.1"
+  - name: "nodesource/wheezy:0.10.36"
+    path: "./debian/wheezy/node/0.10.36"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-1.8.3"
-    path: "./debian/sid/iojs/1.8.3"
+  - name: "nodesource/wheezy:0.10.37"
+    path: "./debian/wheezy/node/0.10.37"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-2.0.0"
-    path: "./debian/sid/iojs/2.0.0"
+  - name: "nodesource/wheezy:0.10.38"
+    path: "./debian/wheezy/node/0.10.38"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-2.0.1"
-    path: "./debian/sid/iojs/2.0.1"
+  - name: "nodesource/wheezy:0.10.39"
+    path: "./debian/wheezy/node/0.10.39"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-2.3.0"
-    path: "./debian/sid/iojs/2.3.0"
+  - name: "nodesource/wheezy:0.10.40"
+    path: "./debian/wheezy/node/0.10.40"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-2.3.1"
-    path: "./debian/sid/iojs/2.3.1"
+  - name: "nodesource/wheezy:0.10.41"
+    path: "./debian/wheezy/node/0.10.41"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-2.3.2"
-    path: "./debian/sid/iojs/2.3.2"
+  - name: "nodesource/wheezy:0.10.42"
+    path: "./debian/wheezy/node/0.10.42"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/sid:iojs-2.3.3"
-    path: "./debian/sid/iojs/2.3.3"
+  - name: "nodesource/wheezy:0.10.43"
+    path: "./debian/wheezy/node/0.10.43"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.10.44"
+    path: "./debian/wheezy/node/0.10.44"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.10.45"
+    path: "./debian/wheezy/node/0.10.45"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.0"
+    path: "./debian/wheezy/node/0.12.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.10"
+    path: "./debian/wheezy/node/0.12.10"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.11"
+    path: "./debian/wheezy/node/0.12.11"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.12"
+    path: "./debian/wheezy/node/0.12.12"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.13"
+    path: "./debian/wheezy/node/0.12.13"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.14"
+    path: "./debian/wheezy/node/0.12.14"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.15"
+    path: "./debian/wheezy/node/0.12.15"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.2"
+    path: "./debian/wheezy/node/0.12.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.3"
+    path: "./debian/wheezy/node/0.12.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.4"
+    path: "./debian/wheezy/node/0.12.4"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.5"
+    path: "./debian/wheezy/node/0.12.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.6"
+    path: "./debian/wheezy/node/0.12.6"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.7"
+    path: "./debian/wheezy/node/0.12.7"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:0.12.8"
+    path: "./debian/wheezy/node/0.12.8"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.1.1"
+    path: "./debian/wheezy/node/4.1.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.2.0"
+    path: "./debian/wheezy/node/4.2.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.2.1"
+    path: "./debian/wheezy/node/4.2.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.2.2"
+    path: "./debian/wheezy/node/4.2.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.2.3"
+    path: "./debian/wheezy/node/4.2.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.2.4"
+    path: "./debian/wheezy/node/4.2.4"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.2.5"
+    path: "./debian/wheezy/node/4.2.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.3.0"
+    path: "./debian/wheezy/node/4.3.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.3.1"
+    path: "./debian/wheezy/node/4.3.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.4.0"
+    path: "./debian/wheezy/node/4.4.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.4.1"
+    path: "./debian/wheezy/node/4.4.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.4.2"
+    path: "./debian/wheezy/node/4.4.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.4.3"
+    path: "./debian/wheezy/node/4.4.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.4.4"
+    path: "./debian/wheezy/node/4.4.4"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.4.5"
+    path: "./debian/wheezy/node/4.4.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:4.4.6"
+    path: "./debian/wheezy/node/4.4.6"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:6.2.0"
+    path: "./debian/wheezy/node/6.2.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:6.2.1"
+    path: "./debian/wheezy/node/6.2.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wheezy:6.3.0"
+    path: "./debian/wheezy/node/6.3.0"
     test: ["./tests/node"]
     alias: []
   - name: "nodesource/precise:4.4.7"
     path: "./ubuntu/precise/node/4.4.7"
     test: ["./tests/node"]
     alias: ["nodesource/precise:4","nodesource/precise:4.4","nodesource/precise:LTS","nodesource/precise:argon"]
-  - name: "nodesource/precise:5.9.1"
-    path: "./ubuntu/precise/node/5.9.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/precise:5","nodesource/precise:5.9"]
   - name: "nodesource/precise:6.3.1"
     path: "./ubuntu/precise/node/6.3.1"
     test: ["./tests/node"]
@@ -1223,54 +751,6 @@ images:
     path: "./ubuntu/precise/node/4.3.2"
     test: ["./tests/node"]
     alias: ["nodesource/precise:4.3"]
-  - name: "nodesource/precise:5.0.0"
-    path: "./ubuntu/precise/node/5.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/precise:5.0"]
-  - name: "nodesource/precise:5.1.1"
-    path: "./ubuntu/precise/node/5.1.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/precise:5.1"]
-  - name: "nodesource/precise:5.10.1"
-    path: "./ubuntu/precise/node/5.10.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/precise:5.10"]
-  - name: "nodesource/precise:5.11.1"
-    path: "./ubuntu/precise/node/5.11.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/precise:5.11"]
-  - name: "nodesource/precise:5.12.0"
-    path: "./ubuntu/precise/node/5.12.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/precise:5.12"]
-  - name: "nodesource/precise:5.2.0"
-    path: "./ubuntu/precise/node/5.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/precise:5.2"]
-  - name: "nodesource/precise:5.3.0"
-    path: "./ubuntu/precise/node/5.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/precise:5.3"]
-  - name: "nodesource/precise:5.4.1"
-    path: "./ubuntu/precise/node/5.4.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/precise:5.4"]
-  - name: "nodesource/precise:5.5.0"
-    path: "./ubuntu/precise/node/5.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/precise:5.5"]
-  - name: "nodesource/precise:5.6.0"
-    path: "./ubuntu/precise/node/5.6.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/precise:5.6"]
-  - name: "nodesource/precise:5.7.1"
-    path: "./ubuntu/precise/node/5.7.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/precise:5.7"]
-  - name: "nodesource/precise:5.8.0"
-    path: "./ubuntu/precise/node/5.8.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/precise:5.8"]
   - name: "nodesource/precise:6.0.0"
     path: "./ubuntu/precise/node/6.0.0"
     test: ["./tests/node"]
@@ -1467,30 +947,6 @@ images:
     path: "./ubuntu/precise/node/4.4.6"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/precise:5.1.0"
-    path: "./ubuntu/precise/node/5.1.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/precise:5.10.0"
-    path: "./ubuntu/precise/node/5.10.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/precise:5.11.0"
-    path: "./ubuntu/precise/node/5.11.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/precise:5.4.0"
-    path: "./ubuntu/precise/node/5.4.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/precise:5.7.0"
-    path: "./ubuntu/precise/node/5.7.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/precise:5.9.0"
-    path: "./ubuntu/precise/node/5.9.0"
-    test: ["./tests/node"]
-    alias: []
   - name: "nodesource/precise:6.2.0"
     path: "./ubuntu/precise/node/6.2.0"
     test: ["./tests/node"]
@@ -1507,10 +963,6 @@ images:
     path: "./ubuntu/trusty/node/4.4.7"
     test: ["./tests/node"]
     alias: ["nodesource/trusty:4","nodesource/trusty:4.4","nodesource/trusty:LTS","nodesource/trusty:argon"]
-  - name: "nodesource/trusty:5.9.1"
-    path: "./ubuntu/trusty/node/5.9.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:5","nodesource/trusty:5.9"]
   - name: "nodesource/trusty:6.3.1"
     path: "./ubuntu/trusty/node/6.3.1"
     test: ["./tests/node"]
@@ -1539,54 +991,6 @@ images:
     path: "./ubuntu/trusty/node/4.3.2"
     test: ["./tests/node"]
     alias: ["nodesource/trusty:4.3"]
-  - name: "nodesource/trusty:5.0.0"
-    path: "./ubuntu/trusty/node/5.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:5.0"]
-  - name: "nodesource/trusty:5.1.1"
-    path: "./ubuntu/trusty/node/5.1.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:5.1"]
-  - name: "nodesource/trusty:5.10.1"
-    path: "./ubuntu/trusty/node/5.10.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:5.10"]
-  - name: "nodesource/trusty:5.11.1"
-    path: "./ubuntu/trusty/node/5.11.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:5.11"]
-  - name: "nodesource/trusty:5.12.0"
-    path: "./ubuntu/trusty/node/5.12.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:5.12"]
-  - name: "nodesource/trusty:5.2.0"
-    path: "./ubuntu/trusty/node/5.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:5.2"]
-  - name: "nodesource/trusty:5.3.0"
-    path: "./ubuntu/trusty/node/5.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:5.3"]
-  - name: "nodesource/trusty:5.4.1"
-    path: "./ubuntu/trusty/node/5.4.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:5.4"]
-  - name: "nodesource/trusty:5.5.0"
-    path: "./ubuntu/trusty/node/5.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:5.5"]
-  - name: "nodesource/trusty:5.6.0"
-    path: "./ubuntu/trusty/node/5.6.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:5.6"]
-  - name: "nodesource/trusty:5.7.1"
-    path: "./ubuntu/trusty/node/5.7.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:5.7"]
-  - name: "nodesource/trusty:5.8.0"
-    path: "./ubuntu/trusty/node/5.8.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:5.8"]
   - name: "nodesource/trusty:6.0.0"
     path: "./ubuntu/trusty/node/6.0.0"
     test: ["./tests/node"]
@@ -1787,30 +1191,6 @@ images:
     path: "./ubuntu/trusty/node/4.4.6"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/trusty:5.1.0"
-    path: "./ubuntu/trusty/node/5.1.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:5.10.0"
-    path: "./ubuntu/trusty/node/5.10.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:5.11.0"
-    path: "./ubuntu/trusty/node/5.11.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:5.4.0"
-    path: "./ubuntu/trusty/node/5.4.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:5.7.0"
-    path: "./ubuntu/trusty/node/5.7.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:5.9.0"
-    path: "./ubuntu/trusty/node/5.9.0"
-    test: ["./tests/node"]
-    alias: []
   - name: "nodesource/trusty:6.2.0"
     path: "./ubuntu/trusty/node/6.2.0"
     test: ["./tests/node"]
@@ -1823,134 +1203,10 @@ images:
     path: "./ubuntu/trusty/node/6.3.0"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/trusty:iojs-1.8.4"
-    path: "./ubuntu/trusty/iojs/1.8.4"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-1","nodesource/trusty:iojs-1.8"]
-  - name: "nodesource/trusty:iojs-2.5.0"
-    path: "./ubuntu/trusty/iojs/2.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-2","nodesource/trusty:iojs-2.5"]
-  - name: "nodesource/trusty:iojs-3.3.0"
-    path: "./ubuntu/trusty/iojs/3.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-3","nodesource/trusty:iojs-3.3","nodesource/trusty:iojs"]
-  - name: "nodesource/trusty:iojs-1.3.0"
-    path: "./ubuntu/trusty/iojs/1.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-1.3"]
-  - name: "nodesource/trusty:iojs-1.4.3"
-    path: "./ubuntu/trusty/iojs/1.4.3"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-1.4"]
-  - name: "nodesource/trusty:iojs-1.5.1"
-    path: "./ubuntu/trusty/iojs/1.5.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-1.5"]
-  - name: "nodesource/trusty:iojs-1.6.4"
-    path: "./ubuntu/trusty/iojs/1.6.4"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-1.6"]
-  - name: "nodesource/trusty:iojs-1.7.1"
-    path: "./ubuntu/trusty/iojs/1.7.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-1.7"]
-  - name: "nodesource/trusty:iojs-2.0.2"
-    path: "./ubuntu/trusty/iojs/2.0.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-2.0"]
-  - name: "nodesource/trusty:iojs-2.1.0"
-    path: "./ubuntu/trusty/iojs/2.1.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-2.1"]
-  - name: "nodesource/trusty:iojs-2.2.1"
-    path: "./ubuntu/trusty/iojs/2.2.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-2.2"]
-  - name: "nodesource/trusty:iojs-2.3.4"
-    path: "./ubuntu/trusty/iojs/2.3.4"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-2.3"]
-  - name: "nodesource/trusty:iojs-2.4.0"
-    path: "./ubuntu/trusty/iojs/2.4.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-2.4"]
-  - name: "nodesource/trusty:iojs-3.0.0"
-    path: "./ubuntu/trusty/iojs/3.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-3.0"]
-  - name: "nodesource/trusty:iojs-3.1.0"
-    path: "./ubuntu/trusty/iojs/3.1.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-3.1"]
-  - name: "nodesource/trusty:iojs-3.2.0"
-    path: "./ubuntu/trusty/iojs/3.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/trusty:iojs-3.2"]
-  - name: "nodesource/trusty:iojs-1.4.1"
-    path: "./ubuntu/trusty/iojs/1.4.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:iojs-1.4.2"
-    path: "./ubuntu/trusty/iojs/1.4.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:iojs-1.5.0"
-    path: "./ubuntu/trusty/iojs/1.5.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:iojs-1.6.1"
-    path: "./ubuntu/trusty/iojs/1.6.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:iojs-1.6.2"
-    path: "./ubuntu/trusty/iojs/1.6.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:iojs-1.6.3"
-    path: "./ubuntu/trusty/iojs/1.6.3"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:iojs-1.8.1"
-    path: "./ubuntu/trusty/iojs/1.8.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:iojs-1.8.3"
-    path: "./ubuntu/trusty/iojs/1.8.3"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:iojs-2.0.0"
-    path: "./ubuntu/trusty/iojs/2.0.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:iojs-2.0.1"
-    path: "./ubuntu/trusty/iojs/2.0.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:iojs-2.3.0"
-    path: "./ubuntu/trusty/iojs/2.3.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:iojs-2.3.1"
-    path: "./ubuntu/trusty/iojs/2.3.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:iojs-2.3.2"
-    path: "./ubuntu/trusty/iojs/2.3.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/trusty:iojs-2.3.3"
-    path: "./ubuntu/trusty/iojs/2.3.3"
-    test: ["./tests/node"]
-    alias: []
   - name: "nodesource/vivid:4.4.2"
     path: "./ubuntu/vivid/node/4.4.2"
     test: ["./tests/node"]
-    alias: ["nodesource/vivid:4","nodesource/vivid:4.4","nodesource/vivid:LTS","nodesource/vivid:argon"]
-  - name: "nodesource/vivid:5.9.1"
-    path: "./ubuntu/vivid/node/5.9.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:5","nodesource/vivid:5.9","nodesource/vivid:latest"]
+    alias: ["nodesource/vivid:4","nodesource/vivid:4.4","nodesource/vivid:latest","nodesource/vivid:LTS","nodesource/vivid:argon"]
   - name: "nodesource/vivid:0.10.44"
     path: "./ubuntu/vivid/node/0.10.44"
     test: ["./tests/node"]
@@ -1975,46 +1231,6 @@ images:
     path: "./ubuntu/vivid/node/4.3.2"
     test: ["./tests/node"]
     alias: ["nodesource/vivid:4.3"]
-  - name: "nodesource/vivid:5.0.0"
-    path: "./ubuntu/vivid/node/5.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:5.0"]
-  - name: "nodesource/vivid:5.1.1"
-    path: "./ubuntu/vivid/node/5.1.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:5.1"]
-  - name: "nodesource/vivid:5.10.0"
-    path: "./ubuntu/vivid/node/5.10.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:5.10"]
-  - name: "nodesource/vivid:5.2.0"
-    path: "./ubuntu/vivid/node/5.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:5.2"]
-  - name: "nodesource/vivid:5.3.0"
-    path: "./ubuntu/vivid/node/5.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:5.3"]
-  - name: "nodesource/vivid:5.4.1"
-    path: "./ubuntu/vivid/node/5.4.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:5.4"]
-  - name: "nodesource/vivid:5.5.0"
-    path: "./ubuntu/vivid/node/5.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:5.5"]
-  - name: "nodesource/vivid:5.6.0"
-    path: "./ubuntu/vivid/node/5.6.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:5.6"]
-  - name: "nodesource/vivid:5.7.1"
-    path: "./ubuntu/vivid/node/5.7.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:5.7"]
-  - name: "nodesource/vivid:5.8.0"
-    path: "./ubuntu/vivid/node/5.8.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:5.8"]
   - name: "nodesource/vivid:0.10.38"
     path: "./ubuntu/vivid/node/0.10.38"
     test: ["./tests/node"]
@@ -2131,96 +1347,924 @@ images:
     path: "./ubuntu/vivid/node/4.4.1"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/vivid:5.1.0"
-    path: "./ubuntu/vivid/node/5.1.0"
+  - name: "nodesource/wily:4.4.7"
+    path: "./ubuntu/wily/node/4.4.7"
+    test: ["./tests/node"]
+    alias: ["nodesource/wily:4","nodesource/wily:4.4","nodesource/wily:LTS","nodesource/wily:argon"]
+  - name: "nodesource/wily:6.3.1"
+    path: "./ubuntu/wily/node/6.3.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/wily:6","nodesource/wily:6.3","nodesource/wily:latest"]
+  - name: "nodesource/wily:0.10.46"
+    path: "./ubuntu/wily/node/0.10.46"
+    test: ["./tests/node"]
+    alias: ["nodesource/wily:0.10"]
+  - name: "nodesource/wily:0.12.9"
+    path: "./ubuntu/wily/node/0.12.9"
+    test: ["./tests/node"]
+    alias: ["nodesource/wily:0.12"]
+  - name: "nodesource/wily:4.2.6"
+    path: "./ubuntu/wily/node/4.2.6"
+    test: ["./tests/node"]
+    alias: ["nodesource/wily:4.2"]
+  - name: "nodesource/wily:4.3.2"
+    path: "./ubuntu/wily/node/4.3.2"
+    test: ["./tests/node"]
+    alias: ["nodesource/wily:4.3"]
+  - name: "nodesource/wily:6.0.0"
+    path: "./ubuntu/wily/node/6.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/wily:6.0"]
+  - name: "nodesource/wily:6.1.0"
+    path: "./ubuntu/wily/node/6.1.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/wily:6.1"]
+  - name: "nodesource/wily:6.2.2"
+    path: "./ubuntu/wily/node/6.2.2"
+    test: ["./tests/node"]
+    alias: ["nodesource/wily:6.2"]
+  - name: "nodesource/wily:0.10.44"
+    path: "./ubuntu/wily/node/0.10.44"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/vivid:5.4.0"
-    path: "./ubuntu/vivid/node/5.4.0"
+  - name: "nodesource/wily:0.10.45"
+    path: "./ubuntu/wily/node/0.10.45"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/vivid:5.7.0"
-    path: "./ubuntu/vivid/node/5.7.0"
+  - name: "nodesource/wily:0.12.10"
+    path: "./ubuntu/wily/node/0.12.10"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/vivid:5.9.0"
-    path: "./ubuntu/vivid/node/5.9.0"
+  - name: "nodesource/wily:0.12.11"
+    path: "./ubuntu/wily/node/0.12.11"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/vivid:iojs-1.8.4"
-    path: "./ubuntu/vivid/iojs/1.8.4"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:iojs-1","nodesource/vivid:iojs-1.8"]
-  - name: "nodesource/vivid:iojs-2.5.0"
-    path: "./ubuntu/vivid/iojs/2.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:iojs-2","nodesource/vivid:iojs-2.5"]
-  - name: "nodesource/vivid:iojs-3.3.0"
-    path: "./ubuntu/vivid/iojs/3.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:iojs-3","nodesource/vivid:iojs-3.3","nodesource/vivid:iojs"]
-  - name: "nodesource/vivid:iojs-2.0.2"
-    path: "./ubuntu/vivid/iojs/2.0.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:iojs-2.0"]
-  - name: "nodesource/vivid:iojs-2.1.0"
-    path: "./ubuntu/vivid/iojs/2.1.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:iojs-2.1"]
-  - name: "nodesource/vivid:iojs-2.2.1"
-    path: "./ubuntu/vivid/iojs/2.2.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:iojs-2.2"]
-  - name: "nodesource/vivid:iojs-2.3.4"
-    path: "./ubuntu/vivid/iojs/2.3.4"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:iojs-2.3"]
-  - name: "nodesource/vivid:iojs-2.4.0"
-    path: "./ubuntu/vivid/iojs/2.4.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:iojs-2.4"]
-  - name: "nodesource/vivid:iojs-3.0.0"
-    path: "./ubuntu/vivid/iojs/3.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:iojs-3.0"]
-  - name: "nodesource/vivid:iojs-3.1.0"
-    path: "./ubuntu/vivid/iojs/3.1.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:iojs-3.1"]
-  - name: "nodesource/vivid:iojs-3.2.0"
-    path: "./ubuntu/vivid/iojs/3.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/vivid:iojs-3.2"]
-  - name: "nodesource/vivid:iojs-1.8.1"
-    path: "./ubuntu/vivid/iojs/1.8.1"
+  - name: "nodesource/wily:0.12.12"
+    path: "./ubuntu/wily/node/0.12.12"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/vivid:iojs-1.8.3"
-    path: "./ubuntu/vivid/iojs/1.8.3"
+  - name: "nodesource/wily:0.12.13"
+    path: "./ubuntu/wily/node/0.12.13"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/vivid:iojs-2.0.0"
-    path: "./ubuntu/vivid/iojs/2.0.0"
+  - name: "nodesource/wily:0.12.14"
+    path: "./ubuntu/wily/node/0.12.14"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/vivid:iojs-2.0.1"
-    path: "./ubuntu/vivid/iojs/2.0.1"
+  - name: "nodesource/wily:0.12.15"
+    path: "./ubuntu/wily/node/0.12.15"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/vivid:iojs-2.3.0"
-    path: "./ubuntu/vivid/iojs/2.3.0"
+  - name: "nodesource/wily:0.12.8"
+    path: "./ubuntu/wily/node/0.12.8"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/vivid:iojs-2.3.1"
-    path: "./ubuntu/vivid/iojs/2.3.1"
+  - name: "nodesource/wily:4.2.1"
+    path: "./ubuntu/wily/node/4.2.1"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/vivid:iojs-2.3.2"
-    path: "./ubuntu/vivid/iojs/2.3.2"
+  - name: "nodesource/wily:4.2.2"
+    path: "./ubuntu/wily/node/4.2.2"
     test: ["./tests/node"]
     alias: []
-  - name: "nodesource/vivid:iojs-2.3.3"
-    path: "./ubuntu/vivid/iojs/2.3.3"
+  - name: "nodesource/wily:4.2.3"
+    path: "./ubuntu/wily/node/4.2.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:4.2.4"
+    path: "./ubuntu/wily/node/4.2.4"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:4.2.5"
+    path: "./ubuntu/wily/node/4.2.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:4.3.0"
+    path: "./ubuntu/wily/node/4.3.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:4.3.1"
+    path: "./ubuntu/wily/node/4.3.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:4.4.0"
+    path: "./ubuntu/wily/node/4.4.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:4.4.1"
+    path: "./ubuntu/wily/node/4.4.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:4.4.2"
+    path: "./ubuntu/wily/node/4.4.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:4.4.3"
+    path: "./ubuntu/wily/node/4.4.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:4.4.4"
+    path: "./ubuntu/wily/node/4.4.4"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:4.4.5"
+    path: "./ubuntu/wily/node/4.4.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:4.4.6"
+    path: "./ubuntu/wily/node/4.4.6"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:6.2.0"
+    path: "./ubuntu/wily/node/6.2.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:6.2.1"
+    path: "./ubuntu/wily/node/6.2.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/wily:6.3.0"
+    path: "./ubuntu/wily/node/6.3.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:4.4.7"
+    path: "./ubuntu/xenial/node/4.4.7"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:4","nodesource/xenial:4.4","nodesource/xenial:LTS","nodesource/xenial:argon"]
+  - name: "nodesource/xenial:6.3.1"
+    path: "./ubuntu/xenial/node/6.3.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:6","nodesource/xenial:6.3","nodesource/xenial:latest"]
+  - name: "nodesource/xenial:0.10.46"
+    path: "./ubuntu/xenial/node/0.10.46"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:0.10"]
+  - name: "nodesource/xenial:0.12.15"
+    path: "./ubuntu/xenial/node/0.12.15"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:0.12"]
+  - name: "nodesource/xenial:6.0.0"
+    path: "./ubuntu/xenial/node/6.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:6.0"]
+  - name: "nodesource/xenial:6.1.0"
+    path: "./ubuntu/xenial/node/6.1.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:6.1"]
+  - name: "nodesource/xenial:6.2.2"
+    path: "./ubuntu/xenial/node/6.2.2"
+    test: ["./tests/node"]
+    alias: ["nodesource/xenial:6.2"]
+  - name: "nodesource/xenial:0.10.44"
+    path: "./ubuntu/xenial/node/0.10.44"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:0.10.45"
+    path: "./ubuntu/xenial/node/0.10.45"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:0.12.13"
+    path: "./ubuntu/xenial/node/0.12.13"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:0.12.14"
+    path: "./ubuntu/xenial/node/0.12.14"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:4.4.2"
+    path: "./ubuntu/xenial/node/4.4.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:4.4.3"
+    path: "./ubuntu/xenial/node/4.4.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:4.4.4"
+    path: "./ubuntu/xenial/node/4.4.4"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:4.4.5"
+    path: "./ubuntu/xenial/node/4.4.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:4.4.6"
+    path: "./ubuntu/xenial/node/4.4.6"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:6.2.0"
+    path: "./ubuntu/xenial/node/6.2.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:6.2.1"
+    path: "./ubuntu/xenial/node/6.2.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/xenial:6.3.0"
+    path: "./ubuntu/xenial/node/6.3.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:4.2.1"
+    path: "./fedora/20/node/4.2.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora20:4","nodesource/fedora20:4.2","nodesource/fedora20:latest","nodesource/fedora20:LTS","nodesource/fedora20:argon"]
+  - name: "nodesource/fedora20:0.10.40"
+    path: "./fedora/20/node/0.10.40"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora20:0.10"]
+  - name: "nodesource/fedora20:0.12.7"
+    path: "./fedora/20/node/0.12.7"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora20:0.12"]
+  - name: "nodesource/fedora20:4.0.0"
+    path: "./fedora/20/node/4.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora20:4.0"]
+  - name: "nodesource/fedora20:4.1.2"
+    path: "./fedora/20/node/4.1.2"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora20:4.1"]
+  - name: "nodesource/fedora20:0.10.31"
+    path: "./fedora/20/node/0.10.31"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:0.10.32"
+    path: "./fedora/20/node/0.10.32"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:0.10.33"
+    path: "./fedora/20/node/0.10.33"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:0.10.34"
+    path: "./fedora/20/node/0.10.34"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:0.10.35"
+    path: "./fedora/20/node/0.10.35"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:0.10.36"
+    path: "./fedora/20/node/0.10.36"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:0.10.38"
+    path: "./fedora/20/node/0.10.38"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:0.10.39"
+    path: "./fedora/20/node/0.10.39"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:0.12.1"
+    path: "./fedora/20/node/0.12.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:0.12.2"
+    path: "./fedora/20/node/0.12.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:0.12.3"
+    path: "./fedora/20/node/0.12.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:0.12.5"
+    path: "./fedora/20/node/0.12.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:0.12.6"
+    path: "./fedora/20/node/0.12.6"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:4.1.0"
+    path: "./fedora/20/node/4.1.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:4.1.1"
+    path: "./fedora/20/node/4.1.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora20:4.2.0"
+    path: "./fedora/20/node/4.2.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:4.2.6"
+    path: "./fedora/21/node/4.2.6"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora21:4","nodesource/fedora21:4.2","nodesource/fedora21:LTS","nodesource/fedora21:argon"]
+  - name: "nodesource/fedora21:5.5.0"
+    path: "./fedora/21/node/5.5.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora21:5","nodesource/fedora21:5.5","nodesource/fedora21:latest"]
+  - name: "nodesource/fedora21:0.10.41"
+    path: "./fedora/21/node/0.10.41"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora21:0.10"]
+  - name: "nodesource/fedora21:0.12.9"
+    path: "./fedora/21/node/0.12.9"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora21:0.12"]
+  - name: "nodesource/fedora21:4.0.0"
+    path: "./fedora/21/node/4.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora21:4.0"]
+  - name: "nodesource/fedora21:4.1.2"
+    path: "./fedora/21/node/4.1.2"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora21:4.1"]
+  - name: "nodesource/fedora21:5.0.0"
+    path: "./fedora/21/node/5.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora21:5.0"]
+  - name: "nodesource/fedora21:5.1.1"
+    path: "./fedora/21/node/5.1.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora21:5.1"]
+  - name: "nodesource/fedora21:5.2.0"
+    path: "./fedora/21/node/5.2.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora21:5.2"]
+  - name: "nodesource/fedora21:5.3.0"
+    path: "./fedora/21/node/5.3.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora21:5.3"]
+  - name: "nodesource/fedora21:5.4.1"
+    path: "./fedora/21/node/5.4.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora21:5.4"]
+  - name: "nodesource/fedora21:0.10.35"
+    path: "./fedora/21/node/0.10.35"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:0.10.36"
+    path: "./fedora/21/node/0.10.36"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:0.10.38"
+    path: "./fedora/21/node/0.10.38"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:0.10.39"
+    path: "./fedora/21/node/0.10.39"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:0.10.40"
+    path: "./fedora/21/node/0.10.40"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:0.12.1"
+    path: "./fedora/21/node/0.12.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:0.12.2"
+    path: "./fedora/21/node/0.12.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:0.12.3"
+    path: "./fedora/21/node/0.12.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:0.12.5"
+    path: "./fedora/21/node/0.12.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:0.12.6"
+    path: "./fedora/21/node/0.12.6"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:0.12.7"
+    path: "./fedora/21/node/0.12.7"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:0.12.8"
+    path: "./fedora/21/node/0.12.8"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:4.1.0"
+    path: "./fedora/21/node/4.1.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:4.1.1"
+    path: "./fedora/21/node/4.1.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:4.2.0"
+    path: "./fedora/21/node/4.2.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:4.2.1"
+    path: "./fedora/21/node/4.2.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:4.2.2"
+    path: "./fedora/21/node/4.2.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:4.2.3"
+    path: "./fedora/21/node/4.2.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:4.2.4"
+    path: "./fedora/21/node/4.2.4"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:4.2.5"
+    path: "./fedora/21/node/4.2.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:5.1.0"
+    path: "./fedora/21/node/5.1.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora21:5.4.0"
+    path: "./fedora/21/node/5.4.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.4.7"
+    path: "./fedora/22/node/4.4.7"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:4","nodesource/fedora22:4.4","nodesource/fedora22:LTS","nodesource/fedora22:argon"]
+  - name: "nodesource/fedora22:5.9.1"
+    path: "./fedora/22/node/5.9.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5","nodesource/fedora22:5.9"]
+  - name: "nodesource/fedora22:6.3.0"
+    path: "./fedora/22/node/6.3.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:6","nodesource/fedora22:6.3","nodesource/fedora22:latest"]
+  - name: "nodesource/fedora22:0.10.46"
+    path: "./fedora/22/node/0.10.46"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:0.10"]
+  - name: "nodesource/fedora22:0.12.9"
+    path: "./fedora/22/node/0.12.9"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:0.12"]
+  - name: "nodesource/fedora22:4.0.0"
+    path: "./fedora/22/node/4.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:4.0"]
+  - name: "nodesource/fedora22:4.1.2"
+    path: "./fedora/22/node/4.1.2"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:4.1"]
+  - name: "nodesource/fedora22:4.2.6"
+    path: "./fedora/22/node/4.2.6"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:4.2"]
+  - name: "nodesource/fedora22:4.3.2"
+    path: "./fedora/22/node/4.3.2"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:4.3"]
+  - name: "nodesource/fedora22:5.0.0"
+    path: "./fedora/22/node/5.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.0"]
+  - name: "nodesource/fedora22:5.1.1"
+    path: "./fedora/22/node/5.1.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.1"]
+  - name: "nodesource/fedora22:5.10.1"
+    path: "./fedora/22/node/5.10.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.10"]
+  - name: "nodesource/fedora22:5.11.1"
+    path: "./fedora/22/node/5.11.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.11"]
+  - name: "nodesource/fedora22:5.12.0"
+    path: "./fedora/22/node/5.12.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.12"]
+  - name: "nodesource/fedora22:5.2.0"
+    path: "./fedora/22/node/5.2.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.2"]
+  - name: "nodesource/fedora22:5.3.0"
+    path: "./fedora/22/node/5.3.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.3"]
+  - name: "nodesource/fedora22:5.4.1"
+    path: "./fedora/22/node/5.4.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.4"]
+  - name: "nodesource/fedora22:5.5.0"
+    path: "./fedora/22/node/5.5.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.5"]
+  - name: "nodesource/fedora22:5.6.0"
+    path: "./fedora/22/node/5.6.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.6"]
+  - name: "nodesource/fedora22:5.7.1"
+    path: "./fedora/22/node/5.7.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.7"]
+  - name: "nodesource/fedora22:5.8.0"
+    path: "./fedora/22/node/5.8.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:5.8"]
+  - name: "nodesource/fedora22:6.0.0"
+    path: "./fedora/22/node/6.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:6.0"]
+  - name: "nodesource/fedora22:6.1.0"
+    path: "./fedora/22/node/6.1.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:6.1"]
+  - name: "nodesource/fedora22:6.2.2"
+    path: "./fedora/22/node/6.2.2"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora22:6.2"]
+  - name: "nodesource/fedora22:0.10.40"
+    path: "./fedora/22/node/0.10.40"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:0.10.41"
+    path: "./fedora/22/node/0.10.41"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:0.10.42"
+    path: "./fedora/22/node/0.10.42"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:0.10.43"
+    path: "./fedora/22/node/0.10.43"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:0.10.44"
+    path: "./fedora/22/node/0.10.44"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:0.10.45"
+    path: "./fedora/22/node/0.10.45"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:0.12.10"
+    path: "./fedora/22/node/0.12.10"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:0.12.11"
+    path: "./fedora/22/node/0.12.11"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:0.12.12"
+    path: "./fedora/22/node/0.12.12"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:0.12.13"
+    path: "./fedora/22/node/0.12.13"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:0.12.14"
+    path: "./fedora/22/node/0.12.14"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:0.12.15"
+    path: "./fedora/22/node/0.12.15"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:0.12.7"
+    path: "./fedora/22/node/0.12.7"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:0.12.8"
+    path: "./fedora/22/node/0.12.8"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.1.0"
+    path: "./fedora/22/node/4.1.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.1.1"
+    path: "./fedora/22/node/4.1.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.2.0"
+    path: "./fedora/22/node/4.2.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.2.1"
+    path: "./fedora/22/node/4.2.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.2.2"
+    path: "./fedora/22/node/4.2.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.2.3"
+    path: "./fedora/22/node/4.2.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.2.4"
+    path: "./fedora/22/node/4.2.4"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.2.5"
+    path: "./fedora/22/node/4.2.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.3.0"
+    path: "./fedora/22/node/4.3.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.3.1"
+    path: "./fedora/22/node/4.3.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.4.0"
+    path: "./fedora/22/node/4.4.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.4.1"
+    path: "./fedora/22/node/4.4.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.4.2"
+    path: "./fedora/22/node/4.4.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.4.3"
+    path: "./fedora/22/node/4.4.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.4.4"
+    path: "./fedora/22/node/4.4.4"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.4.5"
+    path: "./fedora/22/node/4.4.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:4.4.6"
+    path: "./fedora/22/node/4.4.6"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:5.1.0"
+    path: "./fedora/22/node/5.1.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:5.10.0"
+    path: "./fedora/22/node/5.10.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:5.11.0"
+    path: "./fedora/22/node/5.11.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:5.4.0"
+    path: "./fedora/22/node/5.4.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:5.7.0"
+    path: "./fedora/22/node/5.7.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:5.9.0"
+    path: "./fedora/22/node/5.9.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:6.2.0"
+    path: "./fedora/22/node/6.2.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora22:6.2.1"
+    path: "./fedora/22/node/6.2.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.4.7"
+    path: "./fedora/23/node/4.4.7"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:4","nodesource/fedora23:4.4","nodesource/fedora23:LTS","nodesource/fedora23:argon"]
+  - name: "nodesource/fedora23:5.9.1"
+    path: "./fedora/23/node/5.9.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:5","nodesource/fedora23:5.9"]
+  - name: "nodesource/fedora23:6.3.1"
+    path: "./fedora/23/node/6.3.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:6","nodesource/fedora23:6.3","nodesource/fedora23:latest"]
+  - name: "nodesource/fedora23:0.10.46"
+    path: "./fedora/23/node/0.10.46"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:0.10"]
+  - name: "nodesource/fedora23:0.12.15"
+    path: "./fedora/23/node/0.12.15"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:0.12"]
+  - name: "nodesource/fedora23:4.2.6"
+    path: "./fedora/23/node/4.2.6"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:4.2"]
+  - name: "nodesource/fedora23:4.3.2"
+    path: "./fedora/23/node/4.3.2"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:4.3"]
+  - name: "nodesource/fedora23:5.0.0"
+    path: "./fedora/23/node/5.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:5.0"]
+  - name: "nodesource/fedora23:5.1.1"
+    path: "./fedora/23/node/5.1.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:5.1"]
+  - name: "nodesource/fedora23:5.10.1"
+    path: "./fedora/23/node/5.10.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:5.10"]
+  - name: "nodesource/fedora23:5.11.1"
+    path: "./fedora/23/node/5.11.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:5.11"]
+  - name: "nodesource/fedora23:5.12.0"
+    path: "./fedora/23/node/5.12.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:5.12"]
+  - name: "nodesource/fedora23:5.2.0"
+    path: "./fedora/23/node/5.2.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:5.2"]
+  - name: "nodesource/fedora23:5.3.0"
+    path: "./fedora/23/node/5.3.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:5.3"]
+  - name: "nodesource/fedora23:5.4.1"
+    path: "./fedora/23/node/5.4.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:5.4"]
+  - name: "nodesource/fedora23:5.5.0"
+    path: "./fedora/23/node/5.5.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:5.5"]
+  - name: "nodesource/fedora23:5.6.0"
+    path: "./fedora/23/node/5.6.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:5.6"]
+  - name: "nodesource/fedora23:5.7.1"
+    path: "./fedora/23/node/5.7.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:5.7"]
+  - name: "nodesource/fedora23:5.8.0"
+    path: "./fedora/23/node/5.8.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:5.8"]
+  - name: "nodesource/fedora23:6.0.0"
+    path: "./fedora/23/node/6.0.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:6.0"]
+  - name: "nodesource/fedora23:6.1.0"
+    path: "./fedora/23/node/6.1.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:6.1"]
+  - name: "nodesource/fedora23:6.2.2"
+    path: "./fedora/23/node/6.2.2"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora23:6.2"]
+  - name: "nodesource/fedora23:0.10.43"
+    path: "./fedora/23/node/0.10.43"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:0.10.44"
+    path: "./fedora/23/node/0.10.44"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:0.10.45"
+    path: "./fedora/23/node/0.10.45"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:0.12.11"
+    path: "./fedora/23/node/0.12.11"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:0.12.12"
+    path: "./fedora/23/node/0.12.12"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:0.12.13"
+    path: "./fedora/23/node/0.12.13"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:0.12.14"
+    path: "./fedora/23/node/0.12.14"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.2.1"
+    path: "./fedora/23/node/4.2.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.2.2"
+    path: "./fedora/23/node/4.2.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.2.3"
+    path: "./fedora/23/node/4.2.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.2.4"
+    path: "./fedora/23/node/4.2.4"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.2.5"
+    path: "./fedora/23/node/4.2.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.3.0"
+    path: "./fedora/23/node/4.3.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.3.1"
+    path: "./fedora/23/node/4.3.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.4.0"
+    path: "./fedora/23/node/4.4.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.4.1"
+    path: "./fedora/23/node/4.4.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.4.2"
+    path: "./fedora/23/node/4.4.2"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.4.3"
+    path: "./fedora/23/node/4.4.3"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.4.4"
+    path: "./fedora/23/node/4.4.4"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.4.5"
+    path: "./fedora/23/node/4.4.5"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:4.4.6"
+    path: "./fedora/23/node/4.4.6"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:5.1.0"
+    path: "./fedora/23/node/5.1.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:5.10.0"
+    path: "./fedora/23/node/5.10.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:5.11.0"
+    path: "./fedora/23/node/5.11.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:5.4.0"
+    path: "./fedora/23/node/5.4.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:5.7.0"
+    path: "./fedora/23/node/5.7.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:5.9.0"
+    path: "./fedora/23/node/5.9.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:6.2.0"
+    path: "./fedora/23/node/6.2.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:6.2.1"
+    path: "./fedora/23/node/6.2.1"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora23:6.3.0"
+    path: "./fedora/23/node/6.3.0"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora24:4.4.7"
+    path: "./fedora/24/node/4.4.7"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora24:4","nodesource/fedora24:4.4","nodesource/fedora24:LTS","nodesource/fedora24:argon"]
+  - name: "nodesource/fedora24:5.12.0"
+    path: "./fedora/24/node/5.12.0"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora24:5","nodesource/fedora24:5.12"]
+  - name: "nodesource/fedora24:6.3.1"
+    path: "./fedora/24/node/6.3.1"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora24:6","nodesource/fedora24:6.3","nodesource/fedora24:latest"]
+  - name: "nodesource/fedora24:0.12.15"
+    path: "./fedora/24/node/0.12.15"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora24:0.12"]
+  - name: "nodesource/fedora24:6.2.2"
+    path: "./fedora/24/node/6.2.2"
+    test: ["./tests/node"]
+    alias: ["nodesource/fedora24:6.2"]
+  - name: "nodesource/fedora24:4.4.6"
+    path: "./fedora/24/node/4.4.6"
+    test: ["./tests/node"]
+    alias: []
+  - name: "nodesource/fedora24:6.3.0"
+    path: "./fedora/24/node/6.3.0"
     test: ["./tests/node"]
     alias: []
   - name: "nodesource/centos5:0.10.46"
@@ -2825,545 +2869,5 @@ images:
     alias: []
   - name: "nodesource/centos7:6.3.0"
     path: "./centos/7/node/6.3.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/centos7:iojs-2.5.0"
-    path: "./centos/7/iojs/2.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/centos7:iojs-2","nodesource/centos7:iojs-2.5"]
-  - name: "nodesource/centos7:iojs-3.3.0"
-    path: "./centos/7/iojs/3.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/centos7:iojs-3","nodesource/centos7:iojs-3.3","nodesource/centos7:iojs"]
-  - name: "nodesource/centos7:iojs-2.3.4"
-    path: "./centos/7/iojs/2.3.4"
-    test: ["./tests/node"]
-    alias: ["nodesource/centos7:iojs-2.3"]
-  - name: "nodesource/centos7:iojs-2.4.0"
-    path: "./centos/7/iojs/2.4.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/centos7:iojs-2.4"]
-  - name: "nodesource/centos7:iojs-3.0.0"
-    path: "./centos/7/iojs/3.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/centos7:iojs-3.0"]
-  - name: "nodesource/centos7:iojs-3.1.0"
-    path: "./centos/7/iojs/3.1.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/centos7:iojs-3.1"]
-  - name: "nodesource/centos7:iojs-3.2.0"
-    path: "./centos/7/iojs/3.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/centos7:iojs-3.2"]
-  - name: "nodesource/centos7:iojs-2.3.2"
-    path: "./centos/7/iojs/2.3.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/centos7:iojs-2.3.3"
-    path: "./centos/7/iojs/2.3.3"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:4.2.1"
-    path: "./fedora/20/node/4.2.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora20:4","nodesource/fedora20:4.2","nodesource/fedora20:latest","nodesource/fedora20:LTS","nodesource/fedora20:argon"]
-  - name: "nodesource/fedora20:0.10.40"
-    path: "./fedora/20/node/0.10.40"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora20:0.10"]
-  - name: "nodesource/fedora20:0.12.7"
-    path: "./fedora/20/node/0.12.7"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora20:0.12"]
-  - name: "nodesource/fedora20:4.0.0"
-    path: "./fedora/20/node/4.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora20:4.0"]
-  - name: "nodesource/fedora20:4.1.2"
-    path: "./fedora/20/node/4.1.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora20:4.1"]
-  - name: "nodesource/fedora20:0.10.31"
-    path: "./fedora/20/node/0.10.31"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:0.10.32"
-    path: "./fedora/20/node/0.10.32"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:0.10.33"
-    path: "./fedora/20/node/0.10.33"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:0.10.34"
-    path: "./fedora/20/node/0.10.34"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:0.10.35"
-    path: "./fedora/20/node/0.10.35"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:0.10.36"
-    path: "./fedora/20/node/0.10.36"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:0.10.38"
-    path: "./fedora/20/node/0.10.38"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:0.10.39"
-    path: "./fedora/20/node/0.10.39"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:0.12.1"
-    path: "./fedora/20/node/0.12.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:0.12.2"
-    path: "./fedora/20/node/0.12.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:0.12.3"
-    path: "./fedora/20/node/0.12.3"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:0.12.5"
-    path: "./fedora/20/node/0.12.5"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:0.12.6"
-    path: "./fedora/20/node/0.12.6"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:4.1.0"
-    path: "./fedora/20/node/4.1.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:4.1.1"
-    path: "./fedora/20/node/4.1.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:4.2.0"
-    path: "./fedora/20/node/4.2.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:iojs-2.5.0"
-    path: "./fedora/20/iojs/2.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora20:iojs-2","nodesource/fedora20:iojs-2.5"]
-  - name: "nodesource/fedora20:iojs-3.3.0"
-    path: "./fedora/20/iojs/3.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora20:iojs-3","nodesource/fedora20:iojs-3.3","nodesource/fedora20:iojs"]
-  - name: "nodesource/fedora20:iojs-2.3.4"
-    path: "./fedora/20/iojs/2.3.4"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora20:iojs-2.3"]
-  - name: "nodesource/fedora20:iojs-2.4.0"
-    path: "./fedora/20/iojs/2.4.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora20:iojs-2.4"]
-  - name: "nodesource/fedora20:iojs-3.0.0"
-    path: "./fedora/20/iojs/3.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora20:iojs-3.0"]
-  - name: "nodesource/fedora20:iojs-3.1.0"
-    path: "./fedora/20/iojs/3.1.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora20:iojs-3.1"]
-  - name: "nodesource/fedora20:iojs-3.2.0"
-    path: "./fedora/20/iojs/3.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora20:iojs-3.2"]
-  - name: "nodesource/fedora20:iojs-2.3.2"
-    path: "./fedora/20/iojs/2.3.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora20:iojs-2.3.3"
-    path: "./fedora/20/iojs/2.3.3"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:4.2.6"
-    path: "./fedora/21/node/4.2.6"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:4","nodesource/fedora21:4.2","nodesource/fedora21:LTS","nodesource/fedora21:argon"]
-  - name: "nodesource/fedora21:5.5.0"
-    path: "./fedora/21/node/5.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:5","nodesource/fedora21:5.5","nodesource/fedora21:latest"]
-  - name: "nodesource/fedora21:0.10.41"
-    path: "./fedora/21/node/0.10.41"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:0.10"]
-  - name: "nodesource/fedora21:0.12.9"
-    path: "./fedora/21/node/0.12.9"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:0.12"]
-  - name: "nodesource/fedora21:4.0.0"
-    path: "./fedora/21/node/4.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:4.0"]
-  - name: "nodesource/fedora21:4.1.2"
-    path: "./fedora/21/node/4.1.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:4.1"]
-  - name: "nodesource/fedora21:5.0.0"
-    path: "./fedora/21/node/5.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:5.0"]
-  - name: "nodesource/fedora21:5.1.1"
-    path: "./fedora/21/node/5.1.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:5.1"]
-  - name: "nodesource/fedora21:5.2.0"
-    path: "./fedora/21/node/5.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:5.2"]
-  - name: "nodesource/fedora21:5.3.0"
-    path: "./fedora/21/node/5.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:5.3"]
-  - name: "nodesource/fedora21:5.4.1"
-    path: "./fedora/21/node/5.4.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:5.4"]
-  - name: "nodesource/fedora21:0.10.35"
-    path: "./fedora/21/node/0.10.35"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:0.10.36"
-    path: "./fedora/21/node/0.10.36"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:0.10.38"
-    path: "./fedora/21/node/0.10.38"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:0.10.39"
-    path: "./fedora/21/node/0.10.39"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:0.10.40"
-    path: "./fedora/21/node/0.10.40"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:0.12.1"
-    path: "./fedora/21/node/0.12.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:0.12.2"
-    path: "./fedora/21/node/0.12.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:0.12.3"
-    path: "./fedora/21/node/0.12.3"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:0.12.5"
-    path: "./fedora/21/node/0.12.5"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:0.12.6"
-    path: "./fedora/21/node/0.12.6"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:0.12.7"
-    path: "./fedora/21/node/0.12.7"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:0.12.8"
-    path: "./fedora/21/node/0.12.8"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:4.1.0"
-    path: "./fedora/21/node/4.1.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:4.1.1"
-    path: "./fedora/21/node/4.1.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:4.2.0"
-    path: "./fedora/21/node/4.2.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:4.2.1"
-    path: "./fedora/21/node/4.2.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:4.2.2"
-    path: "./fedora/21/node/4.2.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:4.2.3"
-    path: "./fedora/21/node/4.2.3"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:4.2.4"
-    path: "./fedora/21/node/4.2.4"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:4.2.5"
-    path: "./fedora/21/node/4.2.5"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:5.1.0"
-    path: "./fedora/21/node/5.1.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:5.4.0"
-    path: "./fedora/21/node/5.4.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:iojs-2.5.0"
-    path: "./fedora/21/iojs/2.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:iojs-2","nodesource/fedora21:iojs-2.5"]
-  - name: "nodesource/fedora21:iojs-3.3.0"
-    path: "./fedora/21/iojs/3.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:iojs-3","nodesource/fedora21:iojs-3.3","nodesource/fedora21:iojs"]
-  - name: "nodesource/fedora21:iojs-2.3.4"
-    path: "./fedora/21/iojs/2.3.4"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:iojs-2.3"]
-  - name: "nodesource/fedora21:iojs-2.4.0"
-    path: "./fedora/21/iojs/2.4.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:iojs-2.4"]
-  - name: "nodesource/fedora21:iojs-3.0.0"
-    path: "./fedora/21/iojs/3.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:iojs-3.0"]
-  - name: "nodesource/fedora21:iojs-3.1.0"
-    path: "./fedora/21/iojs/3.1.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:iojs-3.1"]
-  - name: "nodesource/fedora21:iojs-3.2.0"
-    path: "./fedora/21/iojs/3.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora21:iojs-3.2"]
-  - name: "nodesource/fedora21:iojs-2.3.2"
-    path: "./fedora/21/iojs/2.3.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora21:iojs-2.3.3"
-    path: "./fedora/21/iojs/2.3.3"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.4.7"
-    path: "./fedora/22/node/4.4.7"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:4","nodesource/fedora22:4.4","nodesource/fedora22:LTS","nodesource/fedora22:argon"]
-  - name: "nodesource/fedora22:5.9.1"
-    path: "./fedora/22/node/5.9.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5","nodesource/fedora22:5.9"]
-  - name: "nodesource/fedora22:6.3.0"
-    path: "./fedora/22/node/6.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:6","nodesource/fedora22:6.3","nodesource/fedora22:latest"]
-  - name: "nodesource/fedora22:0.10.46"
-    path: "./fedora/22/node/0.10.46"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:0.10"]
-  - name: "nodesource/fedora22:4.0.0"
-    path: "./fedora/22/node/4.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:4.0"]
-  - name: "nodesource/fedora22:4.1.2"
-    path: "./fedora/22/node/4.1.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:4.1"]
-  - name: "nodesource/fedora22:4.2.6"
-    path: "./fedora/22/node/4.2.6"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:4.2"]
-  - name: "nodesource/fedora22:4.3.2"
-    path: "./fedora/22/node/4.3.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:4.3"]
-  - name: "nodesource/fedora22:5.0.0"
-    path: "./fedora/22/node/5.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5.0"]
-  - name: "nodesource/fedora22:5.1.1"
-    path: "./fedora/22/node/5.1.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5.1"]
-  - name: "nodesource/fedora22:5.10.1"
-    path: "./fedora/22/node/5.10.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5.10"]
-  - name: "nodesource/fedora22:5.11.1"
-    path: "./fedora/22/node/5.11.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5.11"]
-  - name: "nodesource/fedora22:5.12.0"
-    path: "./fedora/22/node/5.12.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5.12"]
-  - name: "nodesource/fedora22:5.2.0"
-    path: "./fedora/22/node/5.2.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5.2"]
-  - name: "nodesource/fedora22:5.3.0"
-    path: "./fedora/22/node/5.3.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5.3"]
-  - name: "nodesource/fedora22:5.4.1"
-    path: "./fedora/22/node/5.4.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5.4"]
-  - name: "nodesource/fedora22:5.5.0"
-    path: "./fedora/22/node/5.5.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5.5"]
-  - name: "nodesource/fedora22:5.6.0"
-    path: "./fedora/22/node/5.6.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5.6"]
-  - name: "nodesource/fedora22:5.7.1"
-    path: "./fedora/22/node/5.7.1"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5.7"]
-  - name: "nodesource/fedora22:5.8.0"
-    path: "./fedora/22/node/5.8.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:5.8"]
-  - name: "nodesource/fedora22:6.0.0"
-    path: "./fedora/22/node/6.0.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:6.0"]
-  - name: "nodesource/fedora22:6.1.0"
-    path: "./fedora/22/node/6.1.0"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:6.1"]
-  - name: "nodesource/fedora22:6.2.2"
-    path: "./fedora/22/node/6.2.2"
-    test: ["./tests/node"]
-    alias: ["nodesource/fedora22:6.2"]
-  - name: "nodesource/fedora22:0.10.40"
-    path: "./fedora/22/node/0.10.40"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:0.10.41"
-    path: "./fedora/22/node/0.10.41"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:0.10.42"
-    path: "./fedora/22/node/0.10.42"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:0.10.43"
-    path: "./fedora/22/node/0.10.43"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:0.10.44"
-    path: "./fedora/22/node/0.10.44"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:0.10.45"
-    path: "./fedora/22/node/0.10.45"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.1.0"
-    path: "./fedora/22/node/4.1.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.1.1"
-    path: "./fedora/22/node/4.1.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.2.0"
-    path: "./fedora/22/node/4.2.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.2.1"
-    path: "./fedora/22/node/4.2.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.2.2"
-    path: "./fedora/22/node/4.2.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.2.3"
-    path: "./fedora/22/node/4.2.3"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.2.4"
-    path: "./fedora/22/node/4.2.4"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.2.5"
-    path: "./fedora/22/node/4.2.5"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.3.0"
-    path: "./fedora/22/node/4.3.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.3.1"
-    path: "./fedora/22/node/4.3.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.4.0"
-    path: "./fedora/22/node/4.4.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.4.1"
-    path: "./fedora/22/node/4.4.1"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.4.2"
-    path: "./fedora/22/node/4.4.2"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.4.3"
-    path: "./fedora/22/node/4.4.3"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.4.4"
-    path: "./fedora/22/node/4.4.4"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.4.5"
-    path: "./fedora/22/node/4.4.5"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:4.4.6"
-    path: "./fedora/22/node/4.4.6"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:5.1.0"
-    path: "./fedora/22/node/5.1.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:5.10.0"
-    path: "./fedora/22/node/5.10.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:5.11.0"
-    path: "./fedora/22/node/5.11.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:5.4.0"
-    path: "./fedora/22/node/5.4.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:5.7.0"
-    path: "./fedora/22/node/5.7.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:5.9.0"
-    path: "./fedora/22/node/5.9.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:6.2.0"
-    path: "./fedora/22/node/6.2.0"
-    test: ["./tests/node"]
-    alias: []
-  - name: "nodesource/fedora22:6.2.1"
-    path: "./fedora/22/node/6.2.1"
     test: ["./tests/node"]
     alias: []

@@ -10,6 +10,7 @@ RUN apt-get update \
       ca-certificates \
       git \
       libicu-dev \
+      'libicu[0-9][0-9].*' \
       lsb-release \
       python-all \
       rlwrap \

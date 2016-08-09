@@ -11,6 +11,7 @@ RUN yum install -y \
       kernel-devel \
       make \
       perl \
+      python \
       which \
  && yum clean all
 
