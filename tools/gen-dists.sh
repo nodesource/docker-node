@@ -115,6 +115,10 @@ for URL in ${DEB_URLS[@]}; do
         if [ "$RELEASE" != "$DEB_RELEASE" ]; then
           continue;
         fi
+        if [ "$RELEASE" == "6.6.0" ]; then
+          # Skip broken package upstream
+          continue;
+        fi
         echo "dists['$DIST']['$RELEASE']['$PLATFORM']['$VERSION'] = {url: '$URL', deb: '$DEB'}"
       done
     done
