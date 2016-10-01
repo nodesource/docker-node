@@ -115,7 +115,7 @@ for URL in ${DEB_URLS[@]}; do
         if [ "$RELEASE" != "$DEB_RELEASE" ]; then
           continue;
         fi
-        if [ "$RELEASE" == "6.6.0" ]; then
+        if [ "$VERSION" == "6.6.0" ]; then
           # Skip broken package upstream
           continue;
         fi
@@ -151,6 +151,9 @@ for DIST in ${EL_DISTS[@]}; do
   # Load in the cached list of releases
   RELEASES=$(cat "$DIR/gen_dists/${DIST}_release")
   for RELEASE in $RELEASES; do
+    if [ "$DIST" == "centos" -a "$RELEASE" == "5" ]; then
+      continue;
+    fi
     # For each distribution and release, download it's list of .rpms
     for URL in ${EL_URLS[@]}; do
       # Generate the URL that the files should live in
@@ -179,6 +182,10 @@ for DIST in ${EL_DISTS[@]}; do
 
         # Get the Node.js version from the package name
         VERSION=$(echo $RPM | cut -d "-" -f 2)
+        if [ "$VERSION" == "6.6.0" ]; then
+          # Skip broken package upstream
+          continue;
+        fi
         echo "dists['$DIST']['$RELEASE']['$PLATFORM']['$VERSION'] = {url: '$DIST_URL', rpm: '$RPM'}"
       done
     done
