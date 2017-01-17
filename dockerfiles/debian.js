@@ -30,5 +30,6 @@ var footer = 'RUN npm install -g pangyp\\\n' +
   'CMD ["npm","start"]'
 
 var update = 'RUN apt-get update \\\n' +
-  ' && apt-get upgrade -y --force-yes \\\n' +
+  ' && apt-get dist-upgrade -y --force-yes \\\n' +
+  ' && apt-get clean \\\n' +
   ' && rm -rf /var/lib/apt/lists/*;'
